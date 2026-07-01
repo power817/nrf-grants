@@ -216,7 +216,7 @@ function cardHTML(item) {
     <h3 class="card-title"><a href="${esc(item.detailUrl)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
     <div class="meta-grid">
       ${metaRow('연구비', amount ? `${amount}${perYear ? ` · 과제당 ${esc(perYear)}` : ''}` : '<span>미표기</span>', !amount)}
-      ${metaRow('연구기간', period ? esc(period) : '공고문(PDF) 미제공', !period)}
+      ${metaRow('연구기간', period ? esc(period) : '첨부 공고문 참조', !period)}
       ${metaRow('신청기간', apply)}
       ${metaRow('지원대상', item.targetSummary ? esc(item.targetSummary) : (item.employmentType ? esc(item.employmentType) : '상세 참조'), !item.targetSummary && !item.employmentType)}
     </div>
