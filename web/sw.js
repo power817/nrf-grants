@@ -1,10 +1,14 @@
-/* NRF 공고 PWA service worker: app-shell 캐시 + data.json 최신 우선 */
-const CACHE = 'nrf-grants-v2';
+/* NRF 공고 PWA service worker.
+ * network-first: 온라인이면 항상 최신 파일을 받고, 오프라인일 때만 캐시로 대체.
+ * (cache-first 로 하면 업데이트가 사용자에게 안 퍼지는 문제가 있어 network-first 사용) */
+const CACHE = 'nrf-grants-v3';
 const CORE = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './ads.js',
+  './data.json',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png',
@@ -26,23 +30,14 @@ self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
-  if (url.origin !== location.origin) return; // 외부(원본 공고·구글 등)는 그대로
+  if (url.origin !== location.origin) return; // 외부(원본 공고·광고 등)는 그대로
 
-  // data.json: network-first (최신 데이터), 실패 시 캐시
-  if (url.pathname.endsWith('data.json')) {
-    e.respondWith(
-      fetch(req)
-        .then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res; })
-        .catch(() => caches.match(req))
-    );
-    return;
-  }
-
-  // app shell: cache-first
   e.respondWith(
-    caches.match(req).then((cached) => cached || fetch(req).then((res) => {
-      if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }
-      return res;
-    }))
+    fetch(req)
+      .then((res) => {
+        if (res && res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }
+        return res;
+      })
+      .catch(() => caches.match(req).then((c) => c || (req.mode === 'navigate' ? caches.match('./index.html') : undefined)))
   );
 });

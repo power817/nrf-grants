@@ -1,0 +1,3 @@
+# Google AdSense — 승인 후 pub-XXXXXXXXXXXXXXXX 를 본인 게시자 ID로 교체하세요.
+# (AdSense > 사이트 > ads.txt 안내에서 정확한 줄을 복사)
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

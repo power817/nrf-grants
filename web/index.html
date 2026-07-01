@@ -95,15 +95,23 @@
 
     <!-- Results -->
     <section class="results">
+      <div class="ad-slot" data-ad="top" hidden></div>
       <div class="results-head">
         <span id="result-count" class="result-count">…</span>
         <span id="result-note" class="result-note"></span>
       </div>
       <div id="cards" class="cards"></div>
       <div id="empty" class="empty" hidden>조건에 맞는 공고가 없습니다. 필터를 완화해 보세요.</div>
+      <div class="ad-slot" data-ad="bottom" hidden></div>
     </section>
   </main>
 
+  <footer class="site-foot">
+    <p>본 사이트는 <a href="https://www.nrf.re.kr/page/362?menuNo=362&bizNotGubn=guide" target="_blank" rel="noopener">한국연구재단 신규사업공모</a>의 공개 정보를 정리·요약한 비공식 서비스입니다. 정확한 내용은 반드시 원본 공고를 확인하세요.</p>
+    <p><a href="privacy.html">개인정보처리방침</a></p>
+  </footer>
+
+  <script src="ads.js"></script>
   <script src="app.js"></script>
   <script>
     // PWA: service worker + 설치 프롬프트

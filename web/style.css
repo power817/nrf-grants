@@ -118,6 +118,23 @@ a { color: inherit; }
 .file-chip:hover { background: #dbe6ff; }
 .file-chip.more { color: var(--ink-soft); background: #eef1f6; }
 
+/* Ad slots */
+.ad-slot { margin: 4px 0 14px; min-height: 0; border-radius: 12px; overflow: hidden; }
+.ad-slot[hidden] { display: none; }
+.ad-slot .adsbygoogle { display: block; }
+
+/* Footer */
+.site-foot { max-width: 1180px; margin: 10px auto 0; padding: 20px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 12px; line-height: 1.6; }
+.site-foot a { color: var(--brand); }
+
+/* Doc page (privacy) */
+.doc { max-width: 760px; margin: 0 auto; padding: 28px 22px 70px; }
+.doc h2 { font-size: 16px; margin: 26px 0 8px; }
+.doc p, .doc li { font-size: 14px; color: var(--ink); line-height: 1.7; }
+.doc ul { padding-left: 20px; }
+.doc-updated { color: var(--ink-soft); font-size: 12.5px; }
+.doc-back { margin-top: 30px; }
+
 /* Responsive */
 @media (max-width: 820px) {
   .layout { grid-template-columns: 1fr; }
