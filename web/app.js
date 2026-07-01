@@ -191,13 +191,28 @@ function cardHTML(item) {
   const amount = fmtAmount(item.amountKRW);
   const rp = item.researchPeriod || {};
   const fu = item.funding || {};
-  const period = rp.totalText || (rp.totalMonths ? rp.totalMonths + '개월' : null);
-  const perYear = fu.perYearPerProjectText;
-  const apply = item.applyStart && item.applyEnd
-    ? `${item.applyStart.slice(0, 16)} ~ ${item.applyEnd.slice(0, 16)}` : '—';
+
+  // 연구비: 추출된 최소~최대 표시문구 우선, 없으면 사업금액/과제당/총규모, 그래도 없으면 참조
+  let moneyVal, moneyMuted = false;
+  if (item.fundingDisplay) moneyVal = esc(item.fundingDisplay);
+  else if (amount) moneyVal = amount;
+  else if (fu.perYearPerProjectText) moneyVal = esc(fu.perYearPerProjectText);
+  else if (fu.totalScaleText) moneyVal = esc(fu.totalScaleText);
+  else { moneyVal = '공고문 참조'; moneyMuted = true; }
+
+  // 연구기간: 총 지원기간만
+  let periodVal, periodMuted = false;
+  if (item.periodTotalText) periodVal = esc(item.periodTotalText);
+  else if (rp.totalMonths) periodVal = rp.totalMonths % 12 === 0 ? `${rp.totalMonths / 12}년` : `${rp.totalMonths}개월`;
+  else { periodVal = '공고문 참조'; periodMuted = true; }
+
+  // 신청기간: 두 줄(시작 / 마감)
+  const applyVal = item.applyStart && item.applyEnd
+    ? `<span class="two">${esc(item.applyStart.slice(0, 16))} ~</span><span class="two">${esc(item.applyEnd.slice(0, 16))} 마감</span>`
+    : '—';
   // this entry represents a single 지원자격 role
   const roleBadge = item.role && item.role !== '기타'
-    ? `<span class="badge role r-${esc(item.role)}">${esc(item.role)} 지원</span>`
+    ? `<span class="badge role r-${esc(item.role)}">${esc(item.role)}</span>`
     : '';
 
   const atts = item.attachments || [];
@@ -219,9 +234,9 @@ function cardHTML(item) {
     </div>
     <h3 class="card-title"><a href="${esc(item.detailUrl)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
     <div class="meta-grid">
-      ${metaRow('연구비', amount ? `${amount}${perYear ? ` · 과제당 ${esc(perYear)}` : ''}` : '<span>미표기</span>', !amount)}
-      ${metaRow('연구기간', period ? esc(period) : '첨부 공고문 참조', !period)}
-      ${metaRow('신청기간', apply)}
+      ${metaRow('연구비', moneyVal, moneyMuted)}
+      ${metaRow('연구기간', periodVal, periodMuted)}
+      ${metaRow('신청기간', applyVal)}
       ${metaRow('지원대상', item.targetSummary ? esc(item.targetSummary) : (itemRoles(item).length ? esc(itemRoles(item).join(', ')) : '상세 참조'), !item.targetSummary && !itemRoles(item).length)}
     </div>
     <div class="card-foot">

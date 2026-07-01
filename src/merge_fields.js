@@ -52,14 +52,38 @@ function main() {
     }
   }
 
+  // funding range + total period, keyed by postNo
+  const mpDir = path.resolve('data/moneyperiod');
+  const mpByPost = new Map();
+  if (fs.existsSync(mpDir)) {
+    for (const f of fs.readdirSync(mpDir).filter((x) => x.endsWith('.json'))) {
+      try {
+        mpByPost.set(path.basename(f, '.json'), JSON.parse(fs.readFileSync(path.join(mpDir, f), 'utf8')));
+      } catch (e) {
+        /* skip */
+      }
+    }
+  }
+
   let enriched = 0;
   const empDist = {};
   let withPeriod = 0;
   let withFunding = 0;
   const roleDist = {};
+  let withRange = 0;
   for (const a of data.announcements) {
     a.eligibleRoles = rolesByPost.get(a.postNo) || null;
     if (a.eligibleRoles) for (const r of a.eligibleRoles) roleDist[r] = (roleDist[r] || 0) + 1;
+    const mp = mpByPost.get(a.postNo);
+    if (mp) {
+      a.fundingMinKRW = mp.fundingMinKRW ?? null;
+      a.fundingMaxKRW = mp.fundingMaxKRW ?? null;
+      a.fundingBasis = mp.fundingBasis ?? null;
+      a.fundingDisplay = mp.fundingDisplay ?? null;
+      a.periodTotalText = mp.periodTotalText ?? null;
+      a.periodMonths = mp.periodMonths ?? null;
+      if (a.fundingDisplay) withRange++;
+    }
     const pf = byPost.get(a.postNo);
     if (!pf) {
       a.pdfFields = null;
@@ -83,6 +107,7 @@ function main() {
   console.log(`  with 연구비(funding text): ${withFunding}`);
   console.log('  전임/비전임(단일) 분포:', JSON.stringify(empDist, null, 0));
   console.log('  eligibleRoles(다중) 분포:', JSON.stringify(roleDist, null, 0), `| 태그된 공고: ${rolesByPost.size}`);
+  console.log(`  연구비 범위 표시문구 있는 공고: ${withRange} | moneyperiod 파일: ${mpByPost.size}`);
   console.log(`saved -> ${args.out}`);
 }
 

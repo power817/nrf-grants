@@ -1,0 +1,9 @@
+{
+  "postNo": "263503",
+  "fundingMinKRW": 1000000000,
+  "fundingMaxKRW": 1000000000,
+  "fundingBasis": "총(과제당)",
+  "fundingDisplay": "총 10억원 (과제당, 10개월)",
+  "periodTotalText": "10개월",
+  "periodMonths": 10
+}

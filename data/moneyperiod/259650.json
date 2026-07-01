@@ -1,0 +1,9 @@
+{
+  "postNo": "259650",
+  "fundingMinKRW": 20000000,
+  "fundingMaxKRW": 30000000,
+  "fundingBasis": "연간(과제당)",
+  "fundingDisplay": "연 2,000만 ~ 3,000만원 (과제당·상한)",
+  "periodTotalText": "최대 3년",
+  "periodMonths": 36
+}

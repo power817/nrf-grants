@@ -1,0 +1,9 @@
+{
+  "postNo": "275907",
+  "fundingMinKRW": 9000000,
+  "fundingMaxKRW": 15000000,
+  "fundingBasis": "총(과제당)",
+  "fundingDisplay": "900만 ~ 1,500만원 (과제당, 연수기간별)",
+  "periodTotalText": "12개월",
+  "periodMonths": 12
+}

@@ -97,6 +97,8 @@ a { color: inherit; }
 .meta .k { color: var(--ink-soft); white-space: nowrap; min-width: 62px; }
 .meta .v { color: var(--ink); font-weight: 550; min-width: 0; overflow-wrap: anywhere; }
 .meta .v.muted { color: #a2abba; font-weight: 400; }
+.meta .v .two { display: block; white-space: nowrap; }
+.meta .v .two:last-child { color: #d1483a; }
 
 .summary { font-size: 12.8px; color: var(--ink-soft); background: #f7f9fc; border-radius: 9px; padding: 9px 11px; margin: 10px 0; line-height: 1.55; }
 .card-foot { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-top: 10px; }

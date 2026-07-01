@@ -1,0 +1,9 @@
+{
+  "postNo": "265234",
+  "fundingMinKRW": null,
+  "fundingMaxKRW": 300000000,
+  "fundingBasis": "총(과제당)",
+  "fundingDisplay": "총 최대 3억원 (과제당, 24개월)",
+  "periodTotalText": "총 24개월",
+  "periodMonths": 24
+}

@@ -1,0 +1,9 @@
+{
+  "postNo": "259643",
+  "fundingMinKRW": 12000000,
+  "fundingMaxKRW": 12000000,
+  "fundingBasis": "연간(인당)",
+  "fundingDisplay": "1,200만원 (연/인당)",
+  "periodTotalText": "1년",
+  "periodMonths": 12
+}

@@ -1,0 +1,9 @@
+{
+  "postNo": "271898",
+  "fundingMinKRW": 60000000,
+  "fundingMaxKRW": 250000000,
+  "fundingBasis": "총(과제당)",
+  "fundingDisplay": "6,000만 ~ 2.5억원 (총/과제당, RFP별 상이)",
+  "periodTotalText": "최대 18개월",
+  "periodMonths": 18
+}

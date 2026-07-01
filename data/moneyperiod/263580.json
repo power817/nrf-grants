@@ -1,0 +1,9 @@
+{
+  "postNo": "263580",
+  "fundingMinKRW": 150000000,
+  "fundingMaxKRW": 300000000,
+  "fundingBasis": "총(과제당)",
+  "fundingDisplay": "과제당 1.5억 ~ 3억원 (유형별, 신기술적용형은 1차 1.5억+2차 2.5억)",
+  "periodTotalText": "최대 21개월",
+  "periodMonths": 21
+}

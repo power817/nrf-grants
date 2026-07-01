@@ -15,6 +15,20 @@ const outPath = 'web/data.json';
 const src = fs.existsSync(inEnriched) ? inEnriched : inPlain;
 const data = JSON.parse(fs.readFileSync(src, 'utf8'));
 
+// Strip legal-citation boilerplate from 지원대상 for readability, e.g.
+// "…법 …에서 정하는 기관·단체(대학, 출연연 …)에 소속되어 …수행할 수 있는 연구자" -> "대학, 출연연 …에 소속된 연구자"
+function cleanTarget(s) {
+  if (!s) return s;
+  // "…정하는 기관·단체(대학, 출연연 …)에 소속되어 …수행할 수 있는 연구자" -> "대학, 출연연 …에 소속된 연구자"
+  s = s.replace(
+    /[^.]*?(?:정하는|해당하는)\s*기관(?:[·ㆍ\s및]*단체)?\s*\(([^)]*)\)에\s*소속(?:되어|한)[^.]*?(?:수행할|참여할|신청할)\s*수\s*있는\s*연구자/g,
+    '$1에 소속된 연구자'
+  );
+  // 문장 앞의 "…법 …에서 정하는 " 법령 인용 접두 제거
+  s = s.replace(/(^|\.\s*)[가-힣]*법[^.(]*?(?:에서|에\s*따라)\s*정하는\s+/g, '$1');
+  return s.trim();
+}
+
 function compact(a) {
   const pf = a.pdfFields || null;
   const item = {
@@ -31,13 +45,19 @@ function compact(a) {
     modified: !!a.modified,
     detailUrl: a.detailUrl,
     eligibleRoles: a.eligibleRoles || null,
+    // funding range + total period (extracted)
+    fundingDisplay: a.fundingDisplay || null,
+    fundingMinKRW: a.fundingMinKRW ?? null,
+    fundingMaxKRW: a.fundingMaxKRW ?? null,
+    periodTotalText: a.periodTotalText || null,
+    periodMonths: a.periodMonths ?? null,
     attachments: (a.attachments || []).map((x) => ({ name: x.name, url: x.url })),
   };
   if (pf) {
     item.researchPeriod = pf.researchPeriod || null;
     item.funding = pf.funding || null;
     item.employmentType = (pf.eligibility && pf.eligibility.employmentType) || null;
-    item.targetSummary = (pf.eligibility && pf.eligibility.targetSummary) || null;
+    item.targetSummary = cleanTarget((pf.eligibility && pf.eligibility.targetSummary) || null);
     item.confidence = pf.confidence || null;
   } else {
     item.researchPeriod = null;

@@ -1,0 +1,9 @@
+{
+  "postNo": "264867",
+  "fundingMinKRW": 3000000,
+  "fundingMaxKRW": 50000000,
+  "fundingBasis": "기타",
+  "fundingDisplay": "300만 ~ 5,000만원 (유형별: 교류회당/인당/팀당)",
+  "periodTotalText": "최대 21개월",
+  "periodMonths": 21
+}

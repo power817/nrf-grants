@@ -59,6 +59,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "264688",
         "researchPeriod": {
@@ -142,6 +148,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 8000000,
+      "fundingMaxKRW": 15000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 800만 ~ 1,500만원 (과제당)",
+      "periodTotalText": "최대 2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "274891",
         "researchPeriod": {
@@ -213,6 +225,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": 9000000,
+      "fundingMaxKRW": 15000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "900만 ~ 1,500만원 (과제당, 연수기간별)",
+      "periodTotalText": "12개월",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "275907",
         "researchPeriod": {
@@ -291,6 +309,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 6,000만원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "276471",
         "researchPeriod": {
@@ -365,6 +389,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 20000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 2,000만원 (과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "276575",
         "researchPeriod": {
@@ -455,6 +485,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 1억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "275586",
         "researchPeriod": {
@@ -529,6 +565,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": "4년",
+      "periodMonths": 42,
       "pdfFields": {
         "postNo": "276095",
         "researchPeriod": {
@@ -608,6 +650,12 @@
         "기관",
         "학생"
       ],
+      "fundingMinKRW": 6264000000,
+      "fundingMaxKRW": 6264000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 62.64억원 (사업 전체)",
+      "periodTotalText": "7.5년",
+      "periodMonths": 90,
       "pdfFields": {
         "postNo": "275093",
         "researchPeriod": {
@@ -687,6 +735,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 21200000000,
+      "fundingMaxKRW": 21200000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 212억원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "275251",
         "researchPeriod": {
@@ -772,6 +826,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "275177",
         "researchPeriod": {
@@ -854,6 +914,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 8250000000,
+      "fundingMaxKRW": 8250000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 82.5억원 (과제당)",
+      "periodTotalText": "6년",
+      "periodMonths": 66,
       "pdfFields": {
         "postNo": "275138",
         "researchPeriod": {
@@ -924,6 +990,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 3800000000,
+      "fundingMaxKRW": 4500000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 38억 ~ 45억원 (과제당)",
+      "periodTotalText": "최대 5년 6개월",
+      "periodMonths": 66,
       "pdfFields": {
         "postNo": "275086",
         "researchPeriod": {
@@ -1000,6 +1072,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "274850",
         "researchPeriod": {
@@ -1094,6 +1172,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1600000000,
+      "fundingMaxKRW": 4266000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 16억 ~ 42.66억원 (과제당)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "274882",
         "researchPeriod": {
@@ -1179,6 +1263,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 4500000000,
+      "fundingMaxKRW": 4500000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 45억원 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "274874",
         "researchPeriod": {
@@ -1273,6 +1363,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 3600000000,
+      "fundingMaxKRW": 18400000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 36억 ~ 184억원 (RFP/과제당)",
+      "periodTotalText": "최대 7년",
+      "periodMonths": 84,
       "pdfFields": {
         "postNo": "275904",
         "researchPeriod": {
@@ -1380,6 +1476,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 800000000,
+      "fundingMaxKRW": 9100000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 8억 ~ 91억원 (과제당, 개발단계별)",
+      "periodTotalText": "최대 36개월",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "274284",
         "researchPeriod": {
@@ -1458,6 +1560,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "275651",
         "researchPeriod": {
@@ -1538,6 +1646,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": 50000000,
+      "fundingMaxKRW": 90000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 5,000만 ~ 9,000만원 (과제당)",
+      "periodTotalText": "최대 10개월",
+      "periodMonths": 10,
       "pdfFields": {
         "postNo": "275496",
         "researchPeriod": {
@@ -1613,6 +1727,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 20000000,
+      "fundingMaxKRW": 20000000,
+      "fundingBasis": "연간(인당)",
+      "fundingDisplay": "1인당 2,000만원 (연수생)",
+      "periodTotalText": "12개월",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "272832",
         "researchPeriod": {
@@ -1692,6 +1812,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 15000000,
+      "fundingMaxKRW": 30000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "1,500만 ~ 3,000만원 (연/과제당, 국가별 상이)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "270160",
         "researchPeriod": {
@@ -1766,6 +1892,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "274393",
         "researchPeriod": {
@@ -1851,6 +1983,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": "기타",
+      "fundingDisplay": null,
+      "periodTotalText": "11개월",
+      "periodMonths": 11,
       "pdfFields": {
         "postNo": "273857",
         "researchPeriod": {
@@ -1934,6 +2072,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 5억원 (과제당)",
+      "periodTotalText": "약 2년 6개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "273816",
         "researchPeriod": {
@@ -2023,6 +2167,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 726000000,
+      "fundingMaxKRW": 726000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 7.26억원 (과제당)",
+      "periodTotalText": "2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "275194",
         "researchPeriod": {
@@ -2113,6 +2263,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 3509000000,
+      "fundingMaxKRW": 3509000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 35.09억원 (과제당)",
+      "periodTotalText": "2년 6개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "275129",
         "researchPeriod": {
@@ -2193,6 +2349,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 500000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 5억 ~ 20억원 (과제당, 공모형별)",
+      "periodTotalText": "2년 6개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "273616",
         "researchPeriod": {
@@ -2269,6 +2431,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": 63000000,
+      "fundingMaxKRW": 77000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 7,000만원 내외 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "273489",
         "researchPeriod": {
@@ -2361,6 +2529,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 100000000,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 1억원 (6개월/과제당)",
+      "periodTotalText": "6개월",
+      "periodMonths": 6,
       "pdfFields": {
         "postNo": "273413",
         "researchPeriod": {
@@ -2452,6 +2626,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 3600000000,
+      "fundingMaxKRW": 18400000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "36억 ~ 184억원 (총/과제당, RFP별)",
+      "periodTotalText": "최대 7년",
+      "periodMonths": 84,
       "pdfFields": {
         "postNo": "273162",
         "researchPeriod": {
@@ -2524,6 +2704,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 500000000,
+      "fundingMaxKRW": 500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 5억원 (과제당, 총 15억원)",
+      "periodTotalText": "3년(36개월)",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "272194",
         "researchPeriod": {
@@ -2596,6 +2782,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6,000만원 (과제당, 총 1.8억원)",
+      "periodTotalText": "3년(36개월)",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "272193",
         "researchPeriod": {
@@ -2697,6 +2889,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "273220",
         "researchPeriod": {
@@ -2780,6 +2978,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": 3000000,
+      "fundingMaxKRW": 40000000,
+      "fundingBasis": "기타",
+      "fundingDisplay": "교류회당 4,000만원 이내 / 1인당 300만원 내외",
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "274738",
         "researchPeriod": {
@@ -2861,6 +3065,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 5000000000,
+      "fundingMaxKRW": 5000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 50억원 (과제당, 5년)",
+      "periodTotalText": "5년(3+3)",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "272858",
         "researchPeriod": {
@@ -2927,6 +3137,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "274787",
         "researchPeriod": {
@@ -3006,6 +3222,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 183750000,
+      "fundingMaxKRW": 245000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1.84억 ~ 2.45억원 (과제당)",
+      "periodTotalText": "총 30개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "274429",
         "researchPeriod": {
@@ -3094,6 +3316,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 726000000,
+      "fundingMaxKRW": 726000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 7.26억원 (과제당)",
+      "periodTotalText": "총 24개월",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "272620",
         "researchPeriod": {
@@ -3180,6 +3408,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 3509000000,
+      "fundingMaxKRW": 3509000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 35.09억원 (과제당, 2년 6개월)",
+      "periodTotalText": "2년 6개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "272398",
         "researchPeriod": {
@@ -3256,6 +3490,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "268760",
         "researchPeriod": {
@@ -3349,6 +3589,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 90000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 90백만원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "268561",
         "researchPeriod": {
@@ -3424,6 +3670,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 2500000000,
+      "fundingMaxKRW": 6750000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "25억 ~ 67.5억원 (총/과제당, RFP별)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "273401",
         "researchPeriod": {
@@ -3512,6 +3764,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 900000000,
+      "fundingMaxKRW": 900000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 9억원 (과제당)",
+      "periodTotalText": "총 24개월",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "271939",
         "researchPeriod": {
@@ -3616,6 +3874,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "268346",
         "researchPeriod": {
@@ -3701,6 +3965,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 183750000,
+      "fundingMaxKRW": 320000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "약 1.84억 ~ 3.2억원 (연/과제당)",
+      "periodTotalText": "3년(2+1)",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "271813",
         "researchPeriod": {
@@ -3778,6 +4048,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 450000000,
+      "fundingMaxKRW": 550000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 5억원 내외 (연구단당)",
+      "periodTotalText": "총 102개월",
+      "periodMonths": 102,
       "pdfFields": {
         "postNo": "271564",
         "researchPeriod": {
@@ -3865,6 +4141,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 4410000000,
+      "fundingMaxKRW": 8150000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "44.1억 ~ 81.5억원 (총/과제당, RFP별)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "273307",
         "researchPeriod": {
@@ -3961,6 +4243,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 225000000,
+      "fundingMaxKRW": 300000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "2.25억 ~ 3억원 (연/과제당)",
+      "periodTotalText": "총 30개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "271709",
         "researchPeriod": {
@@ -4044,6 +4332,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 337500000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 3.375억 ~ 20억원 (과제당, RFP별 상이)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "271705",
         "researchPeriod": {
@@ -4121,6 +4415,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 6750000000,
+      "fundingMaxKRW": 11260000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 67.5억 ~ 112.6억원 (과제당, RFP별 상이)",
+      "periodTotalText": "총 54개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "272875",
         "researchPeriod": {
@@ -4201,6 +4501,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "271511",
         "researchPeriod": {
@@ -4278,6 +4584,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "10억 ~ 20억원 (연/과제당)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "272991",
         "researchPeriod": {
@@ -4355,6 +4667,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 2400000000,
+      "fundingMaxKRW": 2400000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 24억원 내외 (과제당/RFP별)",
+      "periodTotalText": "2년(18개월)",
+      "periodMonths": 18,
       "pdfFields": {
         "postNo": "272904",
         "researchPeriod": {
@@ -4438,6 +4756,12 @@
         "학생",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 15000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 1,500만원 이내 (과제당)",
+      "periodTotalText": "3개월",
+      "periodMonths": 3,
       "pdfFields": {
         "postNo": "269597",
         "researchPeriod": {
@@ -4544,6 +4868,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "273053",
         "researchPeriod": {
@@ -4624,6 +4954,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 20000000,
+      "fundingMaxKRW": 20000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 2,000만원 (과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "270483",
         "researchPeriod": {
@@ -4698,6 +5034,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 6,000만원 (과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "270481",
         "researchPeriod": {
@@ -4767,6 +5109,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": "기타",
+      "fundingDisplay": null,
+      "periodTotalText": "3년 이내",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "272632",
         "researchPeriod": {
@@ -4841,6 +5189,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 300000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 최대 3억원 (과제당, 24개월)",
+      "periodTotalText": "총 24개월",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "265234",
         "researchPeriod": {
@@ -4924,6 +5278,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 1억원 (과제당)",
+      "periodTotalText": "총 36개월",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "270728",
         "researchPeriod": {
@@ -5019,6 +5379,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 260000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 2.6억원 (과제당, 간접비 별도)",
+      "periodTotalText": "6년",
+      "periodMonths": 72,
       "pdfFields": {
         "postNo": "270362",
         "researchPeriod": {
@@ -5098,6 +5464,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 1500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 10억 ~ 15억원 (과제당, RFP별 상이)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "270766",
         "researchPeriod": {
@@ -5176,6 +5548,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 1350000000,
+      "fundingMaxKRW": 1650000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 15억원 내외 (연구단당)",
+      "periodTotalText": "총 30개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "270764",
         "researchPeriod": {
@@ -5264,6 +5642,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 1167000000,
+      "fundingMaxKRW": 9000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 11.67억 ~ 90억원 (과제당, RFP별 상이)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "272479",
         "researchPeriod": {
@@ -5352,6 +5736,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 10625000000,
+      "fundingMaxKRW": 10625000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 106.25억원 내외 (과제당)",
+      "periodTotalText": "총 54개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "272478",
         "researchPeriod": {
@@ -5435,6 +5825,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 225000000,
+      "fundingMaxKRW": 275000000,
+      "fundingBasis": "연간(인당)",
+      "fundingDisplay": "연 2.5억원 내외 (인당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "268152",
         "researchPeriod": {
@@ -5524,6 +5920,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 4410000000,
+      "fundingMaxKRW": 8150000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "44.1억 ~ 81.5억원 (총/과제당)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "270227",
         "researchPeriod": {
@@ -5628,6 +6030,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 250000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "6,000만 ~ 2.5억원 (총/과제당, RFP별 상이)",
+      "periodTotalText": "최대 18개월",
+      "periodMonths": 18,
       "pdfFields": {
         "postNo": "271898",
         "researchPeriod": {
@@ -5707,6 +6115,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 2400000000,
+      "fundingMaxKRW": 2400000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 24억원 (과제당)",
+      "periodTotalText": "2년",
+      "periodMonths": 18,
       "pdfFields": {
         "postNo": "269718",
         "researchPeriod": {
@@ -5776,6 +6190,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 9000000000,
+      "fundingMaxKRW": 13500000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 90억 ~ 135억원 (RFP별/과제당)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "269705",
         "researchPeriod": {
@@ -5871,6 +6291,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 3000000,
+      "fundingBasis": "기타",
+      "fundingDisplay": "연구장려금 월 최대 300만원",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "269586",
         "researchPeriod": {
@@ -5970,6 +6396,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 최대 1억원 (한국측/과제당·1년)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "267110",
         "researchPeriod": {
@@ -6049,6 +6481,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 4500000000,
+      "fundingMaxKRW": 11260000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 45억 ~ 112.6억원 (RFP별/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "269716",
         "researchPeriod": {
@@ -6144,6 +6582,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1500000000,
+      "fundingMaxKRW": 1500000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 15억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "269669",
         "researchPeriod": {
@@ -6215,6 +6659,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 5억원 (과제당)",
+      "periodTotalText": "총 30개월",
+      "periodMonths": 30,
       "pdfFields": {
         "postNo": "265541",
         "researchPeriod": {
@@ -6296,6 +6746,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 20억원 (센터 유형별 10억~20억원)",
+      "periodTotalText": "6년",
+      "periodMonths": 72,
       "pdfFields": {
         "postNo": "269121",
         "researchPeriod": {
@@ -6385,6 +6841,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 120000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 1억 2,000만원 (연/과제당, 총 2억 4,000만원)",
+      "periodTotalText": "총 24개월",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "265221",
         "researchPeriod": {
@@ -6464,6 +6926,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "267191",
         "researchPeriod": {
@@ -6557,6 +7025,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 775000000,
+      "fundingMaxKRW": 9000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 7.75억 ~ 90억원 (RFP별/과제당)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "269141",
         "researchPeriod": {
@@ -6643,6 +7117,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 6000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 60억원 내외 (과제당)",
+      "periodTotalText": "66개월",
+      "periodMonths": 66,
       "pdfFields": {
         "postNo": "269140",
         "researchPeriod": {
@@ -6729,6 +7209,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 10625000000,
+      "fundingMaxKRW": 10625000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 106.25억원 (과제당)",
+      "periodTotalText": "4년 6개월",
+      "periodMonths": 54,
       "pdfFields": {
         "postNo": "269136",
         "researchPeriod": {
@@ -6806,6 +7292,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 90000000,
+      "fundingMaxKRW": 110000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억원 내외 (과제당)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "268784",
         "researchPeriod": {
@@ -6883,6 +7375,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": 45000000,
+      "fundingMaxKRW": 55000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 0.5억원 내외 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "268782",
         "researchPeriod": {
@@ -6960,6 +7458,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": 63000000,
+      "fundingMaxKRW": 77000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 0.7억원 내외 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "268769",
         "researchPeriod": {
@@ -7038,6 +7542,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 180000000,
+      "fundingMaxKRW": 220000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 2억원 내외 (과제당)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "268768",
         "researchPeriod": {
@@ -7130,6 +7640,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 600000000,
+      "fundingMaxKRW": 800000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6억 ~ 8억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "270303",
         "researchPeriod": {
@@ -7213,6 +7729,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 1000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 10억원 (과제당)",
+      "periodTotalText": "총 57개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "270956",
         "researchPeriod": {
@@ -7301,6 +7823,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 400000000,
+      "fundingMaxKRW": 400000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 4억원 (과제당)",
+      "periodTotalText": "2년 9개월",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "270955",
         "researchPeriod": {
@@ -7375,6 +7903,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 125000000,
+      "fundingMaxKRW": 125000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 1억 2,500만원 (과제당/9개월)",
+      "periodTotalText": "9개월",
+      "periodMonths": 9,
       "pdfFields": {
         "postNo": "268309",
         "researchPeriod": {
@@ -7463,6 +7997,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 240000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 2억 4,000만원 (연/과제당, 총 7억 2,000만원)",
+      "periodTotalText": "총 36개월",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "265405",
         "researchPeriod": {
@@ -7549,6 +8089,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 810000000,
+      "fundingMaxKRW": 990000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 9억원 내외 (RFP당/2년)",
+      "periodTotalText": "2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "268147",
         "researchPeriod": {
@@ -7613,6 +8159,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "270696",
         "researchPeriod": {
@@ -7698,6 +8250,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "267462",
         "researchPeriod": {
@@ -7801,6 +8359,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 150000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억 5,000만 ~ 20억원 (연/과제당, 유형별)",
+      "periodTotalText": "최대 6년",
+      "periodMonths": 72,
       "pdfFields": {
         "postNo": "264758",
         "researchPeriod": {
@@ -7903,6 +8467,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 800000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "8억 ~ 20억원 (과제당, 유형별)",
+      "periodTotalText": "6년",
+      "periodMonths": 72,
       "pdfFields": {
         "postNo": "264747",
         "researchPeriod": {
@@ -8015,6 +8585,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 123000000,
+      "fundingMaxKRW": 250000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억 2,300만 ~ 2억 5,000만원 (연/과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "264743",
         "researchPeriod": {
@@ -8126,6 +8702,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 150000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억 5,000만 ~ 20억원 (연/과제당, 유형별)",
+      "periodTotalText": "최대 6년",
+      "periodMonths": 72,
       "pdfFields": {
         "postNo": "264738",
         "researchPeriod": {
@@ -8205,6 +8787,12 @@
         "학생",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 2300000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 23억원",
+      "periodTotalText": "총 10년",
+      "periodMonths": 120,
       "pdfFields": {
         "postNo": "263152",
         "researchPeriod": {
@@ -8317,6 +8905,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 600000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 6억원",
+      "periodTotalText": "6년",
+      "periodMonths": 66,
       "pdfFields": {
         "postNo": "263147",
         "researchPeriod": {
@@ -8386,6 +8980,12 @@
         "전임",
         "학생"
       ],
+      "fundingMinKRW": 848000000,
+      "fundingMaxKRW": 848000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 8억 4,800만원 (대학당/2026년)",
+      "periodTotalText": "2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "267101",
         "researchPeriod": {
@@ -8459,6 +9059,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": 300000000,
+      "fundingMaxKRW": 1400000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 3억 ~ 14억원 (교육연구단당 상한, 전국 3억 / 지역 14억)",
+      "periodTotalText": "1년 6개월",
+      "periodMonths": 18,
       "pdfFields": {
         "postNo": "267099",
         "researchPeriod": {
@@ -8534,6 +9140,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 1000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 10억원 (교육연구단당, 1년 기준 상한)",
+      "periodTotalText": "1년 6개월",
+      "periodMonths": 18,
       "pdfFields": {
         "postNo": "267092",
         "researchPeriod": {
@@ -8620,6 +9232,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 5000000000,
+      "fundingMaxKRW": 5000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 50억원 (과제당, 연 10억원)",
+      "periodTotalText": "총 57개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "266565",
         "researchPeriod": {
@@ -8708,6 +9326,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 1200000000,
+      "fundingMaxKRW": 1200000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 12억원 (RFP별/과제당, 연 4억원)",
+      "periodTotalText": "2년 9개월",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "266560",
         "researchPeriod": {
@@ -8815,6 +9439,12 @@
         "전임",
         "기관"
       ],
+      "fundingMinKRW": 350000000,
+      "fundingMaxKRW": 3000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 3.5억(개인유치형) ~ 30억원(기관유치형) (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "263419",
         "researchPeriod": {
@@ -8897,6 +9527,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "268882",
         "researchPeriod": {
@@ -8993,6 +9629,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 7750000000,
+      "fundingMaxKRW": 7750000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 77.5억원 (과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "269179",
         "researchPeriod": {
@@ -9064,6 +9706,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 100000000,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 1억원 (과제당)",
+      "periodTotalText": "12개월",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "266324",
         "researchPeriod": {
@@ -9141,6 +9789,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6,000만원 (연/과제당, 간접비포함)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "263497",
         "researchPeriod": {
@@ -9215,6 +9869,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": 150000000,
+      "fundingMaxKRW": 150000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억 5,000만원 (연/과제당, 간접비포함)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "263496",
         "researchPeriod": {
@@ -9289,6 +9949,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": 160000000,
+      "fundingMaxKRW": 160000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억 6,000만원 (연/과제당, 간접비포함, 국제협업 시 연 5,000만원 이내 추가)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "263492",
         "researchPeriod": {
@@ -9363,6 +10029,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6,000만원 (연/과제당, 간접비포함)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "263489",
         "researchPeriod": {
@@ -9439,6 +10111,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 160000000,
+      "fundingMaxKRW": 160000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억 6,000만원 (연/과제당, 간접비포함)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "263488",
         "researchPeriod": {
@@ -9514,6 +10192,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": 1500000000,
+      "fundingMaxKRW": 2400000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 15억 ~ 24억원 (연/과제당, 간접비포함)",
+      "periodTotalText": "9년",
+      "periodMonths": 108,
       "pdfFields": {
         "postNo": "263476",
         "researchPeriod": {
@@ -9579,6 +10263,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6,000만원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "260820",
         "researchPeriod": {
@@ -9647,6 +10337,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 150000000,
+      "fundingMaxKRW": 150000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1.5억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "260819",
         "researchPeriod": {
@@ -9715,6 +10411,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 100000000,
+      "fundingMaxKRW": 280000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "단독 연 1억원 ~ 공동 연 2.8억원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "260817",
         "researchPeriod": {
@@ -9783,6 +10485,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 160000000,
+      "fundingMaxKRW": 160000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1.6억원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "260815",
         "researchPeriod": {
@@ -9853,6 +10561,12 @@
         "학생",
         "기관"
       ],
+      "fundingMinKRW": 12000000,
+      "fundingMaxKRW": 2400000000,
+      "fundingBasis": "기타",
+      "fundingDisplay": "세부사업별 상이 (연 1,200만원 ~ 24억원)",
+      "periodTotalText": "최대 9년",
+      "periodMonths": 108,
       "pdfFields": {
         "postNo": "260811",
         "researchPeriod": {
@@ -9922,6 +10636,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6,000만원 (과제당)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "260808",
         "researchPeriod": {
@@ -10002,6 +10722,12 @@
         "학생",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": "기타",
+      "fundingDisplay": null,
+      "periodTotalText": "24개월",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "266396",
         "researchPeriod": {
@@ -10073,6 +10799,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": "기타",
+      "fundingDisplay": "포상금 1,000만원 (연구비 아님)",
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "266325",
         "researchPeriod": {
@@ -10153,6 +10885,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 25000000,
+      "fundingMaxKRW": 25000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 2,500만원 (연/과제당, 간접비포함)",
+      "periodTotalText": "최대 2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "263494",
         "researchPeriod": {
@@ -10228,6 +10966,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 12000000,
+      "fundingMaxKRW": 12000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1,200만원 (과제당)",
+      "periodTotalText": "12개월",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "261380",
         "researchPeriod": {
@@ -10293,6 +11037,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 25000000,
+      "fundingMaxKRW": 25000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 2,500만원 (과제당)",
+      "periodTotalText": "최대 2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "260812",
         "researchPeriod": {
@@ -10357,6 +11107,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 12000000,
+      "fundingMaxKRW": 12000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1,200만원 (과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "260809",
         "researchPeriod": {
@@ -10449,6 +11205,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "268459",
         "researchPeriod": {
@@ -10547,6 +11309,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 3085000000,
+      "fundingMaxKRW": 3771000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 34.28억원 내외 (과제당/5년)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "267946",
         "researchPeriod": {
@@ -10625,6 +11393,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 1900000000,
+      "fundingMaxKRW": 1900000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 19억원 (지원단, 정부지원금)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265594",
         "researchPeriod": {
@@ -10715,6 +11489,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 750000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 7.5억 ~ 20억원 (과제당, 연차별 상이)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265578",
         "researchPeriod": {
@@ -10791,6 +11571,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 1500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 15억원 (연/연구단당, 총 75억원)",
+      "periodTotalText": "60개월",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "265151",
         "researchPeriod": {
@@ -10877,6 +11663,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 20000000000,
+      "fundingMaxKRW": 26000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 200억 ~ 260억원 내외 (RFP별·과제당/5년)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "267219",
         "researchPeriod": {
@@ -10964,6 +11756,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 15000000000,
+      "fundingMaxKRW": 16100000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 161억원 내외 (과제당/5년)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "267217",
         "researchPeriod": {
@@ -11037,6 +11835,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 90000000,
+      "fundingMaxKRW": 110000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억원 내외 (연/과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "266277",
         "researchPeriod": {
@@ -11108,6 +11912,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 1500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 15억원 (1차년도, 이후 연 10억 이내 / 총 55억원)",
+      "periodTotalText": "5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "266857",
         "researchPeriod": {
@@ -11180,6 +11990,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 47000000000,
+      "fundingMaxKRW": 47000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 470억원 (컨소시엄 총괄, '26년 80억원)",
+      "periodTotalText": "4년 8개월",
+      "periodMonths": 56,
       "pdfFields": {
         "postNo": "266797",
         "researchPeriod": {
@@ -11267,6 +12083,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 9500000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 95억원 내외 (2개 과제, '26년 15억원)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "266743",
         "researchPeriod": {
@@ -11361,6 +12183,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "266616",
         "researchPeriod": {
@@ -11439,6 +12267,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 25000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 2,500만원 (연/과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "264778",
         "researchPeriod": {
@@ -11534,6 +12368,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 440500000,
+      "fundingMaxKRW": 800000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 4.4억 ~ 8억원 (과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264387",
         "researchPeriod": {
@@ -11620,6 +12460,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 135000000,
+      "fundingMaxKRW": 538000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1.35억 ~ 5.38억원 (과제당)",
+      "periodTotalText": "4년",
+      "periodMonths": 48,
       "pdfFields": {
         "postNo": "264384",
         "researchPeriod": {
@@ -11705,6 +12551,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 1억원 (과제당)",
+      "periodTotalText": "총 36개월",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "263194",
         "researchPeriod": {
@@ -11775,6 +12627,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 90000000,
+      "fundingMaxKRW": 110000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1억원 내외 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "260181",
         "researchPeriod": {
@@ -11852,6 +12710,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 40000000,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "과제당 4,000만 ~ 5,000만원 (총 4개 과제, 1.7억원)",
+      "periodTotalText": "최대 8개월",
+      "periodMonths": 8,
       "pdfFields": {
         "postNo": "266577",
         "researchPeriod": {
@@ -11928,6 +12792,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": 3000000,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "기타",
+      "fundingDisplay": "300만 ~ 5,000만원 (유형별: 교류회당/인당/팀당)",
+      "periodTotalText": "최대 21개월",
+      "periodMonths": 21,
       "pdfFields": {
         "postNo": "264867",
         "researchPeriod": {
@@ -12025,6 +12895,12 @@
         "학생",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 4000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "대학당 연 최대 40억원",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "263951",
         "researchPeriod": {
@@ -12096,6 +12972,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 72000000,
+      "fundingMaxKRW": 88000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 8,000만원 내외 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "263834",
         "researchPeriod": {
@@ -12172,6 +13054,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "266233",
         "researchPeriod": {
@@ -12250,6 +13138,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 20억원 내외 (연구단당, '27~'32년)",
+      "periodTotalText": "총 84개월",
+      "periodMonths": 84,
       "pdfFields": {
         "postNo": "266475",
         "researchPeriod": {
@@ -12329,6 +13223,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 24000000000,
+      "fundingMaxKRW": 24000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 240억원 (과제당, 정부지원금)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265805",
         "researchPeriod": {
@@ -12416,6 +13316,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 1500000000,
+      "fundingMaxKRW": 4000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 15억 ~ 40억원 (과제당, 연차별 상이)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265803",
         "researchPeriod": {
@@ -12502,6 +13408,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 150000000,
+      "fundingMaxKRW": 300000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "과제당 1.5억 ~ 3억원 (유형별, 신기술적용형은 1차 1.5억+2차 2.5억)",
+      "periodTotalText": "최대 21개월",
+      "periodMonths": 21,
       "pdfFields": {
         "postNo": "263580",
         "researchPeriod": {
@@ -12609,6 +13521,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "266405",
         "researchPeriod": {
@@ -12710,6 +13628,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 70000000,
+      "fundingMaxKRW": 70000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 7,000만원 (과제당)",
+      "periodTotalText": "7개월",
+      "periodMonths": 7,
       "pdfFields": {
         "postNo": "266130",
         "researchPeriod": {
@@ -12800,6 +13724,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 200000000,
+      "fundingMaxKRW": 1500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "2억 ~ 15억원 (연/과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "263632",
         "researchPeriod": {
@@ -12887,6 +13817,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 46000000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 460억원 내외 (2개 과제, '26~'30년, '26년 45억원)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "263617",
         "researchPeriod": {
@@ -12977,6 +13913,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "265681",
         "researchPeriod": {
@@ -13062,6 +14004,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 5650000000,
+      "fundingMaxKRW": 8400000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 56.5억 ~ 84억원 (과제당, 연차별 상이)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265518",
         "researchPeriod": {
@@ -13140,6 +14088,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 600000000,
+      "fundingMaxKRW": 1200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6억 ~ 12억원 (과제당, RFP별 상이)",
+      "periodTotalText": "3년 9개월",
+      "periodMonths": 45,
       "pdfFields": {
         "postNo": "265489",
         "researchPeriod": {
@@ -13216,6 +14170,12 @@
         "비전임",
         "기관"
       ],
+      "fundingMinKRW": 750000000,
+      "fundingMaxKRW": 2500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 7.5억 ~ 25억원 (과제당, RFP별 상이)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265413",
         "researchPeriod": {
@@ -13288,6 +14248,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 1500000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 10억 ~ 15억원 (과제당, 1차년도 15억 이내·이후 10억 이내, 총 55억원)",
+      "periodTotalText": "5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "263548",
         "researchPeriod": {
@@ -13358,6 +14324,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 667000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 6.67억원 (과제당, 1차년도 5억원 이내)",
+      "periodTotalText": "약 3년",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "263547",
         "researchPeriod": {
@@ -13432,6 +14404,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 8000000000,
+      "fundingMaxKRW": 10000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "80억 ~ 100억원 (연/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 56,
       "pdfFields": {
         "postNo": "263198",
         "researchPeriod": {
@@ -13503,6 +14481,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 1000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 10억원 (과제당, 10개월)",
+      "periodTotalText": "10개월",
+      "periodMonths": 10,
       "pdfFields": {
         "postNo": "263504",
         "researchPeriod": {
@@ -13577,6 +14561,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 1000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 10억원 (과제당, 10개월)",
+      "periodTotalText": "10개월",
+      "periodMonths": 10,
       "pdfFields": {
         "postNo": "263503",
         "researchPeriod": {
@@ -13654,6 +14644,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 4435000000,
+      "fundingMaxKRW": 5130000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 44.35억 ~ 51.3억원 (과제당, RFP별 상이)",
+      "periodTotalText": "3년 9개월",
+      "periodMonths": 45,
       "pdfFields": {
         "postNo": "265439",
         "researchPeriod": {
@@ -13727,6 +14723,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 31000000000,
+      "fundingMaxKRW": 31000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 310억원 (사업단, 정부출연금)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265436",
         "researchPeriod": {
@@ -13807,6 +14809,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "263628",
         "researchPeriod": {
@@ -13895,6 +14903,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "263627",
         "researchPeriod": {
@@ -13986,6 +15000,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 600000000,
+      "fundingMaxKRW": 1000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "6억 ~ 10억원 (연/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "263204",
         "researchPeriod": {
@@ -14073,6 +15093,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 15150000000,
+      "fundingMaxKRW": 15150000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 151.5억원 (과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "265272",
         "researchPeriod": {
@@ -14162,6 +15188,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1200000000,
+      "fundingMaxKRW": 1200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 12억원 (연/과제당, 총 72억원)",
+      "periodTotalText": "5년 9개월",
+      "periodMonths": 69,
       "pdfFields": {
         "postNo": "265271",
         "researchPeriod": {
@@ -14249,6 +15281,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 2750000000,
+      "fundingMaxKRW": 3305000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 27.5억 ~ 33억원 (RFP별/과제당)",
+      "periodTotalText": "2년 9개월",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "265268",
         "researchPeriod": {
@@ -14346,6 +15384,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 50000000,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 5,000만원 (과제당)",
+      "periodTotalText": "6개월",
+      "periodMonths": 6,
       "pdfFields": {
         "postNo": "265453",
         "researchPeriod": {
@@ -14444,6 +15488,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 80000000,
+      "fundingMaxKRW": 80000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 8,000만원 (과제당)",
+      "periodTotalText": "10개월",
+      "periodMonths": 10,
       "pdfFields": {
         "postNo": "265452",
         "researchPeriod": {
@@ -14521,6 +15571,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": 40000000,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "4,000만 ~ 5,000만원 (총/과제당)",
+      "periodTotalText": "최대 8개월",
+      "periodMonths": 8,
       "pdfFields": {
         "postNo": "264390",
         "researchPeriod": {
@@ -14613,6 +15669,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 9500000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 95억원 (3과제 내외)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "263329",
         "researchPeriod": {
@@ -14686,6 +15748,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": 2000000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 20억원 내외 (과제당)",
+      "periodTotalText": "7년",
+      "periodMonths": 81,
       "pdfFields": {
         "postNo": "263342",
         "researchPeriod": {
@@ -14790,6 +15858,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 50000000,
+      "fundingMaxKRW": 170000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "5,000만 ~ 1.7억원 (총/과제당)",
+      "periodTotalText": "최대 12개월",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "264662",
         "researchPeriod": {
@@ -14872,6 +15946,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "263148",
         "researchPeriod": {
@@ -14958,6 +16038,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 900000000,
+      "fundingMaxKRW": 1200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "9억 ~ 12억원 (연/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "262980",
         "researchPeriod": {
@@ -15030,6 +16116,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1275000000,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "12.75억 ~ 20억원 (연/과제당)",
+      "periodTotalText": "7년",
+      "periodMonths": 84,
       "pdfFields": {
         "postNo": "262921",
         "researchPeriod": {
@@ -15141,6 +16233,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 12000000,
+      "fundingMaxKRW": 12000000,
+      "fundingBasis": "연간(인당)",
+      "fundingDisplay": "1,200만원 (연/인당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "259643",
         "researchPeriod": {
@@ -15248,6 +16346,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 20000000,
+      "fundingMaxKRW": 20000000,
+      "fundingBasis": "연간(인당)",
+      "fundingDisplay": "2,000만원 (연/인당)",
+      "periodTotalText": "2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "259606",
         "researchPeriod": {
@@ -15313,6 +16417,12 @@
         "비전임",
         "학생"
       ],
+      "fundingMinKRW": 12000000,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1,200만 ~ 1억원 (사업별 상이, 과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "259594",
         "researchPeriod": {
@@ -15411,6 +16521,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 50000000,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 5,000만원 (과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "259593",
         "researchPeriod": {
@@ -15494,6 +16610,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 150000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 1.5억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "259401",
         "researchPeriod": {
@@ -15578,6 +16700,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "264771",
         "researchPeriod": {
@@ -15666,6 +16794,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 20억원 (과제당, 간접비 포함)",
+      "periodTotalText": "10년",
+      "periodMonths": 120,
       "pdfFields": {
         "postNo": "262184",
         "researchPeriod": {
@@ -15734,6 +16868,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "262832",
         "researchPeriod": {
@@ -15813,6 +16953,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "262657",
         "researchPeriod": {
@@ -15897,6 +17043,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 7380000000,
+      "fundingMaxKRW": 9020000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 82억원 내외",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264530",
         "researchPeriod": {
@@ -15972,6 +17124,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 7852500,
+      "fundingMaxKRW": 9597500,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 87.25억원 내외",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264526",
         "researchPeriod": {
@@ -16049,6 +17207,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 17730000000,
+      "fundingMaxKRW": 21670000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 197억원 내외",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264524",
         "researchPeriod": {
@@ -16127,6 +17291,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1400000000,
+      "fundingMaxKRW": 3460000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 14억 ~ 34.6억원 (과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264509",
         "researchPeriod": {
@@ -16202,6 +17372,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 31950000000,
+      "fundingMaxKRW": 39050000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 355억원 내외",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264505",
         "researchPeriod": {
@@ -16278,6 +17454,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 5070000000,
+      "fundingMaxKRW": 63163000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 50.7억 ~ 631.6억원 (과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264504",
         "researchPeriod": {
@@ -16359,6 +17541,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 112500000,
+      "fundingMaxKRW": 3600000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "당해연도 1.1억 ~ 36억원 (과제당)",
+      "periodTotalText": "최대 4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "264520",
         "researchPeriod": {
@@ -16445,6 +17633,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 30000000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 300억원 내외 (총 2개 과제)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "262005",
         "researchPeriod": {
@@ -16531,6 +17725,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 6400000000,
+      "fundingMaxKRW": 13200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "64억 ~ 132억원 (연/과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "259645",
         "researchPeriod": {
@@ -16611,6 +17811,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 24000000000,
+      "fundingMaxKRW": 24000000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 240억원 (1단계 52억 · 2단계 188억)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "262076",
         "researchPeriod": {
@@ -16694,6 +17900,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 150000000,
+      "fundingMaxKRW": 200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 1.5억 ~ 2억원 (과제당, 1차 1.5억 · 2~3차 각 2억)",
+      "periodTotalText": "2년 9개월",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "262075",
         "researchPeriod": {
@@ -16770,6 +17982,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 5650000000,
+      "fundingMaxKRW": 8400000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 56.5억 ~ 84억원 (과제당, 1차 64억 · 2차 77억 · 3차 84억 · 4차 72억 · 5차 56.5억)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "262041",
         "researchPeriod": {
@@ -16851,6 +18069,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 600000000,
+      "fundingMaxKRW": 1200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "당해(1차년도) 과제당 6억 ~ 9억원, 이후 연 8억 ~ 12억원 (RFP별 상이)",
+      "periodTotalText": "3년 9개월",
+      "periodMonths": 45,
       "pdfFields": {
         "postNo": "262040",
         "researchPeriod": {
@@ -16925,6 +18149,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 950000000,
+      "fundingMaxKRW": 1580000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "당해(1차년도) 과제당 9.5억 ~ 11억원, 이후 연차 증액 (RFP별 상이)",
+      "periodTotalText": "3년 9개월",
+      "periodMonths": 45,
       "pdfFields": {
         "postNo": "261816",
         "researchPeriod": {
@@ -16999,6 +18229,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 31000000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 310억원 (1개 컨소시엄, 6개 과제)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261815",
         "researchPeriod": {
@@ -17075,6 +18311,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 375000000,
+      "fundingMaxKRW": 1125000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "1차년도(9개월) 과제당 3.75억 ~ 11.25억원 (RFP 그룹별 상이)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261812",
         "researchPeriod": {
@@ -17161,6 +18403,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 2350000000,
+      "fundingMaxKRW": 3200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "1차년도(9개월) 23.5억원, 이후 연 32억원 (과제당)",
+      "periodTotalText": "4년 9개월",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261814",
         "researchPeriod": {
@@ -17247,6 +18495,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 1200000000,
+      "fundingMaxKRW": 1200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 12억원 (과제당)",
+      "periodTotalText": "5년 9개월",
+      "periodMonths": 69,
       "pdfFields": {
         "postNo": "261811",
         "researchPeriod": {
@@ -17333,6 +18587,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 750000000,
+      "fundingMaxKRW": 1000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 7.5억 ~ 10억원 (과제당, RFP별 상이)",
+      "periodTotalText": "2년 9개월",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "261810",
         "researchPeriod": {
@@ -17419,6 +18679,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 200000000,
+      "fundingMaxKRW": 200000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 2억원 (과제당)",
+      "periodTotalText": "2년 9개월",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "261809",
         "researchPeriod": {
@@ -17489,6 +18755,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 240000000,
+      "fundingMaxKRW": 240000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 2.4억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "261314",
         "researchPeriod": {
@@ -17568,6 +18840,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "261308",
         "researchPeriod": {
@@ -17648,6 +18926,12 @@
       "eligibleRoles": [
         "전임"
       ],
+      "fundingMinKRW": 100000000,
+      "fundingMaxKRW": 450000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연평균 1억 ~ 4.5억원 (과제당, 유형별)",
+      "periodTotalText": "6년",
+      "periodMonths": 72,
       "pdfFields": {
         "postNo": "260814",
         "researchPeriod": {
@@ -17753,6 +19037,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 15000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 1,500만원 (과제당, 협력연구)",
+      "periodTotalText": "최대 2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "260482",
         "researchPeriod": {
@@ -17821,6 +19111,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 18000000,
+      "fundingMaxKRW": 44000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "2,000만 ~ 4,000만원 내외 (과제당, EMDM/EMJM)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "258244",
         "researchPeriod": {
@@ -17894,6 +19190,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 36000000,
+      "fundingMaxKRW": 88000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 4,000만 ~ 8,000만원 내외 (과제당, EMDM/EMJM)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "258243",
         "researchPeriod": {
@@ -17979,6 +19281,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 300000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "단독 연 6,000만원 ~ 공동 연 최대 3억원 (과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "260813",
         "researchPeriod": {
@@ -18058,6 +19366,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 60000000,
+      "fundingMaxKRW": 60000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 6,000만원 (과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "260807",
         "researchPeriod": {
@@ -18137,6 +19451,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "264076",
         "researchPeriod": {
@@ -18225,6 +19545,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 2250000000,
+      "fundingMaxKRW": 3000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "22.5억 ~ 30억원 (연/과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "263232",
         "researchPeriod": {
@@ -18301,6 +19627,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 4627000000,
+      "fundingMaxKRW": 4627000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 46.27억원 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261044",
         "researchPeriod": {
@@ -18378,6 +19710,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 7650000000,
+      "fundingMaxKRW": 9250000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 76.5억 ~ 92.5억원 (RFP별/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261043",
         "researchPeriod": {
@@ -18455,6 +19793,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 2755000000,
+      "fundingMaxKRW": 3259000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 27.55억 ~ 32.59억원 (RFP별/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261042",
         "researchPeriod": {
@@ -18532,6 +19876,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 19700000000,
+      "fundingMaxKRW": 19700000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 197억원 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261041",
         "researchPeriod": {
@@ -18607,6 +19957,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 87635000000,
+      "fundingMaxKRW": 150346000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 876.35억 ~ 1,503.46억원 (RFP별/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261028",
         "researchPeriod": {
@@ -18681,6 +20037,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 14170000000,
+      "fundingMaxKRW": 15260000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 141.7억 ~ 152.6억원 (RFP별/과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261027",
         "researchPeriod": {
@@ -18757,6 +20119,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 19700000000,
+      "fundingMaxKRW": 19700000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 197억원 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261026",
         "researchPeriod": {
@@ -18832,6 +20200,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 29000000000,
+      "fundingMaxKRW": 29000000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 290억원 (과제당)",
+      "periodTotalText": "최대 5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "261023",
         "researchPeriod": {
@@ -18910,6 +20284,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 100000000,
+      "fundingMaxKRW": 100000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "1억원 (단년도/과제당)",
+      "periodTotalText": "9개월",
+      "periodMonths": 9,
       "pdfFields": {
         "postNo": "260976",
         "researchPeriod": {
@@ -18991,6 +20371,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "260964",
         "researchPeriod": {
@@ -19077,6 +20463,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "263311",
         "researchPeriod": {
@@ -19155,6 +20547,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 30000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 3천만원 이내 (과제당)",
+      "periodTotalText": "최대 2년",
+      "periodMonths": 24,
       "pdfFields": {
         "postNo": "262010",
         "researchPeriod": {
@@ -19225,6 +20623,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 14907000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 149.07억원 (’26년 예산, 4개 과제 내외)",
+      "periodTotalText": "4년",
+      "periodMonths": 48,
       "pdfFields": {
         "postNo": "260143",
         "researchPeriod": {
@@ -19317,6 +20721,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 70000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 7,000만원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "255543",
         "researchPeriod": {
@@ -19399,6 +20809,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 3750000000,
+      "fundingMaxKRW": 5000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "37.5억 ~ 50억원 (연/과제당, 컨소시엄)",
+      "periodTotalText": "4년",
+      "periodMonths": 45,
       "pdfFields": {
         "postNo": "259794",
         "researchPeriod": {
@@ -19490,6 +20906,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 10000000,
+      "fundingMaxKRW": 10000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "1,000만원 (연/과제당)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "259654",
         "researchPeriod": {
@@ -19595,6 +21017,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 20000000,
+      "fundingMaxKRW": 30000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 2,000만 ~ 3,000만원 (과제당·상한)",
+      "periodTotalText": "최대 3년",
+      "periodMonths": 36,
       "pdfFields": {
         "postNo": "259650",
         "researchPeriod": {
@@ -19707,6 +21135,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "259602",
         "researchPeriod": {
@@ -19810,6 +21244,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 20000000,
+      "fundingMaxKRW": 20000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "2,000만원 (연/과제당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "259601",
         "researchPeriod": {
@@ -19877,6 +21317,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 595500000000,
+      "fundingBasis": "총 사업",
+      "fundingDisplay": "총 5,955억원 이내 (10년)",
+      "periodTotalText": "10년",
+      "periodMonths": 120,
       "pdfFields": {
         "postNo": "259628",
         "researchPeriod": {
@@ -19958,6 +21404,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 1000000000,
+      "fundingMaxKRW": 3000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "10억 ~ 30억원 (연/과제당, RFP별 상이)",
+      "periodTotalText": "5년",
+      "periodMonths": 57,
       "pdfFields": {
         "postNo": "259653",
         "researchPeriod": {
@@ -20039,6 +21491,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "259651",
         "researchPeriod": {
@@ -20179,6 +21637,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 337500000,
+      "fundingMaxKRW": 4000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "약 3.4억 ~ 40억원 (연/과제당, RFP별 상이)",
+      "periodTotalText": "최대 7년",
+      "periodMonths": 84,
       "pdfFields": {
         "postNo": "259640",
         "researchPeriod": {
@@ -20260,6 +21724,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 250000000,
+      "fundingMaxKRW": 333000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "2.5억 ~ 3.33억원 (연/과제당, RFP별 상이)",
+      "periodTotalText": "3년",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "259637",
         "researchPeriod": {
@@ -20341,6 +21811,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 1280000000,
+      "fundingMaxKRW": 1700000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "12.8억 ~ 17억원 (연/과제당)",
+      "periodTotalText": "3년",
+      "periodMonths": 33,
       "pdfFields": {
         "postNo": "259636",
         "researchPeriod": {
@@ -20453,6 +21929,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 5,000만원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "259603",
         "researchPeriod": {
@@ -20553,6 +22035,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "259600",
         "researchPeriod": {
@@ -20665,6 +22153,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "259599",
         "researchPeriod": {
@@ -20772,6 +22266,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 40000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 4,000만원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "259592",
         "researchPeriod": {
@@ -20843,6 +22343,12 @@
         "전임",
         "비전임"
       ],
+      "fundingMinKRW": 50000000,
+      "fundingMaxKRW": 5000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 0.5억 ~ 50억원 (사업별 상이, 과제당)",
+      "periodTotalText": "최대 10년",
+      "periodMonths": 120,
       "pdfFields": {
         "postNo": "254613",
         "researchPeriod": {
@@ -20935,6 +22441,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": 90000000,
+      "fundingMaxKRW": 90000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "9,000만원 (연구용역/총)",
+      "periodTotalText": "7개월",
+      "periodMonths": 7,
       "pdfFields": {
         "postNo": "261147",
         "researchPeriod": {
@@ -21017,6 +22529,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 43400000,
+      "fundingMaxKRW": 52160000,
+      "fundingBasis": "총(인당)",
+      "fundingDisplay": "1인당 약 4,340만 ~ 5,216만원 (석사/박사, 12개월)",
+      "periodTotalText": "12개월",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "259460",
         "researchPeriod": {
@@ -21097,6 +22615,12 @@
       "eligibleRoles": [
         "비전임"
       ],
+      "fundingMinKRW": 50000000,
+      "fundingMaxKRW": 50000000,
+      "fundingBasis": "연간(인당)",
+      "fundingDisplay": "연 약 5,000만원 (단원 1인당)",
+      "periodTotalText": "1년",
+      "periodMonths": 12,
       "pdfFields": {
         "postNo": "259561",
         "researchPeriod": {
@@ -21163,6 +22687,12 @@
       "eligibleRoles": [
         "기타"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": null,
+      "fundingBasis": null,
+      "fundingDisplay": null,
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "259792",
         "researchPeriod": {
@@ -21261,6 +22791,12 @@
       "eligibleRoles": [
         "학생"
       ],
+      "fundingMinKRW": 800000,
+      "fundingMaxKRW": 1100000,
+      "fundingBasis": "기타",
+      "fundingDisplay": "월 80만 ~ 110만원 (연구생활장려금, 인당)",
+      "periodTotalText": null,
+      "periodMonths": null,
       "pdfFields": {
         "postNo": "258290",
         "researchPeriod": {
@@ -21335,6 +22871,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 10000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 100억원 (과제당)",
+      "periodTotalText": "최대 10년",
+      "periodMonths": 120,
       "pdfFields": {
         "postNo": "254612",
         "researchPeriod": {
@@ -21436,6 +22978,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 2000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 20억원 (과제당)",
+      "periodTotalText": "5년",
+      "periodMonths": 60,
       "pdfFields": {
         "postNo": "244961",
         "researchPeriod": {
@@ -21558,6 +23106,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": 1550000000,
+      "fundingMaxKRW": 1550000000,
+      "fundingBasis": "총(과제당)",
+      "fundingDisplay": "총 15.5억원 (과제당)",
+      "periodTotalText": "2년 7개월",
+      "periodMonths": 31,
       "pdfFields": {
         "postNo": "245000",
         "researchPeriod": {
@@ -21641,6 +23195,12 @@
       "eligibleRoles": [
         "기관"
       ],
+      "fundingMinKRW": null,
+      "fundingMaxKRW": 10000000000,
+      "fundingBasis": "연간(과제당)",
+      "fundingDisplay": "연 최대 100억원 (과제당)",
+      "periodTotalText": "10년",
+      "periodMonths": 120,
       "pdfFields": {
         "postNo": "234418",
         "researchPeriod": {
@@ -21675,5 +23235,5 @@
     }
   ],
   "enrichedCount": 260,
-  "enrichedAt": "2026-07-01T05:44:15.477Z"
+  "enrichedAt": "2026-07-01T06:08:57.399Z"
 }
