@@ -1,0 +1,15 @@
+{
+  "postNo": "261380",
+  "researchPeriod": { "totalText": "총연구기간 2026.9.1 ~ 2027.8.31. (12개월)", "totalMonths": 12, "byStageText": "연차구성 1연차(12개월x1)", "firstYearText": "연구개시일 2026년 9월 1일, 연구기간 12개월" },
+  "funding": { "perYearPerProjectText": "연간 연구비 12백만원(간접비포함) ※간접비 비율 5% 적용", "totalScaleText": null, "numAwardsText": "선정과제수 790개 과제 내외" },
+  "eligibility": { "employmentType": "비전임", "employmentEvidence": "연구책임자 : 주관연구개발기관에 소속되어 있는 자 / 석사과정생: 연구개시일 기준 국내 대학원 2학기 이상의 전일제(Full-Time) 재학생", "targetSummary": "국내 대학원 석사과정(학·석사통합, 석·박사통합 포함)에 전일제로 재학 중인 대한민국 국적 소지자를 연구책임자로 하는 사업으로, 이공계 석사과정 대학원이 설치된 국내 대학이 주관연구기관이 됨." },
+  "notFound": [],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "연구기간 12개월",
+    "연간 연구비 12백만원 (간접비포함) ※간접비 비율 5% 적용",
+    "선정과제수 790개 과제 내외",
+    "총연구기간 2026.9.1 ~ 2027.8.31. (12개월)",
+    "○ 연구개시일 기준 국내 대학원 2학기 이상의 전일제(Full-Time) 재학생"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "postNo": "268760",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": "‘한-독파트너십프로그램(GEnKO)’ 동 과제의 2, 3년차 연구비는 1년차 연구비의 50%로 제한함 (연차별 기간·규모 세부값은 원문 표에 있어 텍스트로 추출되지 않음)",
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "GEnKO: 2,3년차 연구비는 1년차의 50%로 제한(구체 금액은 표). 대학원생하계연수사업: 연구비 '0' 표기(재단이 항공권 직접 발송, 독일측 체재비 지원), 독일 대학원생 국내 초청연구자 1인당 초청활용비(간접비 성격) 1,000,000원 별도 지원",
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "GEnKO : 「학술진흥법」 제2조의 대학(부설연구소 포함) 및 연구기관에 소속된 자로서, 해당기관장 명의로 신청이 가능한 자 / 대학원생하계연수사업: 만 18세 이상 한국 국적자이며 국내 대학 소속인 석사 또는 박사과정 재학생으로서, 해당기관장 명의로 과제 신청이 가능한 자",
+    "targetSummary": "한-독 특별협력사업으로, GEnKO(한-독 파트너십)는 학술진흥법상 대학·연구기관 소속자를 대상으로 하고 대학원생하계연수사업은 국내 대학 소속 석·박사과정 재학생을 대상으로 하여, 전임 교원·연구자와 비전임(대학원생)이 모두 대상이다."
+  },
+  "notFound": [
+    "researchPeriod.totalText",
+    "researchPeriod.totalMonths",
+    "researchPeriod.firstYearText",
+    "funding.totalScaleText",
+    "funding.numAwardsText"
+  ],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "GEnKO : 「학술진흥법」 제2조의 대학(부설연구소 포함) 및 연구기관에 소속된 자로서, 해당기관장 명의로 신청이 가능한 자",
+    "대학원생하계연수사업 · 만 18세 이상 한국 국적자이며 국내 대학 소속인 석사 또는 박사과정재학생으로서, 해당기관장 명의로 과제 신청이 가능한 자",
+    "‘한-독파트너심프로그램(GEnKO)’은 ... 동 과제의 2, 3년차 연구비는 1년차 연구비의 50%로 제한함.",
+    "독일 대학원생 국내 초청연구자의 경우 독일 연수자 1인당 초청활용비(간접비 성격) 명목으로 1,000,000원 별도 지원",
+    "본 사업은 한국연구재단의 기관고유사업으로서, 국가연구개발사업 내 연구과제 수 상한제도(인문사회분야 1책/3공 및 과학기술분야 3책/5공 등)에 포함되지 않음."
+  ],
+  "source": "hwp"
+}

@@ -1,0 +1,14 @@
+{
+  "postNo": "273220",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "일반학술지 중 아래의 신청자격을 충족하는 학술지", "targetSummary": "연구비 지원 공고가 아니라 학술지인증(등재후보인증) 신청 요강으로, 신청 대상은 개인 연구자가 아닌 학술지(발행기관)이다. 신청 직전 3년간 매년 1회 이상 또는 2년간 매년 2회 이상 발간한 일반학술지가 대상이다." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "2026년도 학술지인증 등재후보인증(舊 신규평가) 신청요강",
+    "연도별 학술지 발간 횟수에 따라 아래의 유형 중 하나를 선택하여 등재후보인증 신청 가능",
+    "유형1 등재후보인증 신청 직전 3년간 매년 1회 이상 발간 학술지 / 유형2 등재후보인증 신청 직전 2년간 매년 2회 이상 발간 학술지",
+    "온라인 신청: 2026.5.28.(목) 14:00 ~ 6.16.(화) 18:00까지 (20일간)"
+  ]
+}

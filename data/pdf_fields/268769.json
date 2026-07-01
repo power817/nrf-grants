@@ -1,0 +1,26 @@
+{
+  "postNo": "268769",
+  "researchPeriod": {
+    "totalText": "1~5년 (기본연구B)",
+    "totalMonths": 60,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "연간 0.7억원 내외 (직접비 0.56억원 이내)",
+    "totalScaleText": null,
+    "numAwardsText": "기본연구B·기본연구A 합산 2,000개 내외"
+  },
+  "eligibility": {
+    "employmentType": "전임",
+    "employmentEvidence": "기본연구B 지원대상: 대학 이공분야 전임교원 및 민간연구소의 연구원",
+    "targetSummary": "과기정통부 기초연구사업 2차 핵심연구(기본연구B). 지원대상은 대학 이공분야 전임교원 및 민간연구소의 연구원. 연구자 특성·환경에 맞는 소규모 장기연구를 지원하여 연구안전망 구축."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "기본연구B ... 대학 이공분야 전임교원 및 민간연구소의 연구원 1~5년 0.7억원 내외 (직접비 0.56억원 이내)",
+    "연구자의 특성과 환경에 맞는 연구 수행이 가능하도록 소규모 장기연구를 지원하여 연구안전망 구축",
+    "기본연구B 2,000개 내외"
+  ]
+}

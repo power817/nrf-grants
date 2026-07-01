@@ -1,0 +1,16 @@
+{
+  "postNo": "273857",
+  "researchPeriod": { "totalText": "연수기간 11개월(2026.10월초 ~ 2027.8월말, 예정) 이내", "totalMonths": 11, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "출입국 비용(왕복항공료, 의료보험료, 비자수수료) 및 체재비(인건비 포함) 지원, 항공료·의료보험·등록금·비자수수료 실비 지원(구체 금액 표로 미표기)", "totalScaleText": null, "numAwardsText": "지원규모 7명 내외(연수기간, 예산 등에 따라 조정될 수 있음)" },
+  "eligibility": { "employmentType": "비전임", "employmentEvidence": "(학력) 국내 대학원 석사, 박사 재학생(통합과정 포함) * 한국 내 대학, 연구원 등에서 학위 과정 중이어야 하며, 학부생, 졸업생 및 유학생은 지원 불가", "targetSummary": "반도체 분야 벨기에 Imec 해외 인턴십 연수생 선정. 지원 대상은 대한민국 국적의 국내 대학원 석·박사 재학생(이공계 전공, 통합과정 포함)으로, 전임교원이 아닌 학생 연수생 대상." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "(연수기간) 11개월(2026.10월초 ~ 2027. 8월말, 예정) 이내",
+    "(지원규모) 7명 내외(연수기간, 예산 등에 따라 조정될 수 있음)",
+    "(학력) 국내 대학원 석사, 박사 재학생(통합과정 포함)",
+    "학부생, 졸업생 및 유학생은 지원 불가",
+    "(지원사항) 해외 연구기관에서 공동연구를 수행할 수 있는 출입국 비용(왕복항공료, 의료보험료, 비자수수료) 및 체재비(인건비 포함) 지원"
+  ],
+  "source": "hwp"
+}

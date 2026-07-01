@@ -1,0 +1,10 @@
+{
+  "postNo": "264076",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": null },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence", "eligibility.targetSummary"],
+  "confidence": "low",
+  "evidenceQuotes": ["이 문서는 '2026년도 바이오·의료기술개발 사업 신규과제 제1차 재공모'의 붙임3 '생명자원 기탁 및 생명정보 등록에 관한 안내'로, 연구기간·지원규모·신청자격 등 공고 핵심정보가 포함되어 있지 않음."],
+  "source": "hwp"
+}

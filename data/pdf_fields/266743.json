@@ -1,0 +1,7 @@
+{
+  "postNo": "266743",
+  "researchPeriod": { "totalText": "사업기간 '26년~'30년 (총 5년). 지원기간 및 연구비 규모 상세는 표(<표>)로 제시되어 본문 텍스트에 미포함", "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": "사업기간/예산: '26년~'30년 / 총 95억 원 내외('26년 15억원)", "numAwardsText": "지원 규모: 2개 과제 내외" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구책임자의 자격 - 「국가연구개발혁신법」제2조제3호에서 정하는 기관 및 단체에 소속된 연구자 (단, 기업의 경우 기업부설 연구소 또는 연구개발전담부서를 보유한 기관 및 단체에 소속된 연구자), 「국가연구개발혁신법」제6조 및 제7조에 따른 요건을 갖춘 자", "targetSummary": "비파괴검사 기술역량 강화 사업 신규과제(재공모). 국가연구개발혁신법·기초연구진흥법상 연구개발기관(대학/출연연/기업부설연구소 등)에 소속된 연구자. 전임/비전임 여부에 대한 명시적 제한은 없음." },
+  "notFound": ["researchPeriod.totalText(상세 연차/단계 표 미포함)", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText"], "confidence": "medium", "evidenceQuotes": ["사업기간/예산(정부출연금): '26년~'30년 / 총 95억 원 내외('26년 15억원)", "지원 규모: 2개 과제 내외", "연구책임자의 자격 - 「국가연구개발혁신법」제2조제3호에서 정하는 기관 및 단체에 소속된 연구자", "단, 기업의 경우 기업부설 연구소 또는 연구개발전담부서를 보유한 기관 및 단체에 소속된 연구자"], "source": "hwp"
+}

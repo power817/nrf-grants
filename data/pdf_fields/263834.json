@@ -1,0 +1,10 @@
+{
+  "postNo": "263834",
+  "researchPeriod": { "totalText": "지원기간 : 3년", "totalMonths": 36, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연 80백만원 내외 (간접비는 직접비의 5% 적용)", "totalScaleText": null, "numAwardsText": "1개 과제" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자", "targetSummary": "「국가연구개발혁신법」상 연구개발기관(국가·지자체 연구기관, 대학, 출연연, 회사 등)과 그에 소속된 연구자. 전임 여부 제한 없음." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": ["지원규모 : 연 80백만원 내외 ※ 간접비는 직접비의 5% 적용", "선정규모 : 1개 과제", "지원기간 : 3년", "연구책임자의 자격 - 「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자"],
+  "source": "hwp"
+}

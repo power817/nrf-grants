@@ -1,0 +1,28 @@
+{
+  "postNo": "266396",
+  "researchPeriod": {
+    "totalText": "한국 측: 협약 체결 후 24개월간 수행 (Pour la partie coréenne, les projets commencent après la signature de l'accord pour une durée de 24 mois). 프랑스 측: 연 단위로 2년 연속 지원.",
+    "totalMonths": 24,
+    "byStageText": "Le financement est accordé sur une base annuelle, pour deux années consécutives (연 단위, 2년 연속). 프랑스 측 과제 개시 2027.1.1., 한국 측 2026.10월.",
+    "firstYearText": "프랑스 측 과제 개시 2027년 1월 1일, 한국 측 2026년 10월"
+  },
+  "funding": {
+    "perYearPerProjectText": "프랑스 측 연 8,000~9,500유로(2년간 총 16,000~19,000유로). 프랑스 팀 연구자 이동경비만 지원(체재비 180유로/일, 왕복 항공 최대 1,900유로). 한국 측 금액은 미기재(NC).",
+    "totalScaleText": "프랑스 측 2년간 총 16,000~19,000유로",
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "전임",
+    "employmentEvidence": "L'appel à candidatures est ouvert aux chercheurs titulaires des laboratoires de recherche rattachés à des établissements d'enseignement supérieur ou à des organismes de recherche français. (프랑스 고등교육기관·연구기관 소속 정규직/전임 연구자 대상)",
+    "targetSummary": "한-프랑스 협력기반조성사업(STAR/PHC). 프랑스 측은 고등교육기관·연구기관 소속 정규직(titulaire) 연구자가 대상이며, 프랑스 학술 파트너와 연계된 기업도 참여 가능. 젊은 연구자(박사과정생·박사후연구원)의 참여를 중시. 이 공고문은 프랑스 측 공고로 한국 측 세부 자격은 별도."
+  },
+  "notFound": ["funding.numAwardsText"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "L'appel à candidatures est ouvert aux chercheurs titulaires des laboratoires de recherche rattachés à des établissements d'enseignement supérieur ou à des organismes de recherche français.",
+    "Le financement sera compris entre 8 000 et 9 500 euros par an, sur deux années consécutives, soit 16 000 à 19 000 euros au total.",
+    "Pour la partie coréenne, les projets commencent après la signature de l'accord pour une durée de 24 mois.",
+    "Les entreprises peuvent participer au projet dès lors qu'elles sont associées à un partenaire académique français.",
+    "La participation de jeunes chercheurs doctorants ou post-doctorants est essentielle."
+  ]
+}

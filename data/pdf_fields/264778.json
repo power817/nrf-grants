@@ -1,0 +1,10 @@
+{
+  "postNo": "264778",
+  "researchPeriod": { "totalText": "지원기간 : 1년", "totalMonths": 12, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "과제당 연 25백만원 이내 (간접비는 직접비의 5% 이내 적용)", "totalScaleText": null, "numAwardsText": "30과제 내외" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "「국가연구개발혁신법」 제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자로서 Horizon Europe에 참여를 준비 중인 자", "targetSummary": "국가연구개발혁신법상 연구개발기관에 소속되어 Horizon Europe(Pillar I Synergy Grant 및 Pillar II) 참여를 준비 중인 연구자. 전임 여부에 대한 제한은 없음." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": ["(선정규모) 30과제 내외", "지원기간 : 1년", "지원규모 : 과제당 연 25백만원 이내 ※ 간접비는 직접비의 5% 이내 적용", "「국가연구개발혁신법」 제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자로서 Horizon Europe에 참여를 준비 중인 자"],
+  "source": "hwp"
+}

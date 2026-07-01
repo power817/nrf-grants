@@ -1,0 +1,14 @@
+{
+  "postNo": "260812",
+  "researchPeriod": { "totalText": "박사과정생연구장려금지원 연구기간 1~2년", "totalMonths": 24, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "박사과정생연구장려금지원 연간 연구비 0.25억원(간접비 포함)", "totalScaleText": "박사과정생연구장려금지원 7,500(백만원) 내외", "numAwardsText": "박사과정생연구장려금지원 600 내외" },
+  "eligibility": { "employmentType": "비전임", "employmentEvidence": "국내 대학원 박사과정에 전업(full-time)으로 재학 중인 자(석·박사통합과정, 수료생 포함) ※대한민국 국적자", "targetSummary": "국내 대학원 박사과정(석·박사통합과정, 수료생 포함)에 전업(full-time)으로 재학 중인 대한민국 국적 소지자를 대상으로 박사학위 논문 연구 관련 창의적·도전적 아이디어 연구를 지원함." },
+  "notFound": [],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "박사과정생 연구장려금 지원 ... 연간 연구비 0.25억원 (간접비 포함), 기간 1~2년",
+    "국내 대학원 박사과정에 전업(full-time)으로 재학 중인 자 (석∙박사통합과정, 수료생 포함) ※대한민국 국적자",
+    "박사과정생연구장려금지원 600 내외 7,500 내외",
+    "박사과정생의 박사학위 논문 연구와 관련된 창의적∙도전적 아이디어 연구를 지원"
+  ]
+}

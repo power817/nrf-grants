@@ -1,0 +1,15 @@
+{
+  "postNo": "267110",
+  "researchPeriod": { "totalText": "The project duration is 1 year (1 October 2026 - 31 September 2027)", "totalMonths": 12, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "The maximum budget available for the Korean side of a project is KRW 100,000,000 for a 1-year project (Luxembourg side max 70,000 EUR)", "totalScaleText": "Total budget available in Korea is KRW 300,000,000; total in Luxembourg 210,000 EUR (together about 400,000 EUR)", "numAwardsText": "A maximum of 3 joint projects will be funded" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "The call is open to researchers from all eligible research institutions in Luxembourg and Korea. ; Korean applicants should abide by the applicable laws and regulations of the Ministry of Science and ICT (MSIT)", "targetSummary": "룩셈부르크와 한국 각 1인 이상의 PI가 참여하는 양자기술 국제공동연구(JRP). 한국측은 MSIT 관련 법령을 준수하는 모든 적격 연구기관 소속 연구자가 대상이며, 전임/비전임 여부에 관한 명시적 규정은 없음." },
+  "notFound": ["byStageText", "firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "The project duration is 1 year (1 October 2026 - 31 September 2027)",
+    "The maximum budget available for the Korean side of a project is KRW 100,000,000 for a 1-year project.",
+    "The total budget available in Korea is KRW 300,000,000.",
+    "A maximum of 3 joint projects will be funded",
+    "The call is open to researchers from all eligible research institutions in Luxembourg and Korea."
+  ]
+}

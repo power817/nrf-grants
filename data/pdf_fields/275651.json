@@ -1,0 +1,14 @@
+{
+  "postNo": "275651",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "신청대상 : 자연계 대학원, 대학부설 연구기관", "targetSummary": "2026년도 신규 병역지정업체(전문연구요원) 신청 및 2027년도 필요인원 신청 공고로, 자연계 대학원 및 대학부설 연구기관이 한국연구재단에 신청하는 기관 대상 안내이다." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "가. 접수기간 : 2026. 6. 30(화)까지",
+    "나. 신청대상 : 자연계 대학원, 대학부설 연구기관",
+    "다. 신청방법 : 한국연구재단으로 전자공문 신청",
+    "제목 2026년도 신규 병역지정업체 신청 및 2027년도 필요인원 신청 알림"
+  ]
+}

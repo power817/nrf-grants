@@ -1,0 +1,27 @@
+{
+  "postNo": "259602",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "불명",
+    "employmentEvidence": null,
+    "targetSummary": "첨부된 문서는 공고문이 아니라 '붙임9. [필수사전작업] IRIS 연구자 안내 매뉴얼'로, IRIS 회원가입·국가연구자번호 발급·평가위원 후보단 신청 등 시스템 이용 절차만 담고 있어 지원대상·전임여부를 판단할 근거가 없음. (공고제목상 2026년도 공동연구지원사업 신규과제이나 본문에 관련 내용 없음)"
+  },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentEvidence"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "[PDF파일명] 붙임9. [필수사전작업] IRIS 연구자 안내 매뉴얼.pdf",
+    "범부처통합연구지원시스템(IRIS) 회원가입 절차 인문학단",
+    "국가연구자번호 신규발급 인문학단",
+    "평가위원 후보단 신청 인문학단"
+  ]
+}

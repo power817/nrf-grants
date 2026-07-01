@@ -1,0 +1,14 @@
+{
+  "postNo": "274891",
+  "researchPeriod": { "totalText": "Joint Research: 2 years (Humanities/Social Sciences, Science/Engineering, Biology/Medicine, Interdisciplinary) / Joint Seminar: 1 year(2027.4.1.~2028.3.31.), commencement 2027.4.1.", "totalMonths": 24, "byStageText": "Joint Research Projects: 2 years; Joint Seminars: 1 year (seminar less than a week, held once within the year 2027.4.1.~2028.3.31.)", "firstYearText": null },
+  "funding": { "perYearPerProjectText": "Joint Research: Humanities and Social Sciences 15,000,000 KRW/Yr, Science and Engineering·Biology and Medicine·Interdisciplinary 8,000,000 KRW/Yr (Joint Research includes indirect expenses less than 5% of direct)", "totalScaleText": null, "numAwardsText": "Joint Research: 15 new projects; Joint Seminar: 5 new projects" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "Researchers at universities/institutes as defined in Article 2 of the Framework Act on Academic Promotion, and be eligible to apply with the official nomination of the head of the affiliated institution.", "targetSummary": "학술진흥법 제2조에서 정하는 대학·연구기관 소속 연구자로서 소속기관장의 추천을 받아 신청 가능한 자. 전임 여부에 대한 명시적 조건 없이 기관 소속 연구자를 대상으로 함." },
+  "notFound": ["researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "Joint Research: 1) Humanities and Social Sciences 15,000,000 KRW/Yr, 2 years, 15 new projects.",
+    "8,000,000 KRW/Yr, 1 year (Biology and Medicine / Joint Seminar), 5 new projects.",
+    "Researchers at universities/institutes as defined in Article 2 of the Framework Act on Academic Promotion, and be eligible to apply with the official nomination of the head of the affiliated institution.",
+    "An applicant can apply for only one category at a time, and participate in only one project whether as a Principal Investigator(PI) or as a participating researcher."
+  ]
+}

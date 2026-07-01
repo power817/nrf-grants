@@ -1,0 +1,26 @@
+{
+  "postNo": "267191",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "주관대학을 포함하여 3~5개 대학으로 컨소시엄 구성",
+    "targetSummary": "인문사회 융합인재양성사업(HUSS) 신규 컨소시엄 신청 제출 매뉴얼 문서로, 주관대학 포함 3~5개 대학으로 컨소시엄을 구성하는 대학 대상 사업. 본 문서는 시스템 접수 절차 매뉴얼이며 연구기간·연구비·전임여부 등 세부 지원조건은 기재되어 있지 않음."
+  },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "인문사회융합인재양성사업 신규 컨소시엄 신청 제출 매뉴얼",
+    "주관대학을 포함하여 3~5개 대학으로 컨소시엄 구성",
+    "① '2026년 인문사회 융합인재양성사업 신규 컨소시엄 선정 본신청'을 선택합니다."
+  ]
+}

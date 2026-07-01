@@ -1,0 +1,15 @@
+{
+  "postNo": "275496",
+  "researchPeriod": { "totalText": "과제별 소요연구기간: (1)6개월, (2)8개월, (3)10개월, (4)8개월", "totalMonths": null, "byStageText": "제안서(1) MMR 개발목표: 6개월 / (2) SMR 특구: 8개월 / (3) 핵연료주기 국가전략: 10개월 / (4) 의료용 동위원소 시설: 8개월", "firstYearText": null },
+  "funding": { "perYearPerProjectText": "과제별 소요연구비: (1)90백만원, (2)70백만원, (3)90백만원, (4)50백만원", "totalScaleText": null, "numAwardsText": "과제제안서 4건" },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "2026년 하반기 원자력정책연구사업 과제제안서(4개 정책연구 과제). 본 문서는 과제제안서 서식으로 신청자격·전임 여부 등 지원대상 조건은 기재되어 있지 않음." },
+  "notFound": ["researchPeriod.totalText(사업 전체)", "researchPeriod.totalMonths", "researchPeriod.firstYearText", "funding.totalScaleText", "eligibility.employmentType", "eligibility.targetSummary(신청자격)"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "제안과제명 산업 분야별 민간 수요 기반 Micro Modular Reactor(MMR) 개발목표 및 추진전략 수립 연구 / 소요연구기간 6개월 / 소요연구비 90백만원",
+    "제안과제명 SMR 연구개발특구 조성 및 운영을 위한 기획 연구 / 소요연구기간 8개월 / 소요연구비 70백만원",
+    "제안과제명 핵연료주기 국가전략 제시 및 기술개발 포트폴리오 도출 / 소요연구기간 10개월 / 소요연구비 90백만원",
+    "제안과제명 의료용 동위원소 생산전용 시설 구축방안 연구 / 소요연구기간 8개월 / 소요연구비 50백만원"
+  ],
+  "source": "hwp"
+}

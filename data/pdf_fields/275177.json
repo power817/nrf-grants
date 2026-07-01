@@ -1,0 +1,13 @@
+{
+  "postNo": "275177",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "과제제안요구서 또는 공고문에서 특별히 제한하지 않는 경우 영리기관은 주관연구개발기관, 공동연구개발기관, 위탁연구개발기관의 형태로 참여 가능합니다.", "targetSummary": "본 문서는 방사선이용 기술개발사업 신규과제 신청 FAQ로, 주관·공동·위탁연구개발기관(영리기관 포함) 형태의 기관 참여를 설명함. 연구자 개인의 전임 여부와는 무관." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "본 문서는 '2026년도 방사선이용 기술개발사업 신규과제 공모 FAQ'로 연구기간·연구비 규모·선정 과제 수가 명시되어 있지 않음.",
+    "공고문에 기재된 연구개발비는 과제별로 지원되는 정부가 지원하는 연구개발비를 의미합니다.",
+    "영리기관은 주관연구개발기관, 공동연구개발기관, 위탁연구개발기관의 형태로 참여 가능합니다."
+  ]
+}

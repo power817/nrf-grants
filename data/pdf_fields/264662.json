@@ -1,0 +1,28 @@
+{
+  "postNo": "264662",
+  "researchPeriod": {
+    "totalText": "기간(개월): 과제별 5~12개월 (예: 9, 6, 12, 11 등)",
+    "totalMonths": null,
+    "byStageText": "과제별 상이(RFP별): 5개월, 6개월, 7개월, 8개월, 9개월, 10개월, 11개월, 12개월 등",
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "과제별 연구비(백만원): 50~170백만원 (예: 90, 60, 160, 70, 50, 120, 100, 170 등)",
+    "totalScaleText": null,
+    "numAwardsText": "공모대상과제 16건(RFP별 각 1과제, 연구책임자로 1과제만 신청 가능)"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "국가연구개발혁신법 제2조 제3호에 따른 기관‧단체",
+    "targetSummary": "국가연구개발혁신법 제2조 제3호에 따른 기관·단체가 주관연구기관으로 신청. 지원자격이 기관·단체 대상이며 개인의 전임/비전임 여부와 무관함."
+  },
+  "notFound": ["researchPeriod.totalMonths", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "2. 지원자격 ○ 국가연구개발혁신법 제2조 제3호에 따른 기관‧단체",
+    "1. 공모대상과제 기간 연구비 분야 RFP 과제명 (개월) (백만원)",
+    "※ 연구비 및 연구기간은 조정될 수 있음",
+    "연구기간은 담당부서와의 협의에 따라 조정될 수 있음",
+    "※ 공모대상과제 중 연구책임자로 1과제만 신청 가능"
+  ]
+}

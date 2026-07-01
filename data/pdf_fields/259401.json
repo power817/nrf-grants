@@ -1,0 +1,15 @@
+{
+  "postNo": "259401",
+  "researchPeriod": { "totalText": "3년(2026.12.1.~2029.11.30.)", "totalMonths": 36, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연 1.5억원 이내 X 3년 (간접비 5% 포함)", "totalScaleText": null, "numAwardsText": "20과제(내외)" },
+  "eligibility": { "employmentType": "전임+비전임", "employmentEvidence": "국내대학 이공분야 전임교원 및 국(공)립‧정부출연연구소의 정규직 연구원 ※ 민간연구소, 대학기술지주회사, 정부기관 소속 연구원은 신청 불가", "targetSummary": "국내대학 이공분야 전임교원 및 국공립·정부출연연구소의 정규직 연구원 대상 국제공동연구(개인연구, 글로벌 매칭형-독일). 민간연구소·대학기술지주회사·정부기관 소속 연구원은 신청 불가." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "지원대상 ▪국내대학 이공분야 전임교원* 및 국(공)립‧정부출연연구소의 정규직 연구원 ※ 민간연구소, 대학기술지주회사, 정부기관 소속 연구원은 신청 불가",
+    "연구비 ▪연간 1.5억원 이내, 간접비(총 연구비의 5%) 포함",
+    "연구기간 ▪3년(2026.12.1.~2029.11.30.)",
+    "글로벌 매칭형(독일) 20과제 연 1.5억원 이내 X 3년"
+  ],
+  "source": "hwp"
+}

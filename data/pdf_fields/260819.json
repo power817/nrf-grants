@@ -1,0 +1,27 @@
+{
+  "postNo": "260819",
+  "researchPeriod": {
+    "totalText": "글로컬R&D지원 연구기간 3년",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "글로컬R&D지원 연간 연구비 1.5억원(간접비 포함)",
+    "totalScaleText": "글로컬R&D지원 120 내외, 지원예산 12,000백만원 내외",
+    "numAwardsText": "120개 내외"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "글로컬R&D지원 지원대상: 지역대학* 연구자(전임∙비전임교원, 박사후연구원). *수도권(서울, 경기, 인천) 소재 대학, 4대 과기원, POSTECH 제외.",
+    "targetSummary": "비수도권(지역대학) 소속 연구자(전임·비전임교원, 박사후연구원)를 중심으로 지역발전과 혁신을 이끌 기초연구를 지원하는 개인연구 사업."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "글로컬 R&D지원 지역발전을 뒷받침하고 혁신을 이끌어 낼 수 있는 비수도권 대학 소속 연구자 중심 기초연구 지원",
+    "지원대상 지역대학* 연구자(전임∙비전임교원, 박사후연구원) *수도권(서울, 경기, 인천) 소재 대학, 4대 과기원, POSTECH 제외",
+    "연간 연구비 1.5억(간접비 포함), 연구기간 3년",
+    "글로컬R&D지원 120 내외 12,000 내외"
+  ]
+}

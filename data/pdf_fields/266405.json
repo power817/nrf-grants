@@ -1,0 +1,25 @@
+{
+  "postNo": "266405",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "불명",
+    "employmentEvidence": null,
+    "targetSummary": null
+  },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentEvidence", "eligibility.targetSummary"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "■ 국가연구개발혁신법 시행령 [별표 2] <개정 2024. 12. 31.> 연구개발비 사용용도(제20조제1항 관련)",
+    "[공고문신뢰도] 낮음(공고문이 아닐 수 있음)"
+  ]
+}

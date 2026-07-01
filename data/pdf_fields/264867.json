@@ -1,0 +1,10 @@
+{
+  "postNo": "264867",
+  "researchPeriod": { "totalText": "(연구기간) 기간 내(26.04.~27.12.) 초빙 프로그램을 고려하여 연구기간 설정 (KOBRA-I); KOBRA-ES/TA는 기간 내(26.04.~26.12.)", "totalMonths": null, "byStageText": "KOBRA-I: 26.04.~27.12. / KOBRA-ES: 26.04.~26.12.(파견 종료 후 1개월까지 신청 가능) / KOBRA-TA: 26.04.~26.12.", "firstYearText": null },
+  "funding": { "perYearPerProjectText": "KOBRA-I: 교류회당 4천만 원(간접비 10% 포함) 이내 / KOBRA-ES: 인당 1천만 원 이내(팀 5천만 원 이내) / KOBRA-TA: 1인당 3백만 원 내외", "totalScaleText": null, "numAwardsText": "KOBRA-I 10개 교류회 내외 / KOBRA-ES 10명 내외 / KOBRA-TA 30명 내외" },
+  "eligibility": { "employmentType": "전임+비전임", "employmentEvidence": "(신청자격) 첨단바이오 분야의 국내 연구기관 또는 기업 소속 연구자 / (지원대상) 국내외 석·박사 과정생, 박사후 연구원 / 유망연구자: 대학원생, 석사 또는 박사학위 취득 후 5년 이내 연구자", "targetSummary": "첨단바이오 분야 국내 연구기관·기업 소속 연구자(KOBRA-I), 국내외 석·박사 과정생·박사후연구원(KOBRA-ES), 국내기관 소속 유망연구자(대학원생·학위 취득 5년 이내, KOBRA-TA). 교원(신진연구자)과 학생·박사후 등 비전임 연구자를 모두 포함." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "medium",
+  "evidenceQuotes": ["(지원규모) 10개 교류회 내외, 교류회당 4천만 원(간접비 10% 포함) 이내", "(신청자격) 첨단바이오 분야의 국내 연구기관 또는 기업 소속 연구자", "(지원대상) 국내외 석·박사 과정생, 박사후 연구원", "*신진연구자: 온라인 신청마감일 기준 최초 조교수 이상의 직위로 임용된 지 5년 이내인 교원 또는 박사학위 취득 후 10년 이내 연구자", "(지원규모) 30명 내외(분기별 배분하여 지원), 1인당 3백만 원 내외"],
+  "source": "hwp"
+}

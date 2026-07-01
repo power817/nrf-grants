@@ -1,0 +1,15 @@
+{
+  "postNo": "272832",
+  "researchPeriod": { "totalText": "총연구기간 : 12개월(2026.9.1.~2027.8.31.)", "totalMonths": 12, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연수생 1인당 20백만원(출국 준비비 및 체재비 20백만원 정액 지급, 연구활동비 20백만원)", "totalScaleText": "최대 11명 이내 / 20백만원", "numAwardsText": "최대 11명 이내" },
+  "eligibility": { "employmentType": "비전임", "employmentEvidence": "주관연구기관 자격에 해당하는 기관에 소속된 이공계 석･박사과정 재학생* / ※ 박사후연구원 또는 졸업생, 유학생은 지원 불가", "targetSummary": "한국 주관기관(대학 등)에 소속된 이공계 석·박사과정 재학생인 만 18세 이상 한국 국적 여성 신진연구자가 미국 연수를 위해 신청하는 사업으로, 학부생·졸업생·박사후연구원·유학생은 지원 불가하다." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "▶ 주관연구기관 자격에 해당하는 기관에 소속된 이공계 석･박사과정 재학생*",
+    "- 총연구기간 : 12개월(2026.9.1.~2027.8.31.)",
+    "- 연수기간 : 총연구기간 내 연수생이 정한 연수개시일로부터 5개월",
+    "- 지원 규모 : 최대 11명 이내 / 20백만원",
+    "※ 박사후연구원 또는 졸업생, 유학생은 지원 불가"
+  ]
+}

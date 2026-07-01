@@ -1,0 +1,27 @@
+{
+  "postNo": "263148",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "불명",
+    "employmentEvidence": null,
+    "targetSummary": null
+  },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence", "eligibility.targetSummary"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "문서는 공고문이 아니라 'Horizon Europe - NCP systems: Minimum standards and Guiding principles' (EU 문서, 영문)로, NCP(National Contact Points) 운영 최소기준·지침을 담고 있음.",
+    "[공고문신뢰도] 낮음(공고문이 아닐 수 있음)",
+    "A system of NCPs will be established for Horizon Europe, building on the experience of previous R&I Framework Programmes.",
+    "본 문서에는 연구기간, 과제당 지원규모, 선정 과제 수, 전임/비전임 자격 등 공고 핵심정보가 포함되어 있지 않음."
+  ]
+}

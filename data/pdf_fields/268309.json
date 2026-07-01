@@ -1,0 +1,27 @@
+{
+  "postNo": "268309",
+  "researchPeriod": {
+    "totalText": "9개월 (지원기간)",
+    "totalMonths": 9,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "125백만원 (기반강화 유형 1개 과제)",
+    "totalScaleText": "125백만원",
+    "numAwardsText": "총 1개 내외 과제 선정 (기반강화 1개)"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "학교, 정부출연 연구기관, 민간단체 및 각종 법률에 의해 설립된 (공공)기관 등 개도국 공적개발원조 사업추진에 적합한 기관",
+    "targetSummary": "교육부 글로벌교육지원사업(ODA). 학교·정부출연연구기관·민간단체·(공공)기관 등 개도국 공적개발원조 사업추진에 적합한 기관이 대상이며, 과제책임자는 소속기관에 소속되어 기관장 명의로 신청 가능한 자로 전임여부와 무관."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "기반강화 ... 125백만원 9개월 1개",
+    "(선정 규모) 총 1개 내외 과제 선정",
+    "학교, 정부출연 연구기관, 민간단체 및 각종 법률에 의해 설립된 (공공)기관 등 개도국 공적개발원조 사업추진에 적합한 기관",
+    "(과제책임자) 상기 소속기관에 소속된 자로 기관장 명의로 신청 가능한 자"
+  ]
+}

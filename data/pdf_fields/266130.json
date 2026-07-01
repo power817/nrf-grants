@@ -1,0 +1,10 @@
+{
+  "postNo": "266130",
+  "researchPeriod": { "totalText": "(연구기간) 2026. 03. ~ 2026. 09. (7개월)", "totalMonths": 7, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "70백만원 (간접비 및 부가가치세 포함)", "totalScaleText": "70백만원", "numAwardsText": null },
+  "eligibility": { "employmentType": "전임+비전임", "employmentEvidence": "(신청자격) 대학(교)의 조교수 이상의 교원 / 정부출연연구기관의 선임급 이상의 연구원 / 상기 자격기준에 준하는 자 또는 해당과제의 수행을 위한 역량을 갖춘 자로 이와 유관한 경험이 풍부한 자(관련 경력 5년 이상)", "targetSummary": "대학의 조교수 이상 교원, 정부출연연구기관 선임급 이상 연구원, 또는 이에 준하는 관련 경력 5년 이상의 역량 보유자. 전임교원 중심이나 준하는 자까지 포함되어 비전임도 배제하지 않음." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.numAwardsText"],
+  "confidence": "high",
+  "evidenceQuotes": ["(연구기간) 2026. 03. ~ 2026. 09. (7개월)", "(지원규모) 70백만원 (간접비 및 부가가치세 포함)", "(신청자격) 대학(교)의 조교수 이상의 교원 / 정부출연연구기관의 선임급 이상의 연구원", "상기 자격기준에 준하는 자 또는 해당과제의 수행을 위한 역량을 갖춘 자로 이와 유관한 경험이 풍부한 자(관련 경력 5년 이상)"],
+  "source": "hwp"
+}

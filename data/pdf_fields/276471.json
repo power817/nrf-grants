@@ -1,0 +1,14 @@
+{
+  "postNo": "276471",
+  "researchPeriod": { "totalText": "3년 (연구개시일(안) : 2026.12.1., 중국은 '27.1.1.), 연구기간(2026.12.~2029.11.)", "totalMonths": 36, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "과제당 연간 60백만 원 이내(간접비 포함)", "totalScaleText": "과제당 연간 60백만 원 이내, 3년", "numAwardsText": "2~3과제" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "학술진흥법 제2조의 \"대학\"(부설연구소 포함) 및 \"연구기관\"에 소속된 \"연구자\"중 박사학위 소지자로, 해당 기관장 명의로 신청이 가능한 자", "targetSummary": "학술진흥법 제2조의 대학(부설연구소 포함) 및 연구기관에 소속된 박사학위 소지 연구자로 기관장 명의 신청 가능자. 전임 여부 조건은 없고 박사학위 소지가 요건." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "지원규모 : 2~3과제, 과제당 연간 60백만 원 이내(간접비 포함), 3년",
+    "연구개시일(안) : 2026.12.1. (중국은 '27.1.1.)",
+    "학술진흥법 제2조의 \"대학\"(부설연구소 포함) 및 \"연구기관\"에 소속된 \"연구자\"중 박사학위 소지자로, 해당 기관장 명의로 신청이 가능한 자",
+    "(타국 수행 제한) 신청자 중, 연구기간(2026.12.~2029.11.) 내 중국을 제외하고 타 국가에서 6개월 이상 장기 체류 예정(계획)인 연구자"
+  ]
+}

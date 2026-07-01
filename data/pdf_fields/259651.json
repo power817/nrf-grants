@@ -1,0 +1,14 @@
+{
+  "postNo": "259651",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "본 파일은 'AI-네이티브 첨단바이오 자율실험실 사업' 공고의 붙임3(생명자원 기탁 및 생명정보 등록에 관한 안내) 문서로, 지원 대상·연구기간·연구비 등 공고 핵심 정보는 포함되어 있지 않음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "[HWP파일명] 붙임 3. 생명자원 기탁 및 생명정보 등록에 관한 안내.hwpx",
+    "붙임3 생명자원 기탁 및 생명정보 등록에 관한 안내",
+    "(근거)「생명연구자원의 확보·관리 및 활용에 관한 법률」 제9조제2항"
+  ],
+  "source": "hwp"
+}

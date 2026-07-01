@@ -1,0 +1,13 @@
+{
+  "postNo": "272193",
+  "researchPeriod": { "totalText": "연구기간(연구개시일): 3년(36개월) (’26.10월 중)", "totalMonths": 36, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연간 연구비 60백만원", "totalScaleText": "총 연구비 180백만원", "numAwardsText": "선정규모 12개 내외" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "(연구책임자)「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로,「국가연구개발혁신법」제6조 및 제7조에 의거 요건을 갖춘 자", "targetSummary": "한-중 공동연구로, 국가연구개발혁신법상 연구개발기관(대학·연구소·기업 등)에 소속된 연구자를 대상으로 하며 중국 측 연구자와 동일 분야로 공동 신청하고 전임 여부는 요구하지 않는다." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "자유공모 ①BT, ②ICT, ③Renewable Energy, ④Medical Science, ⑤Aerospace, ⑥Climate Change(adaptation) 연구기간 3년(36개월) (’26.10월 중) 연간 연구비 60백만원 (총 연구비 180백만원) 선정규모 12개 내외",
+    "(연구책임자)「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로,「국가연구개발혁신법」제6조(연구개발기관의 책임과 역할) 및 제7조(연구자의 책임과 역할)에 의거 요건을 갖춘 자",
+    "○ (연구개발과제 수의 제한) 동 사업은 국가연구개발사업 내 연구과제 수 상한 제도(3책5공)를 적용하지 않음."
+  ]
+}

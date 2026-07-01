@@ -1,0 +1,38 @@
+{
+  "postNo": "274787",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "불명",
+    "employmentEvidence": null,
+    "targetSummary": "2026년도 5차 바이오·의료기술개발사업(첨단GW바이오) 신규과제 사전공고 및 연구자 의견수렴 안내 문서로, 세부 내용이 표(<표>) 형태로만 구성되어 텍스트로 추출된 본문에는 신청자격·연구비·연구기간 정보가 나타나지 않는다."
+  },
+  "notFound": [
+    "researchPeriod.totalText",
+    "researchPeriod.totalMonths",
+    "researchPeriod.byStageText",
+    "researchPeriod.firstYearText",
+    "funding.perYearPerProjectText",
+    "funding.totalScaleText",
+    "funding.numAwardsText",
+    "eligibility.employmentType",
+    "eligibility.employmentEvidence"
+  ],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "2026년도 5차 바이오·의료기술개발사업(첨단GW바이오) 신규과제 사전공고 내역 및 연구자의견수렴 안내(차세대바이오단 소관)",
+    "□ 바이오·의료기술개발사업(1개 내역사업) 신규과제 목록",
+    "※ 담당 PM : 정성원 단장(차세대바이오)",
+    "※ 담당 PM은 기획 당시 PM을 기준으로 명시하며, 담당 PM 및 기획위원은 해당 과제 신청 및 참여가 제한됨."
+  ],
+  "source": "hwp"
+}

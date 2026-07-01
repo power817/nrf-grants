@@ -1,0 +1,27 @@
+{
+  "postNo": "260817",
+  "researchPeriod": {
+    "totalText": "보호연구 연구기간 5년",
+    "totalMonths": 60,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "보호연구 공동 2.8억원(간접비 포함), 단독 1억원(간접비 포함) / 연간",
+    "totalScaleText": "보호연구 15 내외, 지원예산 2,100백만원 내외",
+    "numAwardsText": "15개 내외"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "보호연구 지원대상: 대학연구자(전임∙비전임교원, 박사후연구원).",
+    "targetSummary": "기초학문의 다양성·균형성 유지와 국가 차원의 보호·육성이 필요한 분야 연구인력 양성을 위해, 대학연구자(전임·비전임교원, 박사후연구원)를 대상으로 지원하는 단독/공동 연구 사업."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "보호 연구 기초학문의 다양성 및 균형성을 유지하고, 국가 차원의 보호∙육성이 필요한 분야의 연구인력 양성을 지원",
+    "지원대상 대학연구자 (전임∙비전임교원, 박사후연구원)",
+    "공동 2.8억원(간접비 포함) / 단독 1억원(간접비 포함), 연구기간 5년",
+    "보호연구 15 내외 2,100 내외"
+  ]
+}

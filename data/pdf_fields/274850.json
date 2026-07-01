@@ -1,0 +1,12 @@
+{
+  "postNo": "274850",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": null },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence", "eligibility.targetSummary"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "본 첨부파일(PDF파일명: 참고. IRIS 연구자 가입 등 안내 매뉴얼.pdf)은 학술지 지원사업 공고문이 아닌 IRIS/KRI 회원가입·연구자정보 등록 안내 매뉴얼임.",
+    "범부처통합연구지원시스템(IRIS) 회원가입 절차, KRI 데이터 이관 절차, 국가연구자번호 신규발급 등 시스템 가입 안내만 포함되어 있어 연구기간·연구비·신청자격 정보가 없음."
+  ]
+}

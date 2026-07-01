@@ -1,0 +1,15 @@
+{
+  "postNo": "276095",
+  "researchPeriod": { "totalText": "전체 사업기간 2026. 9. 1. ~ 2030. 2. 28.(4년)", "totalMonths": 42, "byStageText": "1차년도: 2026.9.1.~2027.2.28, 2차년도: 2027.3.1.~2028.2.28, 3차년도: 2028.3.1.~2029.2.28, 4차년도: 2029.3.1.~2030.2.28", "firstYearText": "2026년도 사업기간 2026. 9. 1. ~ 2027. 2. 28.(6개월)" },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "지역성장 인재양성체계(앵커) 5극 3특 공유대학 사업 / 공유대학 주관대학, 참여대학, 지자체, 지역앵커센터 등 기관 대상 사업계획서", "targetSummary": "교육부 지역성장 인재양성체계(앵커) 5극 3특 공유대학 사업의 사업계획서 작성 서식 문서. 지자체·주관대학·참여대학·지역앵커센터 등 기관(컨소시엄) 대상이며 개인 연구자의 전임 여부는 무관." },
+  "notFound": ["funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "전체 사업기간 2026. 9. 1. ~ 2030. 2 28.(4년)",
+    "2026년도 사업기간 2026. 9. 1. ~ 2027. 2. 28.(6개월)",
+    "1차년도: 2026.9.1. ~ 2027.2.28, 2차년도: 2027.3.1. ~ 2028.2.28, 3차년도: 2028. 3.1. ~ 2029. 2.28, 4차년도: 2029.3.1. ~ 2030.2.28",
+    "참여주체 지자체 / 지역앵커센터 / 주관기관 ○○대학교 / 참여대학 ○○대학교 외 ○개"
+  ],
+  "source": "hwp"
+}

@@ -1,0 +1,27 @@
+{
+  "postNo": "260181",
+  "researchPeriod": {
+    "totalText": "지원기간 : 3년(2026.10.1.~2029.9.30.)",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "과제당 연간 100백만원 내외",
+    "totalScaleText": "과제당 연간 100백만원 내외, 3년간 지원 (오스트리아 측: 과제당 연간 100,000 EUR 내외, 3년간 지원 예정)",
+    "numAwardsText": "5과제 내외"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "「국가연구개발혁신법」제2조 제3항에 해당하는 기관 및 단체에 속한 연구자",
+    "targetSummary": "「국가연구개발혁신법」제2조 제3항에 해당하는 기관 및 단체에 속한 연구자. 한-오스트리아(FWF) 국제공동연구 형태로 지원하며, 연구과제 수 상한제(3책 5공) 적용."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "ㅇ 지원기간 : 3년(2026.10.1.~2029.9.30.)",
+    "ㅇ 지원규모 : 5과제 내외, 과제당 연간 100백만원 내외",
+    "ㅇ「국가연구개발혁신법」제2조 제3항에 해당하는 기관 및 단체에 속한 연구자",
+    "ㅇ 본 사업은 연구과제 수 상한제(3책 5공)의 적용을 받음"
+  ]
+}

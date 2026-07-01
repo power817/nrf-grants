@@ -1,0 +1,33 @@
+{
+  "postNo": "261308",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": "사업기간/예산(정부출연금): '26년~'30년 / '26년 16.5억원 (과제별 연구비 표는 원문에서 <표>로 비어 있어 추출 불가)",
+    "numAwardsText": "치매의료기술연구개발사업(세부사업) 총 6개 과제 내외"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자",
+    "targetSummary": "국가연구개발혁신법 제2조제3호 및 기초연구진흥법 제14조에서 정하는 대학·출연연·기업(기업부설연구소 보유) 등 연구개발기관과 소속 연구자. 전임 여부 조건은 없음."
+  },
+  "notFound": [
+    "researchPeriod.totalText",
+    "researchPeriod.totalMonths",
+    "researchPeriod.byStageText",
+    "researchPeriod.firstYearText",
+    "funding.perYearPerProjectText"
+  ],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "사업기간/예산(정부출연금): '26년~'30년 / '26년 16.5억원",
+    "지원 분야: 치매의료기술연구개발사업(세부사업) 총 6개 과제 내외",
+    "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자"
+  ],
+  "source": "hwp"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nrf-grants",
+  "version": "0.1.0",
+  "description": "한국연구재단(NRF) 신규사업공모 수집기 — 연구비 공고를 구조화된 데이터로 수집",
+  "main": "src/collect.js",
+  "scripts": {
+    "collect": "node src/collect.js",
+    "collect:list": "node src/collect.js --list-only",
+    "merge": "node src/merge_fields.js",
+    "web:data": "node src/build_web_data.js",
+    "web": "node server.js",
+    "test": "node tests/parse.test.js"
+  },
+  "keywords": ["nrf", "연구비", "grants", "scraper"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

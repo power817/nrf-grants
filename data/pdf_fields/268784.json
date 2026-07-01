@@ -1,0 +1,26 @@
+{
+  "postNo": "268784",
+  "researchPeriod": {
+    "totalText": "1~3년 (도전형)",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "연간 1억원 내외 (직접비 0.8억원 이내)",
+    "totalScaleText": null,
+    "numAwardsText": "도전형 50개 내외"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "도전형 지원대상: 대학 이공분야 교원(전임·비전임)",
+    "targetSummary": "과기정통부 기초연구사업 2차 핵심연구(도전형). 지원대상은 대학 이공분야 교원(전임·비전임)으로 새로운 패러다임 전환·개념 발견 등 개척형 연구를 수행하는 연구책임자."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "도전형 ... 대학 이공분야 교원(전임·비전임) 1~3년 1억원 내외 (직접비 0.8억원 이내)",
+    "기존의 연구 수행이 많이 이루어진 영역보다는 새로운 패러다임 전환, 새로운 개념 발견 및 정립 등 개척형 연구 수행을 지원",
+    "도전형 50개 내외"
+  ]
+}

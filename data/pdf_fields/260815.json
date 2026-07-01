@@ -1,0 +1,27 @@
+{
+  "postNo": "260815",
+  "researchPeriod": {
+    "totalText": "미래도전연구지원 연구기간 5년",
+    "totalMonths": 60,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "미래도전연구지원 연간 연구비 1.6억원(간접비 포함)",
+    "totalScaleText": "미래도전연구지원 35 내외, 지원예산 2,800백만원 내외",
+    "numAwardsText": "35개 내외"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "미래도전연구지원 지원대상: 대학연구자(전임∙비전임교원, 박사후연구원).",
+    "targetSummary": "새로운 영역을 개척할 수 있는 도전적·협력·다학제 연구를 지원하며, 대학연구자(전임·비전임교원, 박사후연구원)를 대상으로 하는 개인연구 사업."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "미래도전 연구지원 새로운 영역을 개척할 수 있는 도전적이고 잠재력이 풍부하며 패러다임의 변화를 가져올 수 있는 협력∙다학제 연구 지원",
+    "지원대상 대학연구자 (전임∙비전임교원, 박사후연구원)",
+    "연간 연구비 1.6억원(간접비 포함), 연구기간 5년",
+    "미래도전연구지원 35 내외 2,800 내외"
+  ]
+}

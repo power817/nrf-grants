@@ -1,0 +1,7 @@
+{
+  "postNo": "266325",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "부총리 겸 과학기술정보통신부장관 상장 및 포상금 1,000만원", "totalScaleText": null, "numAwardsText": "포상인원 : 6명 (2026년 7월~12월 월별 1명 선정)" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "국내의 대학교, 공공연구기관, 기업부설연구소 등에서 실제 연구개발 업무에 종사하는 한국인 및 한국계 과학기술인", "targetSummary": "대한민국 과학기술인상 포상(추천) 사업. 국내 대학교·공공연구기관·기업부설연구소 등에서 실제 연구개발 업무에 종사하는 한국인 및 한국계 과학기술인이 후보 대상이며, 연구비 지원이 아닌 포상 사업임." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"], "confidence": "high", "evidenceQuotes": ["국내의 대학교, 공공연구기관, 기업부설연구소 등에서 실제 연구개발 업무에 종사하는 한국인 및 한국계 과학기술인", "포상인원 : 6명 (2026년 7월~12월 월별 1명 선정)", "포상내용 : 부총리 겸 과학기술정보통신부장관 상장 및 포상금 1,000만원"], "source": "hwp"
+}

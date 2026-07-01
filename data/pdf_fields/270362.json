@@ -1,0 +1,15 @@
+{
+  "postNo": "270362",
+  "researchPeriod": { "totalText": "6년(3+3)", "totalMonths": 72, "byStageText": "6년(3+3) 단계 구성", "firstYearText": "회계연도 일치 기준에 따라 1차년도 연구비는 연간 지원규모의 50%(6개월분) 지급" },
+  "funding": { "perYearPerProjectText": "과제당/연 260백만원 이내(간접비 별도)", "totalScaleText": null, "numAwardsText": "신규 3과제 이내" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "지원대상 : 대학부설연구소 및 국내연구기관(한국연구재단 KCI 홈페이지에 등록된 연구소)", "targetSummary": "정부 정책과제에 대응한 대학부설연구소 및 국내연구기관(KCI 등록 연구소)을 지원대상으로 하는 연구소 지원사업. 전임/비전임 개인 신분보다 연구소 단위 지원으로 전임여부와 무관." },
+  "notFound": ["totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "인문사회 문제해결형 6년 3과제 / 260 백만원 이내 이내 / 지원대상 대학부설연구소 및 국내연구기관",
+    "6년(3+3) 지원기간, 지원규모(과제당/연) 260백만원 이내 (간접비별도)",
+    "회계연도 일치 기준에 따라 1차년도 연구비는 연간 지원규모의 50%(6개월분) 지급",
+    "* 한국연구재단 KCI 홈페이지(www.kci.go.kr)에 등록된 연구소",
+    "(연구소) 집단연구군 내 1개 과제만 신청 및 수행 가능"
+  ]
+}

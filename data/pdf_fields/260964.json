@@ -1,0 +1,10 @@
+{
+  "postNo": "260964",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": "RFP별 총연구기간/차년도별 연구기간은 '과제별 지원기간 및 연구비(정부출연금) 규모' 표에 제시되나 HWP 텍스트 추출 시 <표>로 처리되어 세부 기간값 확인 불가", "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": "사업기간/예산(정부출연금): '04년~계속 / '26년 4,429.76억원, 지원 분야 바이오·의료기술개발(세부사업) 총 7개 과제 내외", "numAwardsText": "총 7개 과제 내외 (RFP별 선정 예정 과제 수는 <표>로 추출되지 않음)" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구개발기관의 자격 -「국가연구개발혁신법」제2조 제3호 및 동법 시행령 제2조에서 정하는 기관 및 단체 / 연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자", "targetSummary": "국가연구개발혁신법 제2조 제3호 및 기초연구진흥법 제14조 제1항에서 정하는 기관·단체(대학, 출연연, 기업부설연구소 등)와 그에 소속된 연구책임자. 전임 여부 조건은 명시되지 않음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.firstYearText", "funding.perYearPerProjectText"],
+  "confidence": "medium",
+  "evidenceQuotes": ["사업기간/예산(정부출연금): '04년~계속 / '26년 4,429.76억원", "지원 분야: 바이오·의료기술개발(세부사업) 총 7개 과제 내외", "연구개발기관의 자격 -「국가연구개발혁신법」제2조 제3호 및 동법 시행령 제2조에서 정하는 기관 및 단체", "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자", "과제별 지원기간 및 연구비(정부출연금) 규모 <표> (RFP별 연구기간·연구비 표가 텍스트 추출 시 누락됨)"],
+  "source": "hwp"
+}

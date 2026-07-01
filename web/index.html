@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NRF 연구비 공고 추천</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">NRF</span>
+        <div>
+          <h1>연구비 공고 추천</h1>
+          <p class="brand-sub">한국연구재단 신규사업공모 · <span id="meta-count">…</span></p>
+        </div>
+      </div>
+      <a class="source-link" id="source-link" href="#" target="_blank" rel="noopener">원본 공고 페이지 ↗</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Profile / filter panel -->
+    <aside class="panel">
+      <h2 class="panel-title">내 정보</h2>
+
+      <label class="field">
+        <span class="field-label">신분 구분</span>
+        <select id="f-employment">
+          <option value="">전체 (무관)</option>
+          <option value="전임">전임교원 / 전임연구원</option>
+          <option value="비전임">비전임 · 박사후 · 연수</option>
+          <option value="학생">대학원생 · 학생</option>
+          <option value="기관">기관 · 기업 · 연구소</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span class="field-label">관심 분야 · 키워드</span>
+        <input id="f-keyword" type="text" placeholder="예: 인공지능, 기초연구, 국제협력" />
+        <span class="field-hint">쉼표로 여러 개 입력</span>
+      </label>
+
+      <label class="field">
+        <span class="field-label">사업 분야</span>
+        <select id="f-category"><option value="">전체 분야</option></select>
+      </label>
+
+      <label class="field">
+        <span class="field-label">연구비 규모 (사업금액)</span>
+        <select id="f-amount">
+          <option value="0">무관</option>
+          <option value="100000000">1억 이상</option>
+          <option value="500000000">5억 이상</option>
+          <option value="1000000000">10억 이상</option>
+          <option value="5000000000">50억 이상</option>
+        </select>
+      </label>
+
+      <label class="check">
+        <input id="f-open" type="checkbox" checked />
+        <span>접수 가능한 공고만 (접수중·접수대기)</span>
+      </label>
+
+      <label class="field">
+        <span class="field-label">정렬</span>
+        <select id="f-sort">
+          <option value="match">추천 매칭순</option>
+          <option value="deadline">마감 임박순</option>
+          <option value="amount">연구비 큰순</option>
+          <option value="recent">최근 등록순</option>
+        </select>
+      </label>
+
+      <button id="f-reset" class="reset-btn" type="button">초기화</button>
+
+      <p class="panel-note">
+        전임/비전임·연구기간은 공고문 PDF에서 추출한 값이며,
+        일부 공고(HWP 첨부만 제공)는 해당 항목이 비어 있을 수 있습니다.
+      </p>
+    </aside>
+
+    <!-- Results -->
+    <section class="results">
+      <div class="results-head">
+        <span id="result-count" class="result-count">…</span>
+        <span id="result-note" class="result-note"></span>
+      </div>
+      <div id="cards" class="cards"></div>
+      <div id="empty" class="empty" hidden>조건에 맞는 공고가 없습니다. 필터를 완화해 보세요.</div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

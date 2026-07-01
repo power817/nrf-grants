@@ -1,0 +1,13 @@
+{
+  "postNo": "273053",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "본 파일은 실제 공고문이 아니라 '국가연구개발혁신법 시행령 [별표 2] 연구개발비 사용용도'로, 직접비·간접비 등 연구비 사용 항목을 규정한 법령 별표이다. 연구기간/지원규모/지원자격 등 공고 정보는 포함되어 있지 않다." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "[PDF파일명] [붙임4] 국가연구개발사업 연구개발비 사용용도(24.12.31).pdf",
+    "[공고문신뢰도] 낮음(공고문이 아닐 수 있음)",
+    "■ 국가연구개발혁신법 시행령 [별표 2] <개정 2024. 12. 31.> 연구개발비 사용용도(제20조제1항 관련)"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "postNo": "265452",
+  "researchPeriod": {
+    "totalText": "2026.3.~2026.12. (10)",
+    "totalMonths": 10,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "80백만원 (간접비 및 부가가치세 포함)",
+    "totalScaleText": "80백만원",
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "연구책임자의 자격 - 제출마감일 기준, 「국가연구개발혁신법」제2조제3항에서 정하는 기관 및 단체에 소속된 연구자 ... ※ 연구과제 수행 기간 중 (정년)퇴직, 이직 등이 예상되어 연구책임자의 자격요건이 상실될 가능성이 있는 경우, 과제 신청 전 반드시 사전 문의",
+    "targetSummary": "원자력진흥법 제12조제1항, 혁신법 제2조제3항 기관·단체(대학, 출연연 등)와 그 소속 연구자를 대상으로 하는 정책연구용역(위탁)과제. 전임 여부 명시 없음."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.numAwardsText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "제6차 원자력연구개발 5개년 계획 성과분석 및 제7차 계획 수립을 위한 기획 연구 2026.3.~2026.12. (10) 80 일반",
+    "연구비*(백만원) 80 * 간접비 및 부가가치세 포함",
+    "연구책임자의 자격 - 제출마감일 기준, 「국가연구개발혁신법」제2조제3항에서 정하는 기관 및 단체에 소속된 연구자",
+    "「원자력진흥법」제12조제1항, 「국가연구개발혁신법」제2조제3항에 의거한 기관 및 단체"
+  ],
+  "source": "hwp"
+}

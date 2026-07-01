@@ -1,0 +1,26 @@
+{
+  "postNo": "262657",
+  "researchPeriod": {
+    "totalText": null,
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": null,
+    "numAwardsText": null
+  },
+  "eligibility": {
+    "employmentType": "불명",
+    "employmentEvidence": null,
+    "targetSummary": null
+  },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence", "eligibility.targetSummary"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "첨부된 PDF는 공고문이 아니라 'IRIS 연구자 가입 등 안내 매뉴얼'(KRI 데이터 이관, IRIS 회원가입, 국가연구자번호 발급 절차 안내)임.",
+    "[PDF파일명] 참고. IRIS 연구자 가입 등 안내 매뉴얼.pdf / [공고문신뢰도] 낮음(공고문이 아닐 수 있음)",
+    "본 문서에는 연구기간, 과제당 지원규모, 선정 과제 수, 전임/비전임 자격 등 학술대회 지원사업 공고 핵심정보가 전혀 포함되어 있지 않음."
+  ]
+}

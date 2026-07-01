@@ -1,0 +1,13 @@
+{
+  "postNo": "271511",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "본 파일은 연구비 지원 공고문이 아니라 '2026 병역지정업체 복무관리 매뉴얼(박사과정 전문연구요원)'로, 전문연구요원 편입·복무·전직 등 병역제도 안내 문서이다. 연구비/연구기간/과제 선정 등 공고 정보는 포함되어 있지 않다." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "[PDF파일명] 붙임4. (참조) 2026년 (박사과정) 전문연구요원 복무관리 매뉴얼.pdf",
+    "[공고문신뢰도] 낮음(공고문이 아닐 수 있음)",
+    "2026 병역지정업체 복무관리 매뉴얼 박사과정 전문연구요원"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "postNo": "266577",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": "과제별 기간(개월): 사용후핵연료 선진 재처리 6개월, 대형가속기법 시행령 개정안 8개월, 대형가속기 구축·운영 노하우 8개월, 교육용 원자로 안전관리 지표개발 8개월", "firstYearText": null },
+  "funding": { "perYearPerProjectText": "과제별 정부지원연구개발비(백만원): 50, 40, 40, 40 (과제당 40~50백만원)", "totalScaleText": "총 4개 과제(170백만원)", "numAwardsText": "총 4개 과제" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "제출마감일 기준,「국가연구개발혁신법」제2조제3항에서 정하는 기관 및 단체에 소속된 연구자", "targetSummary": "「원자력진흥법」·「국가연구개발혁신법」상 기관 및 단체(국가·지자체 연구기관, 대학, 출연연, 회사 등)와 그에 소속된 연구자. 전임 여부 제한 없음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": ["원자력 분야 기획․정책연구(기술 및 동향에 대한 조사․분석 등) 관련 총 4개 과제(170백만원)", "사용후핵연료 선진 재처리를 위한 핵심기술 개발전략 수립 50 6", "제출마감일 기준,「국가연구개발혁신법」제2조제3항에서 정하는 기관 및 단체에 소속된 연구자", "합    계 (4개 과제) 170"],
+  "source": "hwp"
+}

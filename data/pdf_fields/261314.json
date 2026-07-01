@@ -1,0 +1,27 @@
+{
+  "postNo": "261314",
+  "researchPeriod": {
+    "totalText": "지원기간 : 3년(2026.10.1.~2029.9.30.)",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "과제당 연간 240백만원 내외",
+    "totalScaleText": "4과제 내외, 과제당 연간 240백만원 내외 (핀란드 측 별도 지원)",
+    "numAwardsText": "4과제 내외"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "「국가연구개발혁신법」제2조 제3항에 해당하는 기관 및 단체에 속한 연구자",
+    "targetSummary": "국가연구개발혁신법 제2조 제3항에 해당하는 기관·단체에 속한 연구자를 대상으로 하는 한-핀란드 국제공동연구(자유공모)로, 전임/비전임 구분 조건은 없음."
+  },
+  "notFound": [],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "ㅇ 지원기간 : 3년(2026.10.1.~2029.9.30.)",
+    "ㅇ 지원규모 : 4과제 내외, 과제당 연간 240백만원 내외",
+    "ㅇ「국가연구개발혁신법」제2조 제3항에 해당하는 기관 및 단체에 속한 연구자",
+    "ㅇ 공모방식 : 자유공모 / ㅇ 사업형태 : 공동연구 / ㅇ 지원분야 : 6G(NextG), 양자기술"
+  ]
+}

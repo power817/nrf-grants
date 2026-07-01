@@ -1,0 +1,28 @@
+{
+  "postNo": "266233",
+  "researchPeriod": {
+    "totalText": "연구개발과제의 협약 기간은 전체 연구개발기간으로 함 (RFP별 상이, 상세사항은 연구개발과제별 RFP(붙임1) 참고)",
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "RFP별 상이 (상세사항은 연구개발과제별 RFP(붙임1) 상세 내역 참고). 과제별 신청 가능한 정부지원 연구개발비의 최대범위는 사업별 과제제안요구서별로 명기된 지원 금액을 초과할 수 없음",
+    "totalScaleText": null,
+    "numAwardsText": "선정평가 결과 종합평점이 70점 이상이면서 고득점 순으로 지원대상 과제 선정 (구체적 과제 수는 RFP별 상이)"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "주관연구개발기관 또는 공동연구개발기관으로 수행하려는 기관은 「국가연구개발혁신법」제2조제3호의 각 목 및 시행령 제2조제1항에 해당하는 기관(대학, 정부출연연구기관, 회사, 중소기업, 비영리법인, 병원급 의료기관 등)이어야 함. 연구책임자는 해당 연구개발기관에 소속된 연구 인력.",
+    "targetSummary": "국가연구개발혁신법상 연구개발기관(국공립연구기관, 대학, 출연연, 회사, 중소기업, 비영리법인, 보건의료기술분야 연구기관·병원급 의료기관 등). 기업(기관) 대상 R&D 사업으로 전임여부와 무관하며, 연구책임자는 해당 기관 소속 연구인력."
+  },
+  "notFound": ["researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "ㅇ 연구개발과제의 협약 기간은 전체 연구개발기간으로 함",
+    "상세사항은 연구개발과제별 RFP(붙임1) 상세 내역 참고",
+    "ㅇ 주관연구개발기관 또는 공동연구개발기관으로 수행하려는 기관은 「국가연구개발혁신법」제2조제3호의 각 목 및 「국가연구개발혁신법 시행령」제2조제1항에 해당하는 아래의 기관이어야 함",
+    "ㅇ 과제제안요구서(RFP)에서 별도 명시한 경우를 제외하고는 연구책임자는 해당 연구개발기관에 소속된 연구 인력이어야 함",
+    "ㅇ 선정평가 결과 종합평점이 70점 이상이면서 고득점 순으로 ‘지원대상 과제’ 선정"
+  ]
+}

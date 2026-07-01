@@ -1,0 +1,29 @@
+{
+  "postNo": "264390",
+  "researchPeriod": {
+    "totalText": "제안과제별 소요연구기간: 8개월/6개월/8개월/8개월/6개월/8개월",
+    "totalMonths": null,
+    "byStageText": "제안서(1) 8개월, (2) 6개월, (3) 8개월, (4) 8개월, (5) 6개월, (6) 8개월",
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "제안과제별 소요연구비: 50/50/40/40/40/40 백만원",
+    "totalScaleText": null,
+    "numAwardsText": "제안과제 6건(제안서 1~6)"
+  },
+  "eligibility": {
+    "employmentType": "불명",
+    "employmentEvidence": null,
+    "targetSummary": "본 문서는 2026년 상반기 원자력정책연구사업 과제제안서(제안과제 6건의 연구목적·내용·기간·연구비)로, 신청자격·전임 여부 등 지원 대상 관련 내용은 포함되어 있지 않음."
+  },
+  "notFound": ["researchPeriod.totalMonths", "researchPeriod.firstYearText", "funding.totalScaleText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "제안과제명 소형모듈원자로(SMR) 특별법 시행령 제정 지원방안 연구 / 소요연구기간 8개월 / 소요연구비 50백만원",
+    "사용후핵연료 선진 재처리를 위한 핵심기술 개발 전략 수립 / 소요연구기간 6개월 / 소요연구비 50백만원",
+    "수요 기반 대형가속기법 및 시행령 개정안 수립 연구 / 소요연구기간 8개월 / 소요연구비 40백만원",
+    "동남권지역 특화 중입자가속기 활용기술 확장 R&D 사업 / 소요연구기간 6개월 / 소요연구비 40백만원",
+    "교육용 원자로 안전 성능 평가에 기반한 안전관리 지표 개발 연구 / 소요연구기간 8개월 / 소요연구비 40백만원"
+  ],
+  "source": "hwp"
+}

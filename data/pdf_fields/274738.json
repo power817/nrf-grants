@@ -1,0 +1,33 @@
+{
+  "postNo": "274738",
+  "researchPeriod": {
+    "totalText": "KOBRA-I(국내초청형): 기간 내(26.08.~27.12.) 초빙 프로그램을 고려하여 연구기간 설정 / KOBRA-TA(해외 학술대회 참석): 기간 내(26.08.~26.12.)",
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "KOBRA-I: 교류회당 4천만 원(간접비 10% 포함) 이내 / KOBRA-TA: 1인당 3백만 원 내외",
+    "totalScaleText": "KOBRA-I: 6개 교류회 내외 / KOBRA-TA: 30명 내외(분기별 배분하여 지원)",
+    "numAwardsText": "KOBRA-I: 6개 교류회 내외 / KOBRA-TA: 30명 내외"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "(신청자격) 첨단바이오 분야의 국내 연구기관 또는 기업 소속 연구자 / KOBRA-TA (지원대상) 국내기관 소속 유망연구자(대학원생, 석사 또는 박사학위 취득 후 5년 이내 연구자). 신진연구자: 최초 조교수 이상의 직위로 임용된 지 5년 이내인 교원 또는 박사학위 취득 후 10년 이내 연구자",
+    "targetSummary": "첨단바이오 분야 국내 연구기관·기업 소속 연구자(신진연구자·교원 포함)와 유망연구자(대학원생, 석·박사학위 취득 후 5년 이내)를 대상으로 하는 국제 연구교류 프로그램으로, 전임 교원과 비전임(대학원생·박사후) 연구자가 모두 대상이다."
+  },
+  "notFound": [
+    "researchPeriod.totalMonths",
+    "researchPeriod.byStageText",
+    "researchPeriod.firstYearText"
+  ],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "(신청자격) 첨단바이오 분야의 국내 연구기관 또는 기업 소속 연구자",
+    "(지원규모) 6개 교류회 내외, 교류회당 4천만 원(간접비 10% 포함) 이내",
+    "(지원규모) 30명 내외(분기별 배분하여 지원), 1인당 3백만 원 내외",
+    "(지원대상) 국내기관 소속 유망연구자(대학원생, 석사 또는 박사학위 취득 후 5년 이내 연구자)",
+    "*신진연구자: 온라인 신청마감일 기준 최초 조교수 이상의 직위로 임용된 지 5년 이내인 교원 또는 박사학위 취득 후 10년 이내 연구자"
+  ],
+  "source": "hwp"
+}

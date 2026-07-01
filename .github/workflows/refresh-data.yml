@@ -1,0 +1,33 @@
+name: Refresh NRF data
+
+# Re-scrapes the NRF listing daily and rebuilds web/data.json so deadlines/status
+# stay fresh. PDF/HWP field extraction (연구기간·전임여부) is NOT re-run here — it
+# needs the LLM step; committed data/pdf_fields/*.json are reused via `merge`.
+
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 06:00 KST daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: npm run collect        # live scrape -> data/announcements.json
+      - run: npm run merge          # + committed data/pdf_fields -> announcements_enriched.json
+      - run: npm run web:data       # -> web/data.json
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/announcements.json data/announcements_enriched.json web/data.json
+          git diff --staged --quiet || git commit -m "chore: refresh NRF data ($(date -u +%Y-%m-%d))"
+          git push

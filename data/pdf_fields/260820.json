@@ -1,0 +1,27 @@
+{
+  "postNo": "260820",
+  "researchPeriod": {
+    "totalText": "기본연구B(포용형) 연구기간 3년",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "기본연구B(포용형) 연간 연구비 0.6억원(간접비 포함)",
+    "totalScaleText": "기본연구B(포용형) 790 내외, 지원예산 23,700백만원 내외",
+    "numAwardsText": "790개 내외"
+  },
+  "eligibility": {
+    "employmentType": "비전임",
+    "employmentEvidence": "기본연구B(포용형) 지원대상: 대학연구자(비전임교원, 박사후연구원). 사업목적: 대학 소속 비전임교원, 박사후연구원에게 다양한 연구경험과 기회를 제공함으로써 이공분야 연구저변 확대.",
+    "targetSummary": "대학 소속 비전임교원 및 박사후연구원(대학연구자)을 대상으로 다양한 연구경험 기회를 제공해 이공분야 연구저변을 확대하는 개인연구 사업."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "기본연구B(포용형) 대학 소속 비전임교원, 박사후연구원에게 다양한 연구경험과 기회를 제공함으로써 이공분야 연구저변 확대",
+    "지원대상 대학연구자(비전임교원, 박사후연구원)",
+    "연간 연구비 0.6억원(간접비 포함), 연구기간 3년",
+    "기본연구B(포용형) 790 내외 23,700 내외"
+  ]
+}

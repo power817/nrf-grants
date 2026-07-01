@@ -1,0 +1,9 @@
+{
+  "postNo": "259599",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": null },
+  "notFound": ["researchPeriod", "funding", "eligibility"],
+  "confidence": "low",
+  "evidenceQuotes": ["[공고문신뢰도] 낮음(공고문이 아닐 수 있음)", "[PDF파일명] 붙임8. [필수사전작업] IRIS 연구자 안내 매뉴얼.pdf", "본 문서는 중견연구자지원사업의 IRIS 연구자 가입 안내 매뉴얼로, 연구기간·연구비·지원자격 등 공고 핵심정보가 포함되어 있지 않음"]
+}

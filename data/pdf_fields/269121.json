@@ -1,0 +1,28 @@
+{
+  "postNo": "269121",
+  "researchPeriod": {
+    "totalText": "6년 (3+3년)",
+    "totalMonths": 72,
+    "byStageText": "3+3년 (단계평가를 통한 계속 지원여부 결정)",
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "AI4S&T 연구센터: 연 20억원 이내 / S&T4AI 연구센터: 연 10억원 이내(간접비 포함)",
+    "totalScaleText": null,
+    "numAwardsText": "AI4S&T 연구센터 14개, S&T4AI 연구센터 2개, 중앙거점(별도)"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "연구책임자: 국내 대학 소속 이공계 분야 전임교원 / 참여(공동)연구원: 국내 대학 소속 교원(전임·비전임)",
+    "targetSummary": "고등교육법 제2조의 대학(4대 과기원 및 국립대학법인 포함) 소속 연구진 대상. 연구센터 연구책임자는 국내대학 이공분야 전임교원이어야 하며, 참여(공동)연구원은 국내 대학 소속 교원(전임·비전임)으로 구성. 중앙거점은 정출연·직할연 또는 대학이 주관."
+  },
+  "notFound": ["funding.totalScaleText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "고등교육법 제2조의 대학 6년 (4대 과기원 및 국립대학법인 포함) (3+3년)",
+    "AI4S&T 14개 연 20억원 이내 연구센터",
+    "S&T4AI 2개 연 10억원 이내 연구센터",
+    "연구책임자 ▪ 국내 대학 소속 이공계 분야 전임교원",
+    "참여(공동)연구원 ▪ 국내 대학 소속 교원(전임·비전임)"
+  ]
+}

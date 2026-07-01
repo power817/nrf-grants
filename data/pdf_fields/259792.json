@@ -1,0 +1,14 @@
+{
+  "postNo": "259792",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "2026년도 바이오·의료기술개발사업(바이오혁신기반조성) 등 신규과제 2차 사전공고 내역 및 연구자 의견수렴 안내 문서(차세대바이오단 소관). 본문 세부 내역이 표(<표>)로만 되어 있어 텍스트로 추출된 내용이 없어 연구기간·연구비·지원대상 등을 판단할 근거가 없음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "□ 바이오·의료기술개발사업(1개 내역사업) 등 신규과제 목록",
+    "※ 담당 PM : 정길생 겸직(차세대바이오)",
+    "※ 담당 PM은 기획 당시 PM을 기준으로 명시하며, 담당 PM 및 기획위원은 해당 과제 신청 및 참여가 제한됨."
+  ],
+  "source": "hwp"
+}

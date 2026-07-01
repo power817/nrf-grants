@@ -1,0 +1,27 @@
+{
+  "postNo": "260808",
+  "researchPeriod": {
+    "totalText": "박사후국내연수 연구기간 1~3년",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "박사후국내연수 연간 연구비 0.6억원(간접비 포함)",
+    "totalScaleText": "박사후국내연수 150 내외, 지원예산 4,500백만원 내외",
+    "numAwardsText": "150개 내외"
+  },
+  "eligibility": {
+    "employmentType": "비전임",
+    "employmentEvidence": "박사후국내연수 지원대상: 국내∙외 대학 박사학위 취득 후 5년 이내인 자(2021.9.1. 이후 취득), 대한민국 국적자. 박사학위 취득 후 국내외 대학·연구소 등에서 연구를 수행할 수 있도록 연수 지원.",
+    "targetSummary": "국내·외 대학에서 박사학위 취득 후 5년 이내(2021.9.1. 이후 취득)인 대한민국 국적자를 대상으로 국내 대학·연구소 등에서의 연수를 지원하는 학문후속세대 개인연구 사업."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "박사후 국내연수 국내∙외 대학 박사학위 취득 후 5년 이내인 자 (2021.9.1. 이후 취득) ※대한민국 국적자",
+    "박사학위 취득 후 국내외 대학ㆍ연구소 등에서 연구를 수행할 수 있도록 연수 지원",
+    "연간 연구비 0.6억원(간접비 포함), 연구기간 1~3년",
+    "박사후국내연수 150 내외 4,500 내외"
+  ]
+}

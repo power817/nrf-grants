@@ -1,0 +1,7 @@
+{
+  "postNo": "266324",
+  "researchPeriod": { "totalText": "지원기간 : 12개월", "totalMonths": 12, "byStageText": null, "firstYearText": "지원기간 : 12개월" },
+  "funding": { "perYearPerProjectText": "지원규모 : 100백만원 (간접비는 직접비의 5%로 계상)", "totalScaleText": "100백만원", "numAwardsText": "선정규모 : 1개 과제" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구책임자의 자격: 「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자, 「국가연구개발혁신법」제6조 및 제7조에 의거 요건을 갖춘 자", "targetSummary": "국가연구개발혁신법 제2조 제3호에서 정하는 기관·단체(대학, 출연연 등)에 소속된 연구자. 생명과학 분야 코디네이터 등 공동연구개발기관으로 구성. 전임 여부에 대한 명시적 제한은 없음." },
+  "notFound": ["byStageText"], "confidence": "high", "evidenceQuotes": ["지원규모 : 100백만원", "선정규모 : 1개 과제", "지원기간 : 12개월", "연구책임자의 자격 - 「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자"], "source": "hwp"
+}

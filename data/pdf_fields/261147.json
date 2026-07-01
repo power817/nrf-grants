@@ -1,0 +1,16 @@
+{
+  "postNo": "261147",
+  "researchPeriod": { "totalText": "2026. 2. 1. ~ 2026. 8. 31. (7개월)", "totalMonths": 7, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연구용역비 90,000천원(9천만원)", "totalScaleText": "연구용역비 90,000천원(9천만원), 예산과목: 한계도전R&D프로젝트(2026)", "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "정책연구용역과제(공모) 제안요청서(RFP)로, '혁신·도전형 R&D 활성화를 위한 프로그램형 사업 기획 연구'를 수행할 대상. 본 RFP 문서에는 신청자격·전임여부 등 지원 대상 요건이 기재되어 있지 않음." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "정책연구용역과제 제안요청서(RFP)",
+    "과 제 명 혁신·도전형 R&D 활성화를 위한 프로그램형 사업 기획 연구",
+    "과제구분 공모 ( ○ )",
+    "연구기간 2026. 2. 1. ~ 2026. 8. 31. (7개월)",
+    "연구용역비 90,000천원"
+  ],
+  "source": "hwp"
+}

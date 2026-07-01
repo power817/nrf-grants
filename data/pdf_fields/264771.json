@@ -1,0 +1,14 @@
+{
+  "postNo": "264771",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": "본 텍스트는 2026년도 바이오·의료기술개발 사업 공고의 붙임3 '생명자원 기탁 및 생명정보 등록에 관한 안내' 문서로, 지원대상·연구기간·연구비 등 공모 핵심 정보를 담고 있지 않음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentType", "eligibility.employmentEvidence"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "붙임3 생명자원 기탁 및 생명정보 등록에 관한 안내",
+    "(취지) 연구성과를 효율적으로 관리하고 유통하여 산·학·연 연구자와 국민들이 보다 쉽고 편리하게 이용할 수 있도록 기탁등록보존기관에 생명자원을 기탁 또는 생명정보를 등록",
+    "(근거) 「생명연구자원의 확보·관리 및 활용에 관한 법률」 제9조제2항"
+  ],
+  "source": "hwp"
+}

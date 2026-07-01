@@ -1,0 +1,27 @@
+{
+  "postNo": "268768",
+  "researchPeriod": {
+    "totalText": "1~3년 (전략형)",
+    "totalMonths": 36,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": "연간 2억원 내외 (직접비 1.6억원 이내)",
+    "totalScaleText": null,
+    "numAwardsText": "전략형 60개 내외 (아젠다 중 'Science of AI'는 9개 내외 선정)"
+  },
+  "eligibility": {
+    "employmentType": "전임+비전임",
+    "employmentEvidence": "전략형 지원대상: 대학 이공분야 교원(전임·비전임) 및 국(공)립·정부출연연구소의 연구원",
+    "targetSummary": "과기정통부 기초연구사업 2차 핵심연구(전략형). 지원대상은 대학 이공분야 교원(전임·비전임) 및 국(공)립·정부출연연구소의 연구원. 12대 국가전략기술 및 미래 유망 분야 등 국가·사회적 수요 대응 전략적 기초연구를 지원하며 지정 아젠다 목록에 한하여 신청 가능."
+  },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "전략형 ... 대학 이공분야 교원(전임·비전임) 및 국(공)립‧정부 출연연구소의 연구원 1~3년 2억원 내외 (직접비 1.6억원 이내)",
+    "12대 국가전략기술 및 미래 유망 분야 등 국가·사회적 수요에 대응하기 위한 전략적 기초연구 지원",
+    "전략형 60개 내외",
+    "핵심연구(전략형) 아젠다 중 “Science of AI\"의 경우 9개 내외를 선정"
+  ]
+}

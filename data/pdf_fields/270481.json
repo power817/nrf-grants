@@ -1,0 +1,14 @@
+{
+  "postNo": "270481",
+  "researchPeriod": { "totalText": "1년('26.8.1.)", "totalMonths": 12, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "총 연구비 60백만원(간접비 5% 적용)", "totalScaleText": null, "numAwardsText": "4개 내외" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구책임자 :「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로,「국가연구개발혁신법」제6조 및 제7조에 의거 요건을 갖춘 자", "targetSummary": "국가연구개발혁신법 제2조 제3항에서 정하는 연구개발기관(대학, 정부출연연, 기업 등)에 소속된 연구자가 연구책임자로 신청 가능. 전임 여부에 관한 제한 규정은 없음." },
+  "notFound": ["byStageText", "firstYearText", "totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "자유공모 ①ICT, ②에너지, ③식량, ④기반연구 1년(’26.8.1.) 60백만원 4개 내외",
+    "*** 간접비 : 「국가연구개발사업 연구개발비 사용 기준｣에 의거 5% 적용",
+    "연구책임자 :「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로,「국가연구개발혁신법」제6조(연구개발기관의 책임과 역할) 및 제7조(연구자의 책임과 역할)에 의거 요건을 갖춘 자",
+    "연구개발기관 :「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체"
+  ]
+}

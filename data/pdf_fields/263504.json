@@ -1,0 +1,16 @@
+{
+  "postNo": "263504",
+  "researchPeriod": { "totalText": "총 연구기간 : 2026.4.1. ∼ 2027.1.31.(10개월)", "totalMonths": 10, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연구비 : 1,000백만원(10억원) ※ 간접비는 직접비의 5%로 계상 (1과제 기준)", "totalScaleText": "연구비 1,000백만원(10억원)", "numAwardsText": "선정과제수 : 1과제" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자 -「국가연구개발혁신법」제6조 및 제7조에 의거 요건을 갖춘 자", "targetSummary": "국가연구개발혁신법상 대학·출연연·기업 등 연구개발기관과 그 소속 연구자를 대상으로 하는 G20 K-Research Innovation 국제협력 신규과제. 전임 여부와 무관하게 기관 소속 연구자가 연구책임자 자격." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "선정과제수 : 1과제",
+    "연구비 : 1,000백만원 ※ 간접비는 직접비의 5%로 계상",
+    "총 연구기간 : 2026.4.1. ∼ 2027.1.31.(10개월)",
+    "주관연구기관의 자격 -「국가연구개발혁신법」제2조 제3호 및 동법 시행령 제2조에서 정하는 기관 및 단체",
+    "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자"
+  ],
+  "source": "hwp"
+}

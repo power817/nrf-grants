@@ -1,0 +1,15 @@
+{
+  "postNo": "269597",
+  "researchPeriod": { "totalText": "연수기간 : 협약기간 (2026.9.1. ~ 2027.8.31.) 내 3개월", "totalMonths": 12, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "과제당 총 15백만원 이내 (항공료 3백만원, 체재비 월 4백만원×3개월=12백만원)", "totalScaleText": "과제당 총 15백만원 이내", "numAwardsText": "선정규모 3명 이내" },
+  "eligibility": { "employmentType": "비전임", "employmentEvidence": "상기 신청 가능한 기관 및 단체에 소속된 연구자 중 국내 대학원 박사과정 재학생 및 박사후연구원", "targetSummary": "국내 대학원 박사과정 재학생 및 박사후연구원(대한민국 국적 소지자)이 대상인 한-스위스 인력교류(연수) 사업으로, 전임교원이 아닌 신진연구자(연수생) 대상이다. 한-스위스 양국에 지도교수가 있어야 한다." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "ㅇ (연수기간) 협약기간 (2026.9.1. ~ 2027.8.31.) 내 3개월",
+    "ㅇ (지원내용) 과제당 총 15백만원 이내 - 지급 기준은 항공료 3백만원, 체재비 월 4백만원(3개월 총 12백만원)",
+    "ㅇ (선정규모) 3명 이내",
+    "연구책임자의 자격 - 상기 신청 가능한 기관 및 단체에 소속된 연구자 중 국내 대학원 박사과정 재학생 및 박사후연구원",
+    "휴학생 및 졸업생, 동일 사업을 통해 지원받은 이력이 있는 연구자는 지원 불가"
+  ]
+}

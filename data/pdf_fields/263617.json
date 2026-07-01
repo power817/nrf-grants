@@ -1,0 +1,10 @@
+{
+  "postNo": "263617",
+  "researchPeriod": { "totalText": "사업 기간 ’26~’30년 (지원기간·연차별 연구비는 표로 제시, 본문 텍스트에서 표 내용 미추출)", "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": "사업 기간/예산(정부출연금) : ’26~’30년 / 총 460억원 내외(’26년 45억원)", "numAwardsText": "총 2개 과제 내외" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자", "targetSummary": "「국가연구개발혁신법」·「기초연구진흥 및 기술개발지원에 관한 법률」상 연구개발기관(대학·출연연·회사·기업부설연구소 등)과 그에 소속된 연구자. 전임 여부 제한 없음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText"],
+  "confidence": "medium",
+  "evidenceQuotes": ["사업 기간/예산(정부출연금) : ’26~’30년 / 총 460억원 내외(’26년 45억원)", "□ 지원 분야 : 총 2개 과제 내외", "연구책임자의 자격 -「국가연구개발혁신법」제2조 제3호에서 정하는 기관 및 단체에 소속된 연구자", "연구개발기관의 자격 -「국가연구개발혁신법」제2조 제3호 및 동법 시행령 제2조에서 정하는 기관 및 단체"],
+  "source": "hwp"
+}

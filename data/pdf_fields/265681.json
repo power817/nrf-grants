@@ -1,0 +1,16 @@
+{
+  "postNo": "265681",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연구비는 간접비 및 부가가치세를 포함한 총 금액임(구체 금액은 별첨 표에 기재).", "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "전임+비전임", "employmentEvidence": "대학(교)의 전임 이상의 교수인 자 / 정부출연연구기관의 선임연구원급 이상인 자 / 상기 자격기준에 준하는 자 또는 해당과제의 수행을 위한 역량을 갖춘 자로 이와 유관한 경험이 풍부한 자(관련 경력 5년 이상)", "targetSummary": "대학 전임 이상 교수, 정부출연연구기관 선임연구원급 이상, 또는 이에 준하거나 관련 경력 5년 이상의 역량 보유자를 대상으로 하는 정책연구용역과제 공모." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText", "funding.numAwardsText"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "대학(교)의 전임 이상의 교수인 자",
+    "정부출연연구기관의 선임연구원급 이상인 자",
+    "상기 자격기준에 준하는 자 또는 해당과제의 수행을 위한 역량을 갖춘 자로 이와 유관한 경험이 풍부한 자(관련 경력 5년 이상)",
+    "연구비는 간접비 및 부가가치세를 포함한 총 금액임.",
+    "연구기간 및 연구비는 평가결과 및 담당부서와의 협의에 따라 조정될 수 있음."
+  ],
+  "source": "hwp"
+}

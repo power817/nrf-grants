@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+__pycache__/
+.claude/settings.local.json
+
+# downloaded binaries + raw extracted text (large, regenerable)
+data/pdfs/
+data/hwps/
+data/pdf_text/
+data/hwp_text/
+data/pdf_text.json
+
+*.log
+.DS_Store

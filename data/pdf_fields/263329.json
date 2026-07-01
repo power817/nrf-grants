@@ -1,0 +1,28 @@
+{
+  "postNo": "263329",
+  "researchPeriod": {
+    "totalText": "’26년~’30년 (사업기간)",
+    "totalMonths": null,
+    "byStageText": null,
+    "firstYearText": null
+  },
+  "funding": {
+    "perYearPerProjectText": null,
+    "totalScaleText": "총 95억 원 내외(’26년 15억원)",
+    "numAwardsText": "3개 과제 내외"
+  },
+  "eligibility": {
+    "employmentType": "무관/해당없음",
+    "employmentEvidence": "연구책임자의 자격 -「국가연구개발혁신법」제2조제3호에서 정하는 기관 및 단체에 소속된 연구자 ※ 단, 기업의 경우 「기초연구진흥 및 기술개발지원에 관한 법률」제14조의2 제1항에 따라 인정받은 기업부설 연구소 또는 연구개발전담부서를 보유한 기관 및 단체에 소속된 연구자",
+    "targetSummary": "혁신법 제2조제3호 및 시행령 제2조 기관·단체(대학, 출연연, 기업부설연구소 등)와 그 소속 연구자. 전임 여부 요건은 명시되지 않음."
+  },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "□ 사업기간/예산(정부출연금): ’26년~’30년 / 총 95억 원 내외(’26년 15억원)",
+    "□ 지원 규모: 3개 과제 내외",
+    "연구책임자의 자격 -「국가연구개발혁신법」제2조제3호에서 정하는 기관 및 단체에 소속된 연구자",
+    "※ 단, 기업의 경우 「기초연구진흥 및 기술개발지원에 관한 법률」제14조의2 제1항에 따라 인정받은 기업부설 연구소 또는 연구개발전담부서를 보유한 기관 및 단체에 소속된 연구자"
+  ],
+  "source": "hwp"
+}

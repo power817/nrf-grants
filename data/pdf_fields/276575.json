@@ -1,0 +1,15 @@
+{
+  "postNo": "276575",
+  "researchPeriod": { "totalText": "지원기간 : 1년", "totalMonths": 12, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "과제당 연 20백만원 이내 (간접비는 직접비의 5% 이내 적용)", "totalScaleText": null, "numAwardsText": "선정규모 : 5과제" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로서 HFSP 연구 그랜트(Grant) 프로그램에 참여를 준비 중인 자", "targetSummary": "국가연구개발혁신법상 연구개발기관(대학, 출연연 등)에 소속되어 HFSP 연구 그랜트 프로그램 참여(컨소시엄·제안서)를 준비 중인 연구자. 전임 여부 조건은 명시되지 않음." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "지원기간 : 1년",
+    "지원규모 : 과제당 연 20백만원 이내 ※ 간접비는 직접비의 5% 이내 적용",
+    "선정규모 : 5과제",
+    "「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로서 HFSP 연구 그랜트(Grant) 프로그램에 참여를 준비 중인 자"
+  ],
+  "source": "hwp"
+}

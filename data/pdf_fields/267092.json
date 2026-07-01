@@ -1,0 +1,10 @@
+{
+  "postNo": "267092",
+  "researchPeriod": { "totalText": "2026. 3. ~ 2027. 8. (1년 6개월)", "totalMonths": 18, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "권역별 선정 교육연구단 상한액 10억 원(1년 기준). 대학원생 연구장학금(석사 월 100만원 이상, 박사 월 160만원 이상, 박사수료 월 130만원 이상), 신진연구인력 인건비 월 300만원 이상 등", "totalScaleText": null, "numAwardsText": "동남·대경권 1개 내외, 중부·강원권 1개 내외, 호남·전북·제주권 1개 내외(권역별 1개 내외)" },
+  "eligibility": { "employmentType": "전임+비전임", "employmentEvidence": "참여교수 ◦ 주관대학 및 참여대학의 학과(부) 소속 전임교원 / 참여대학원생 ◦ 전일제 대학원생 / 신진연구인력 ◦ 박사후과정생 및 계약교수는 박사학위 소지자", "targetSummary": "지역 거점국립대학(주관) 9개와 권역 내 참여대학이 연합한 교육연구단이 신청 단위이며, 구성원은 교육연구단장·참여교수(주관·참여대학 소속 전임교원), 참여대학원생(전일제), 신진연구인력(박사후과정생·계약교수)로 구성됨." },
+  "notFound": ["researchPeriod.byStageText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": ["지원 기간 ◦ 2026. 3. ~ 2027. 8. (1년 6개월)", "참여교수 ◦ 주관대학 및 참여대학의 학과(부) 소속 전임교원", "참여대학원생 ◦ 참여교수가 지도하는 주관대학 및 참여대학의 학과(부) 소속 전일제 대학원생", "신진연구인력 ◦ 박사후과정생 및 계약교수는 박사학위 소지자이어야 하며", "선정 예정 교육연구단 수 1개 내외 / 상한액(1년 기준) 10억 원"],
+  "source": "hwp"
+}

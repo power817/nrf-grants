@@ -1,0 +1,10 @@
+{
+  "postNo": "266616",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": null },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText", "eligibility.employmentEvidence", "eligibility.targetSummary"],
+  "confidence": "low",
+  "evidenceQuotes": ["[서식 3] 정책연구과제 신청서", "연구 기 간       년  월  일부터        년    월   일까지 (     개월)", "연  구  비    일금               원정  (₩           원정)"],
+  "source": "hwp"
+}

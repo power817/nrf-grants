@@ -1,0 +1,13 @@
+{
+  "postNo": "273489",
+  "researchPeriod": { "totalText": "연구기간(연구개시일): 1~5년 (’26.9.1.)", "totalMonths": 60, "byStageText": null, "firstYearText": "연구개시일 ’26.9.1." },
+  "funding": { "perYearPerProjectText": "연간연구비 0.7억원 내외 (직접비 0.56억원 이내)", "totalScaleText": null, "numAwardsText": "신규 선정과제 수 2개 내외" },
+  "eligibility": { "employmentType": "전임", "employmentEvidence": "지원대상: 국내대학 전임 교원", "targetSummary": "기초연구사업 핵심연구 기본연구B(정책형) 신규과제로, 국내대학 전임 교원을 지원대상으로 하며 기술주도 성장 정책 연구를 자유공모로 수행한다." },
+  "notFound": ["researchPeriod.byStageText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "핵심연구 기본연구B(정책형) 지원대상 국내대학 전임 교원 연구기간 1~5년 (’26.9.1.) 연간연구비 0.7억원 내외(직접비 0.56억원 이내) 신규 선정과제 수 2개 내외",
+    "□ 공모방식 : 자유공모",
+    "○ (1인1과제) 핵심연구 기본연구B(정책형) 사업 1인 1과제 수행 제한 기준 적용함(기존 최소참여율 적용은 폐지)"
+  ]
+}

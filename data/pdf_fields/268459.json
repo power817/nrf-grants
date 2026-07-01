@@ -1,0 +1,14 @@
+{
+  "postNo": "268459",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "제9조(협약 체결) ① 정책과제의 추진이 확정된 경우에 재단은 해당 연구책임자가 소속하는 주관연구기관의 산학협력단장(또는 기관장)과 정책연구협약서에 따라 협약을 체결하여야 한다.", "targetSummary": "본 첨부문서는 특정 공고문이 아니라 한국연구재단의 일반 「정책연구과제 관리지침」으로, 주관연구기관(산학협력단/기관장)과 협약하여 연구책임자가 수행하는 정책연구과제의 운영·관리 절차를 규정함. MSR 예타 대응 공모의 연구기간·연구비·선정규모 등 구체 정보는 이 문서에 없음." },
+  "notFound": ["researchPeriod.totalText", "researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.perYearPerProjectText", "funding.totalScaleText", "funding.numAwardsText"],
+  "confidence": "low",
+  "evidenceQuotes": [
+    "정책연구과제 관리지침 ... 제1조(목적) 이 지침은 한국연구재단(이하 재단)에서 발주하여 외부에 위탁하는 정책연구과제를 효율적으로 운영·관리하기 위해 필요한 제반 사항을 규정함을 목적으로 한다.",
+    "[공고문신뢰도] 낮음(공고문이 아닐 수 있음)",
+    "제7조(공고 및 신청) ① 공모과제를 추진하고자 하는 추진부서장은 해당 정책과제의 추진계획을 수립하여 재단 홈페이지를 통해 7일 이상 공고하여야 하며",
+    "제15조(간접비) 연구책임자 소속기관에 지급하는 간접비는 ... 인건비와 연구활동경비의 합계의 6%를 초과할 수 없다."
+  ]
+}

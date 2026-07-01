@@ -1,0 +1,13 @@
+{
+  "postNo": "272194",
+  "researchPeriod": { "totalText": "연구기간(연구개시일): 3년(36개월) (’26.10월 중)", "totalMonths": 36, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "연간 연구비 500백만원", "totalScaleText": "총 연구비 1,500백만원", "numAwardsText": "선정규모 2개" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "(연구책임자)「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로,「국가연구개발혁신법」제6조 및 제7조에 의거 요건을 갖춘 자", "targetSummary": "한-중 산·학·연 대형 공동연구로, 국가연구개발혁신법상 연구개발기관(대학·연구소·기업)에 소속된 연구자를 대상으로 하며 최소 3개 기관(산·학·연 각 1개)의 컨소시엄 구성이 필수이고 전임 여부는 요구하지 않는다." },
+  "notFound": ["researchPeriod.byStageText", "researchPeriod.firstYearText"],
+  "confidence": "high",
+  "evidenceQuotes": [
+    "자유공모 ①BT, ②ICT 연구기간 3년(36개월) (’26.10월 중) 연간 연구비 500백만원 (총 연구비 1,500백만원) 선정규모 2개",
+    "(연구책임자)「국가연구개발혁신법」제2조 제3항에서 정하는 기관 및 단체에 소속된 연구자로,「국가연구개발혁신법」제6조(연구개발기관의 책임과 역할) 및 제7조(연구자의 책임과 역할)에 의거 요건을 갖춘 자",
+    "(컨소시엄) 주관연구개발과제 및 공동 또는 위탁연구개발과제로 구성하되 최소 3개 기관(대학, 국·공립연구소 및 출연(연), 기업 각 1개 기관) 참여 필수"
+  ]
+}

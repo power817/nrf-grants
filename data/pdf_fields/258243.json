@@ -1,0 +1,10 @@
+{
+  "postNo": "258243",
+  "researchPeriod": { "totalText": "지원기간: EMJM 참여 확정 5년 이내 / EMDM 참여 확정 1년 이내", "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": "EMJM 참여 확정: 과제당 연간 80백만원 내외 / EMDM 참여 확정: 과제당 40백만원 내외", "totalScaleText": null, "numAwardsText": "EMJM 2과제 내외, EMDM 2과제 내외" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "「고등교육법」 제2조에 의한 고등교육기관으로, Erasmus+ EMJM 혹은 EMDM 프로그램 컨소시엄에 공식 협력기관(Partner Organization)으로 참여가 확정된 기관 소속 연구자", "targetSummary": "고등교육법 제2조에 의한 고등교육기관 소속으로, Erasmus+ EMJM 또는 EMDM 컨소시엄에 공식 협력기관으로 참여가 확정된 기관 소속 연구자." },
+  "notFound": ["researchPeriod.totalMonths", "researchPeriod.byStageText", "researchPeriod.firstYearText", "funding.totalScaleText"],
+  "confidence": "high",
+  "evidenceQuotes": ["지원금액 과제당 연간 80백만원 내외 / 과제당 40백만원 내외", "지원과제 수 2과제 내외 / 2과제 내외", "지원기간 5년 이내 / 1년 이내", "｢고등교육법｣ 제2조에 의한 고등교육기관으로, Erasmus+ EMJM 혹은 EMDM 프로그램 컨소시엄에 공식 협력기관(Partner Organization)으로 참여가 확정된 기관 소속 연구자"],
+  "source": "hwp"
+}

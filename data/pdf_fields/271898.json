@@ -1,0 +1,15 @@
+{
+  "postNo": "271898",
+  "researchPeriod": { "totalText": "RFP별 상이(예: 기초원천1 8개월, 기초원천2 14개월, 기초원천4 18개월 등). 대부분 6~18개월 단기 기획연구", "totalMonths": null, "byStageText": "다수 RFP(기초원천1~6, 미래전략1~5, 연구혁신1, 미래인재1)로 구성되며 각 과제별 연구기간이 별도 명시됨", "firstYearText": null },
+  "funding": { "perYearPerProjectText": "RFP별 상이(예: 70백만원, 250백만원, 200백만원, 80백만원, 60백만원, 100백만원 등 과제별 총액)", "totalScaleText": null, "numAwardsText": "RFP 다수(기초원천1~6, 미래전략1~5, 연구혁신1, 미래인재1 등 12개 과제)" },
+  "eligibility": { "employmentType": "무관/해당없음", "employmentEvidence": "연구자 선정방식 : 1. 일반경쟁입찰(○) 2. 수의계약( )", "targetSummary": "과학기술분야 연구기획과제(정책연구) 공모로, 일반경쟁입찰 방식으로 연구자를 선정. 개별 연구자의 전임/비전임 여부에 관한 규정은 문서에 없음(기획연구 용역 성격)." },
+  "notFound": ["totalMonths", "firstYearText", "totalScaleText"],
+  "confidence": "medium",
+  "evidenceQuotes": [
+    "70백만원/ 2026. 5월 ~ 2026. 12월 (8개월)",
+    "250백만원 / 2026. 5월 ~ 2027. 6월 (14개월)",
+    "200백만원 / 2026. 5월 ~ 2027. 11월 (18개월)",
+    "연구자 선정방식 1. 일반경쟁입찰(○) 2. 수의계약( )",
+    "RFP 번호 기초원천1 ~ 미래인재1 (다수 기획과제로 구성)"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "postNo": "270696",
+  "researchPeriod": { "totalText": null, "totalMonths": null, "byStageText": null, "firstYearText": null },
+  "funding": { "perYearPerProjectText": null, "totalScaleText": null, "numAwardsText": null },
+  "eligibility": { "employmentType": "불명", "employmentEvidence": null, "targetSummary": null },
+  "notFound": ["researchPeriod", "funding", "eligibility.employmentType", "eligibility.targetSummary"],
+  "confidence": "low",
+  "evidenceQuotes": ["내용이 중복이 중복되는 것 같습니다.", "이후 나오는 용어를 모두 “생명(연) 인체유래물은행”으로 통일하겠습니다", "이준학 단장님, 박지환 교수님 검토 부탁드립니다."],
+  "source": "hwp"
+}
