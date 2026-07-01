@@ -76,6 +76,12 @@ a { color: inherit; }
 .badge.wait { color: var(--amber); background: var(--amber-bg); }
 .badge.closed { color: var(--gray); background: var(--gray-bg); }
 .badge.emp { color: var(--brand); background: var(--brand-soft); }
+.badge.role { font-weight: 700; }
+.badge.r-전임 { color: #1f4fd8; background: #e6ecff; }
+.badge.r-비전임 { color: #0f766e; background: #d7f2ee; }
+.badge.r-학생 { color: #7c3aed; background: #efe6ff; }
+.badge.r-기관 { color: #b45309; background: #fdeccf; }
+.badge.r-제한없음 { color: #4b5563; background: #eceef2; }
 .dday { font-size: 12px; font-weight: 700; color: #d1483a; }
 .dday.soon { color: #e0342a; }
 .dday.none { color: var(--ink-soft); font-weight: 500; }

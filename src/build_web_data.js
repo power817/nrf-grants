@@ -30,6 +30,7 @@ function compact(a) {
     amountRaw: a.amountRaw ?? null,
     modified: !!a.modified,
     detailUrl: a.detailUrl,
+    eligibleRoles: a.eligibleRoles || null,
     attachments: (a.attachments || []).map((x) => ({ name: x.name, url: x.url })),
   };
   if (pf) {

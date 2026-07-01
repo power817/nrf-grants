@@ -104,23 +104,26 @@ function downloadICS(item) {
 }
 
 // ---------- matching / scoring ----------
-const EMP_MATCH = {
-  '전임': ['전임', '전임+비전임'],
-  '비전임': ['비전임', '전임+비전임'],
-  '학생': ['비전임'],
-  '기관': ['무관/해당없음'],
-};
+function itemRoles(item) { return Array.isArray(item.eligibleRoles) ? item.eligibleRoles : []; }
+// keep an item when no role is chosen, or its roles include the chosen one,
+// or roles are unknown/제한없음 (don't hide those). Definite other-role → filtered out.
+function roleMatches(item, role) {
+  if (!role) return true;
+  const roles = itemRoles(item);
+  if (roles.length === 0) return true;
+  return roles.includes(role) || roles.includes('제한없음');
+}
 
 function scoreItem(item, f) {
   let s = 0;
   // status recency
   if (item.status === '접수중') s += 2;
   else if (item.status === '접수대기') s += 1;
-  // employment fit (soft)
+  // 지원자격(역할) fit
   if (f.emp) {
-    const wanted = EMP_MATCH[f.emp] || [];
-    if (item.employmentType && wanted.includes(item.employmentType)) s += 4;
-    else if (item.employmentType && item.employmentType !== '불명') s -= 1.5;
+    const roles = itemRoles(item);
+    if (roles.includes(f.emp) || roles.includes('제한없음')) s += 4;
+    else if (roles.length && !roles.includes('기타')) s -= 1.5;
   }
   // keyword hits
   if (f.keywords.length) {
@@ -156,6 +159,7 @@ function apply() {
   const f = readFilters();
   let items = state.data.items.filter((it) => {
     if (f.openOnly && !(it.status === '접수중' || it.status === '접수대기')) return false;
+    if (!roleMatches(it, f.emp)) return false;
     if (f.category && it.topCategory !== f.category) return false;
     if (f.amount && !(it.amountKRW && it.amountKRW >= f.amount)) return false;
     if (!keywordMatch(it, f.keywords)) return false;
@@ -193,8 +197,11 @@ function cardHTML(item) {
   const perYear = fu.perYearPerProjectText;
   const apply = item.applyStart && item.applyEnd
     ? `${item.applyStart.slice(0, 16)} ~ ${item.applyEnd.slice(0, 16)}` : '—';
-  const empBadge = item.employmentType && item.employmentType !== '무관/해당없음' && item.employmentType !== '불명'
-    ? `<span class="badge emp">${esc(item.employmentType)}</span>` : '';
+  // separated 지원자격 role chips (one per eligible role)
+  const roleBadges = itemRoles(item)
+    .filter((r) => r !== '기타')
+    .map((r) => `<span class="badge role r-${esc(r)}">${esc(r)}</span>`)
+    .join('');
 
   const atts = item.attachments || [];
   const fileChips = atts.slice(0, 3).map((a) =>
@@ -209,7 +216,7 @@ function cardHTML(item) {
   <article class="card">
     <div class="card-top">
       ${statusBadge(item.status)}
-      ${empBadge}
+      ${roleBadges}
       <span class="dday ${dd.cls}">${dd.text}</span>
       <span class="card-cat">${esc((item.categoryPath || []).join(' › ') || item.category)}</span>
     </div>
@@ -218,7 +225,7 @@ function cardHTML(item) {
       ${metaRow('연구비', amount ? `${amount}${perYear ? ` · 과제당 ${esc(perYear)}` : ''}` : '<span>미표기</span>', !amount)}
       ${metaRow('연구기간', period ? esc(period) : '첨부 공고문 참조', !period)}
       ${metaRow('신청기간', apply)}
-      ${metaRow('지원대상', item.targetSummary ? esc(item.targetSummary) : (item.employmentType ? esc(item.employmentType) : '상세 참조'), !item.targetSummary && !item.employmentType)}
+      ${metaRow('지원대상', item.targetSummary ? esc(item.targetSummary) : (itemRoles(item).length ? esc(itemRoles(item).join(', ')) : '상세 참조'), !item.targetSummary && !itemRoles(item).length)}
     </div>
     <div class="card-foot">
       ${atts.length ? `<div class="files">${fileChips}${moreFiles}</div>` : '<span></span>'}

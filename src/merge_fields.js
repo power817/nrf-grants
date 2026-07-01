@@ -38,11 +38,28 @@ function main() {
     }
   }
 
+  // eligibleRoles (separated 지원자격 roles), keyed by postNo
+  const rolesDir = path.resolve('data/eligroles');
+  const rolesByPost = new Map();
+  if (fs.existsSync(rolesDir)) {
+    for (const f of fs.readdirSync(rolesDir).filter((x) => x.endsWith('.json'))) {
+      try {
+        const r = JSON.parse(fs.readFileSync(path.join(rolesDir, f), 'utf8'));
+        if (Array.isArray(r.eligibleRoles)) rolesByPost.set(path.basename(f, '.json'), r.eligibleRoles);
+      } catch (e) {
+        /* skip */
+      }
+    }
+  }
+
   let enriched = 0;
   const empDist = {};
   let withPeriod = 0;
   let withFunding = 0;
+  const roleDist = {};
   for (const a of data.announcements) {
+    a.eligibleRoles = rolesByPost.get(a.postNo) || null;
+    if (a.eligibleRoles) for (const r of a.eligibleRoles) roleDist[r] = (roleDist[r] || 0) + 1;
     const pf = byPost.get(a.postNo);
     if (!pf) {
       a.pdfFields = null;
@@ -64,7 +81,8 @@ function main() {
   console.log(`announcements enriched with PDF fields: ${enriched} / ${data.announcements.length}`);
   console.log(`  with 연구기간(totalText): ${withPeriod}`);
   console.log(`  with 연구비(funding text): ${withFunding}`);
-  console.log('  전임/비전임 분포:', JSON.stringify(empDist, null, 0));
+  console.log('  전임/비전임(단일) 분포:', JSON.stringify(empDist, null, 0));
+  console.log('  eligibleRoles(다중) 분포:', JSON.stringify(roleDist, null, 0), `| 태그된 공고: ${rolesByPost.size}`);
   console.log(`saved -> ${args.out}`);
 }
 
