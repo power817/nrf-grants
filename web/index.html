@@ -2,9 +2,18 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>NRF 연구비 공고 추천</title>
+  <meta name="description" content="한국연구재단 신규사업공모를 지원자격·연구비·기간별로 조회하고 마감을 캘린더에 추가" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1f4fd8" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="NRF 공고" />
 </head>
 <body>
   <header class="topbar">
@@ -16,7 +25,10 @@
           <p class="brand-sub">한국연구재단 신규사업공모 · <span id="meta-count">…</span></p>
         </div>
       </div>
-      <a class="source-link" id="source-link" href="#" target="_blank" rel="noopener">원본 공고 페이지 ↗</a>
+      <div class="topbar-actions">
+        <button id="install-btn" class="install-btn" type="button" hidden>📲 앱 설치</button>
+        <a class="source-link" id="source-link" href="#" target="_blank" rel="noopener">원본 공고 ↗</a>
+      </div>
     </div>
   </header>
 
@@ -93,5 +105,26 @@
   </main>
 
   <script src="app.js"></script>
+  <script>
+    // PWA: service worker + 설치 프롬프트
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+    }
+    let deferredPrompt = null;
+    const installBtn = document.getElementById('install-btn');
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (installBtn) installBtn.hidden = false;
+    });
+    installBtn?.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      installBtn.hidden = true;
+    });
+    window.addEventListener('appinstalled', () => { if (installBtn) installBtn.hidden = true; });
+  </script>
 </body>
 </html>
