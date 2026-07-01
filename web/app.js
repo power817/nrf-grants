@@ -103,15 +103,19 @@ function downloadICS(item) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-// ---------- matching / scoring ----------
+// ---------- explode announcements into one entry per 지원자격(role) ----------
 function itemRoles(item) { return Array.isArray(item.eligibleRoles) ? item.eligibleRoles : []; }
-// keep an item when no role is chosen, or its roles include the chosen one,
-// or roles are unknown/제한없음 (don't hide those). Definite other-role → filtered out.
-function roleMatches(item, role) {
-  if (!role) return true;
-  const roles = itemRoles(item);
-  if (roles.length === 0) return true;
-  return roles.includes(role) || roles.includes('제한없음');
+const ROLE_ORDER = { '전임': 0, '비전임': 1, '학생': 2, '기관': 3, '기타': 9 };
+// A grant open to 전임+비전임+학생 becomes THREE separate entries (one per role).
+function buildEntries(items) {
+  const out = [];
+  for (const it of items) {
+    let roles = Array.isArray(it.eligibleRoles) ? [...new Set(it.eligibleRoles.filter((r) => r !== '기타'))] : [];
+    if (!roles.length) roles = ['기타']; // no doc / unclassified -> single '기타' entry
+    roles.sort((a, b) => (ROLE_ORDER[a] ?? 5) - (ROLE_ORDER[b] ?? 5));
+    for (const role of roles) out.push(Object.assign({}, it, { role }));
+  }
+  return out;
 }
 
 function scoreItem(item, f) {
@@ -119,12 +123,6 @@ function scoreItem(item, f) {
   // status recency
   if (item.status === '접수중') s += 2;
   else if (item.status === '접수대기') s += 1;
-  // 지원자격(역할) fit
-  if (f.emp) {
-    const roles = itemRoles(item);
-    if (roles.includes(f.emp) || roles.includes('제한없음')) s += 4;
-    else if (roles.length && !roles.includes('기타')) s -= 1.5;
-  }
   // keyword hits
   if (f.keywords.length) {
     const hay = (item.title + ' ' + item.category + ' ' + (item.targetSummary || '')).toLowerCase();
@@ -157,9 +155,9 @@ function readFilters() {
 
 function apply() {
   const f = readFilters();
-  let items = state.data.items.filter((it) => {
+  let items = state.entries.filter((it) => {
     if (f.openOnly && !(it.status === '접수중' || it.status === '접수대기')) return false;
-    if (!roleMatches(it, f.emp)) return false;
+    if (f.emp && it.role !== f.emp) return false; // 지원자격별로 분리된 항목 중 해당 역할만
     if (f.category && it.topCategory !== f.category) return false;
     if (f.amount && !(it.amountKRW && it.amountKRW >= f.amount)) return false;
     if (!keywordMatch(it, f.keywords)) return false;
@@ -197,11 +195,10 @@ function cardHTML(item) {
   const perYear = fu.perYearPerProjectText;
   const apply = item.applyStart && item.applyEnd
     ? `${item.applyStart.slice(0, 16)} ~ ${item.applyEnd.slice(0, 16)}` : '—';
-  // separated 지원자격 role chips (one per eligible role)
-  const roleBadges = itemRoles(item)
-    .filter((r) => r !== '기타')
-    .map((r) => `<span class="badge role r-${esc(r)}">${esc(r)}</span>`)
-    .join('');
+  // this entry represents a single 지원자격 role
+  const roleBadge = item.role && item.role !== '기타'
+    ? `<span class="badge role r-${esc(item.role)}">${esc(item.role)} 지원</span>`
+    : '';
 
   const atts = item.attachments || [];
   const fileChips = atts.slice(0, 3).map((a) =>
@@ -216,7 +213,7 @@ function cardHTML(item) {
   <article class="card">
     <div class="card-top">
       ${statusBadge(item.status)}
-      ${roleBadges}
+      ${roleBadge}
       <span class="dday ${dd.cls}">${dd.text}</span>
       <span class="card-cat">${esc((item.categoryPath || []).join(' › ') || item.category)}</span>
     </div>
@@ -243,8 +240,11 @@ function cardHTML(item) {
 function render(items, f) {
   els.cards.innerHTML = items.map(cardHTML).join('');
   els.count.textContent = `${items.length.toLocaleString()}건`;
-  const openN = items.filter((i) => i.status === '접수중').length;
-  els.note.textContent = items.length ? `· 접수중 ${openN}건` + (f.sort === 'match' ? ' · 추천 매칭순' : '') : '';
+  const uniquePosts = new Set(items.map((i) => i.postNo)).size;
+  const openN = new Set(items.filter((i) => i.status === '접수중').map((i) => i.postNo)).size;
+  els.note.textContent = items.length
+    ? `· 공고 ${uniquePosts}건을 지원자격별로 분리 · 접수중 ${openN}건`
+    : '';
   els.empty.hidden = items.length > 0;
 }
 
@@ -271,6 +271,7 @@ async function init() {
   }
   state.data = data;
   state.byPost = new Map(data.items.map((it) => [it.postNo, it]));
+  state.entries = buildEntries(data.items); // one entry per (공고 × 지원자격)
 
   $('#meta-count').textContent =
     `${data.collectedYears?.join('·') || ''} 공고 ${data.count}건 (연구기간·전임여부 ${data.enrichedCount}건)`;
