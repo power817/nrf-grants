@@ -3,7 +3,7 @@
   "collectedYears": [
     2026
   ],
-  "count": 279,
+  "count": 281,
   "announcements": [
     {
       "postNo": "264688",
@@ -26,7 +26,7 @@
       "detailApplyEnd": "2026-12-31 23:59",
       "registrant": "이길용",
       "regDate": "2026-02-27 09:36:49",
-      "views": 1394,
+      "views": 1397,
       "attachments": [
         {
           "name": "[붙임1] 2026년도 온라인 논문투고 심사시스템(JAMS) 보급사업 공고문.hwp",
@@ -80,7 +80,7 @@
       "detailApplyEnd": "2026-09-11 18:00",
       "registrant": "김보원",
       "regDate": "2026-08-04 17:00:54",
-      "views": 911,
+      "views": 1028,
       "attachments": [
         {
           "name": "붙임1. 2026년 전문대학 특성화 선도대학 육성사업 공고문.hwpx",
@@ -93,7 +93,115 @@
           "url": "https://www.nrf.re.kr/download/post/loading/151653"
         }
       ],
-      "bodyText": "공고내용 교육부 공고 제2026-318호 2026년 전문대학 특성화 선도대학 육성사업 공고 ｢2026년 전문대학 특성화 선도대학 육성사업 기본계획｣에 따라, 사업 선정 및 지원 계획을 붙임과 같이 공고합니다. 2026년 8월 4일 교육부 장관 최 교 진 한국연구재단 이사장 홍 원 화 · 첨부파일 붙임1. 2026년 전문대학 특성화 선도대학 육성사업 공고문.hwpx 붙임2. 2026년 전문대학 특성화 선도대학 육성사업 관련 서식.zip · 문의처 담당부서 : 전문대학지원팀 | 담당자 : 김보원 | 연락처 : 042-869-6427 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년 온라인 논문투고 심사시스템(JAMS) 신청요강 공고 이전글 2027년도 한-일(JSPS) 협력사업(협력연구 및 공동세미나) 신규과제 공모 var boardNo = '3'; var postNo = '278763'; var bizNo = '791'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
+      "bodyText": "공고내용 교육부 공고 제2026-318호 2026년 전문대학 특성화 선도대학 육성사업 공고 ｢2026년 전문대학 특성화 선도대학 육성사업 기본계획｣에 따라, 사업 선정 및 지원 계획을 붙임과 같이 공고합니다. 2026년 8월 4일 교육부 장관 최 교 진 한국연구재단 이사장 홍 원 화 · 첨부파일 붙임1. 2026년 전문대학 특성화 선도대학 육성사업 공고문.hwpx 붙임2. 2026년 전문대학 특성화 선도대학 육성사업 관련 서식.zip · 문의처 담당부서 : 전문대학지원팀 | 담당자 : 김보원 | 연락처 : 042-869-6427 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년 온라인 논문투고 심사시스템(JAMS) 신청요강 공고 이전글 2026년도 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공모 var boardNo = '3'; var postNo = '278763'; var bizNo = '791'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
+      "detailFetched": true
+    },
+    {
+      "postNo": "279023",
+      "bizNo": "650",
+      "closeYn": "N",
+      "title": "2026년도 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공모",
+      "category": "사회문제해결 > 종료사업 > 국민생활안전긴급대응연구(2단계)(통합이관)",
+      "categoryPath": [
+        "사회문제해결",
+        "종료사업",
+        "국민생활안전긴급대응연구(2단계)(통합이관)"
+      ],
+      "applyStart": "2026-08-24 09:00",
+      "applyEnd": "2026-09-07 18:00",
+      "status": "접수대기",
+      "modified": false,
+      "detailUrl": "https://www.nrf.re.kr/biz/notice/view?ac=view&postNo=279023&menuNo=362&bizNotGubn=guide&bizNo=650",
+      "year": 2026,
+      "amountRaw": "0 원",
+      "amountKRW": 0,
+      "detailApplyStart": "2026-08-24 09:00",
+      "detailApplyEnd": "2026-09-07 18:00",
+      "registrant": "최효석",
+      "regDate": "2026-08-07 16:52:20",
+      "views": 85,
+      "attachments": [
+        {
+          "name": "[공고문] 2026년 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공고문.pdf",
+          "attachNo": "151707",
+          "url": "https://www.nrf.re.kr/download/post/loading/151707"
+        },
+        {
+          "name": "붙임1 2026년 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 과제제안요구서(RFP).pdf",
+          "attachNo": "151708",
+          "url": "https://www.nrf.re.kr/download/post/loading/151708"
+        },
+        {
+          "name": "붙임2 연구개발계획서(양식).zip",
+          "attachNo": "151709",
+          "url": "https://www.nrf.re.kr/download/post/loading/151709"
+        },
+        {
+          "name": "붙임3 별첨자료 양식.hwp",
+          "attachNo": "151710",
+          "url": "https://www.nrf.re.kr/download/post/loading/151710"
+        },
+        {
+          "name": "붙임4 (참고자료) IRIS 매뉴얼, TRL 기준 등.zip",
+          "attachNo": "151711",
+          "url": "https://www.nrf.re.kr/download/post/loading/151711"
+        }
+      ],
+      "bodyText": "공고내용 과학기술정보통신부 공고 제2026 – 874호 행정안전부 공고 제2026 – 1020호 2026년도 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공모 과학기술정보통신부와 행정안전부에서 추진하는「2026년 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증」의 신규과제를 아래와 같이 공모하오니 관심 있는 연구자들의 많은 참여 바랍니다. 2026년 8월 7일 <주무부처> 부총리겸 과학기술정보통신부 장 관 배 경 훈 <주무부처> 행정안전부 장 관 윤 호 중 <전문기관> 한국연구재단 이사장 홍 원 화 · 첨부파일 [공고문] 2026년 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공고문.pdf 붙임1 2026년 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 과제제안요구서(RFP).pdf 붙임2 연구개발계획서(양식).zip 붙임3 별첨자료 양식.hwp 붙임4 (참고자료) IRIS 매뉴얼, TRL 기준 등.zip · 문의처 담당부서 : 공공기술단 | 담당자 : 최효석 | 연락처 : 042-869-7795 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년 전문대학 특성화 선도대학 육성사업 공고 이전글 2026년도 가속기핵심기술개발사업 신규과제 공모 var boardNo = '3'; var postNo = '279023'; var bizNo = '650'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
+      "detailFetched": true
+    },
+    {
+      "postNo": "279022",
+      "bizNo": "500",
+      "closeYn": "N",
+      "title": "2026년도 가속기핵심기술개발사업 신규과제 공모",
+      "category": "기초연구진흥(방사선분야 등) > 기초연구기반구축사업(방사선 분야 등) > 방사광가속기 공동이용연구지원",
+      "categoryPath": [
+        "기초연구진흥(방사선분야 등)",
+        "기초연구기반구축사업(방사선 분야 등)",
+        "방사광가속기 공동이용연구지원"
+      ],
+      "applyStart": "2026-08-21 09:00",
+      "applyEnd": "2026-09-07 18:00",
+      "status": "접수대기",
+      "modified": false,
+      "detailUrl": "https://www.nrf.re.kr/biz/notice/view?ac=view&postNo=279022&menuNo=362&bizNotGubn=guide&bizNo=500",
+      "year": 2026,
+      "amountRaw": "400,000,000 원",
+      "amountKRW": 400000000,
+      "detailApplyStart": "2026-08-21 09:00",
+      "detailApplyEnd": "2026-09-07 18:00",
+      "registrant": "이향진",
+      "regDate": "2026-08-07 16:49:49",
+      "views": 61,
+      "attachments": [
+        {
+          "name": "2026년도 가속기핵심기술개발사업 신규과제 공모 공고문.hwpx",
+          "attachNo": "151702",
+          "url": "https://www.nrf.re.kr/download/post/loading/151702"
+        },
+        {
+          "name": "붙임1. 과제제안요구서(RFP)_저장링 입사요동 저감을 위한 비선형 킥커 (Non-Linear Kicker) 시스템 개발.hwpx",
+          "attachNo": "151703",
+          "url": "https://www.nrf.re.kr/download/post/loading/151703"
+        },
+        {
+          "name": "붙임2. 연구개발계획서 양식.zip",
+          "attachNo": "151704",
+          "url": "https://www.nrf.re.kr/download/post/loading/151704"
+        },
+        {
+          "name": "붙임3. 별첨자료 양식.zip",
+          "attachNo": "151705",
+          "url": "https://www.nrf.re.kr/download/post/loading/151705"
+        },
+        {
+          "name": "붙임4. 신청 시 참고자료.zip",
+          "attachNo": "151706",
+          "url": "https://www.nrf.re.kr/download/post/loading/151706"
+        }
+      ],
+      "bodyText": "공고내용 과학기술정보통신부 공고 제2026 – 0873호 2026년도 가속기핵심기술개발사업 신규과제 공모 과학기술정보통신부가 추진하는 가속기핵심기술개발사업의 신규과제를 아래와 같이 공모하오니 관심 있는 연구자들의 많은 참여 바랍니다. 2026년 8월 7일 <주무부처> 부총리 겸 과학기술정보통신부 장관 배 경 훈 <전문기관> 한국연구재단 이사장 홍 원 화 ​ ※ 자료 제출 관련 문의 : hyangjin@nrf.re.kr ​ · 첨부파일 2026년도 가속기핵심기술개발사업 신규과제 공모 공고문.hwpx 붙임1. 과제제안요구서(RFP)_저장링 입사요동 저감을 위한 비선형 킥커 (Non-Linear Kicker) 시스템 개발.hwpx 붙임2. 연구개발계획서 양식.zip 붙임3. 별첨자료 양식.zip 붙임4. 신청 시 참고자료.zip · 문의처 담당부서 : 거대인프라·방사선단 | 담당자 : 이향진 | 연락처 : 042-869-7806 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년도 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공모 이전글 2027년도 한-일(JSPS) 협력사업(협력연구 및 공동세미나) 신규과제 공모 var boardNo = '3'; var postNo = '279022'; var bizNo = '500'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
       "detailFetched": true
     },
     {
@@ -119,7 +227,7 @@
       "detailApplyEnd": "2026-09-03 16:00",
       "registrant": "신지혜",
       "regDate": "2026-06-09 08:11:06",
-      "views": 10197,
+      "views": 10550,
       "attachments": [
         {
           "name": "붙임1. 2027년도 한-일(JSPS) 협력사업 신규공모 공고문.hwp",
@@ -137,7 +245,7 @@
           "url": "https://www.nrf.re.kr/download/post/loading/150305"
         }
       ],
-      "bodyText": "공고내용 2027년도 한-일(JSPS) 협력사업 신규과제 공모 한-일 간 학술협력 활성화를 위해 2027년도 한-일 협력사업(협력연구 및 공동세미나)의 신규과제를 다음과 같이 공모하오니 많은 참여를 바랍니다. 2026년 6월 10일 한국연구재단 이사장 홍 원 화 공고 내용 및 신청서 양식 등 : 붙임 참조 < 유의사항 > ○ 본 사업은 한국연구재단의 기관고유사업으로서, 국가연구개발사업 내 연구과제 수 상한제도(3책5공 등)의 적용을 받지 않는 사업임. ○ 한-일 협력사업은 “한-일 협력연구”와 “한-일 공동세미나” 두 가지 중 택일하여 하나만 신청할 수 있음. ○ “한-일 공동세미나” 의 경우 개최지는 한국 혹은 일본 중 택일하여 1회만 개최 가능(양국이 합의된 내용의 세미나 1회를 개최하는 것임.) ○ 양국 공통으로 접수된 과제에 한해 평가를 실시하며, 공통 접수가 되지 않을 경우 평가대상에서 제외되므로 상대측 연구자에게 접수여부를 확인하여야 함. ○ 신청서 양식에 표기하는 지원분야는 공고문상의 4개 분야 중 택일하여야 하며, 일본 측 연구자와 반드시 일치하여야 함. ○ 연구제목(영문)은 상대국 연구자와 반드시 일치하여야 함. ○ 기타 유의사항은 공고문에서 확인 바람. <일본 JSPS측 공고 웹페이지> 일본어 : https://www.jsps.go.jp/j-bilat/semina/shinsei_bosyu.html 영어 : https://www.jsps.go.jp/english/e-bilat/call.html · 첨부파일 붙임1. 2027년도 한-일(JSPS) 협력사업 신규공모 공고문.hwp 붙임2. 신청서 양식(국,영문) 및 참고사항.zip [Call for Proposal] 2027 NRF-Japan Basic Scientific Cooperation Program.pdf · 문의처 담당부서 : 국제협력기반조성팀 | 담당자 : 신지혜 | 연락처 : 02-3460-5742 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년 전문대학 특성화 선도대학 육성사업 공고 이전글 「2026년 지방대학 특성화 선도대학 육성사업」 공고 var boardNo = '3'; var postNo = '274891'; var bizNo = '213'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
+      "bodyText": "공고내용 2027년도 한-일(JSPS) 협력사업 신규과제 공모 한-일 간 학술협력 활성화를 위해 2027년도 한-일 협력사업(협력연구 및 공동세미나)의 신규과제를 다음과 같이 공모하오니 많은 참여를 바랍니다. 2026년 6월 10일 한국연구재단 이사장 홍 원 화 공고 내용 및 신청서 양식 등 : 붙임 참조 < 유의사항 > ○ 본 사업은 한국연구재단의 기관고유사업으로서, 국가연구개발사업 내 연구과제 수 상한제도(3책5공 등)의 적용을 받지 않는 사업임. ○ 한-일 협력사업은 “한-일 협력연구”와 “한-일 공동세미나” 두 가지 중 택일하여 하나만 신청할 수 있음. ○ “한-일 공동세미나” 의 경우 개최지는 한국 혹은 일본 중 택일하여 1회만 개최 가능(양국이 합의된 내용의 세미나 1회를 개최하는 것임.) ○ 양국 공통으로 접수된 과제에 한해 평가를 실시하며, 공통 접수가 되지 않을 경우 평가대상에서 제외되므로 상대측 연구자에게 접수여부를 확인하여야 함. ○ 신청서 양식에 표기하는 지원분야는 공고문상의 4개 분야 중 택일하여야 하며, 일본 측 연구자와 반드시 일치하여야 함. ○ 연구제목(영문)은 상대국 연구자와 반드시 일치하여야 함. ○ 기타 유의사항은 공고문에서 확인 바람. <일본 JSPS측 공고 웹페이지> 일본어 : https://www.jsps.go.jp/j-bilat/semina/shinsei_bosyu.html 영어 : https://www.jsps.go.jp/english/e-bilat/call.html · 첨부파일 붙임1. 2027년도 한-일(JSPS) 협력사업 신규공모 공고문.hwp 붙임2. 신청서 양식(국,영문) 및 참고사항.zip [Call for Proposal] 2027 NRF-Japan Basic Scientific Cooperation Program.pdf · 문의처 담당부서 : 국제협력기반조성팀 | 담당자 : 신지혜 | 연락처 : 02-3460-5742 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년도 가속기핵심기술개발사업 신규과제 공모 이전글 「2026년 지방대학 특성화 선도대학 육성사업」 공고 var boardNo = '3'; var postNo = '274891'; var bizNo = '213'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
       "detailFetched": true
     },
     {
@@ -161,7 +269,7 @@
       "detailApplyEnd": "2026-08-31 18:00",
       "registrant": "전형록",
       "regDate": "2026-07-23 09:01:47",
-      "views": 5980,
+      "views": 6363,
       "attachments": [
         {
           "name": "(공고문) 2026년 지방대학 특성화 선도대학 육성사업 공고.hwpx",
@@ -223,7 +331,7 @@
       "detailApplyEnd": "2026-08-31 17:00",
       "registrant": "홍연희",
       "regDate": "2026-07-08 15:01:55",
-      "views": 14939,
+      "views": 15206,
       "attachments": [
         {
           "name": "붙임1.2026년도 국제공동연구 신속지원사업 신규과제 공모 공고문 (1).hwpx",
@@ -265,7 +373,7 @@
       "detailApplyEnd": "2026-08-26 18:00",
       "registrant": "김형주",
       "regDate": "2026-07-24 10:22:08",
-      "views": 5487,
+      "views": 5595,
       "attachments": [
         {
           "name": "붙임1. 2026년도 NCP 활동지원사업 신규과제 2차 공모 공고문.hwpx",
@@ -312,7 +420,7 @@
       "detailApplyEnd": "2026-08-20 17:00",
       "registrant": "홍연희",
       "regDate": "2026-06-22 15:24:03",
-      "views": 9972,
+      "views": 10076,
       "attachments": [
         {
           "name": "2026년 한-캐나다 이공계 대학원생 연수프로그램 공고문.pdf",
@@ -351,7 +459,7 @@
       "detailApplyEnd": "2026-08-19 18:00",
       "registrant": "임혜린",
       "regDate": "2026-07-20 20:00:11",
-      "views": 3444,
+      "views": 3493,
       "attachments": [
         {
           "name": "2026년 한-캐나다 양자과학기술 공동연구지원사업 사전공고문.hwpx",
@@ -389,7 +497,7 @@
       "detailApplyEnd": "2026-08-19 18:00",
       "registrant": "차지윤",
       "regDate": "2026-07-20 15:29:03",
-      "views": 7270,
+      "views": 7304,
       "attachments": [
         {
           "name": "붙임1. 2026년 대한민국 젊은과학자상 선정계획 공고.hwpx",
@@ -426,7 +534,7 @@
       "detailApplyEnd": "2026-08-14 18:00",
       "registrant": "박태진",
       "regDate": "2026-08-03 09:15:29",
-      "views": 626,
+      "views": 703,
       "attachments": [
         {
           "name": "[공고문] 2026년도 하반기 원자력정책연구사업 2차 공고.hwp",
@@ -468,7 +576,7 @@
       "detailApplyEnd": "2026-08-12 18:00",
       "registrant": "이선일",
       "regDate": "2026-07-15 15:36:35",
-      "views": 2317,
+      "views": 2347,
       "attachments": [
         {
           "name": "KOBRA 2026년 바이오·의료기술개발사업_첨단바이오 연구교류 프로그램 3차 공고.hwp",
@@ -507,7 +615,7 @@
       "detailApplyEnd": "2026-08-12 16:00",
       "registrant": "신지혜",
       "regDate": "2026-07-09 08:57:31",
-      "views": 5324,
+      "views": 5345,
       "attachments": [
         {
           "name": "1. 2027년 제18차 일본 HOPE Meeting 참가자 모집 공고문.hwp",
@@ -546,7 +654,7 @@
       "detailApplyEnd": "2026-08-10 18:00",
       "registrant": "최효석",
       "regDate": "2026-07-10 18:58:17",
-      "views": 8133,
+      "views": 8207,
       "attachments": [
         {
           "name": "붙임1 2026년 3차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 과제제안요구서(RFP).zip",
@@ -600,7 +708,7 @@
       "detailApplyEnd": "2026-08-10 18:00",
       "registrant": "조은혜",
       "regDate": "2026-06-29 16:33:05",
-      "views": 9558,
+      "views": 9607,
       "attachments": [
         {
           "name": "3. 한중핵심공동연구사업 연구비 비목별 계상 및 집행기준.pdf",
@@ -642,7 +750,7 @@
       "detailApplyEnd": "2026-08-06 18:00",
       "registrant": "이현우",
       "regDate": "2026-07-24 14:57:29",
-      "views": 3178,
+      "views": 3253,
       "attachments": [
         {
           "name": "[붙임1] 연구기획과제 제안서(RFP)_공고.pdf",
@@ -716,7 +824,7 @@
       "detailApplyEnd": "2026-07-31 18:00",
       "registrant": "이태성",
       "regDate": "2026-06-30 15:51:52",
-      "views": 5941,
+      "views": 5944,
       "attachments": [
         {
           "name": "[붙임1] 2026년 휴먼프론티어과학프로그램(HFSP) 협력사업(사전지원) 신규과제 공고문.hwpx",
@@ -755,7 +863,7 @@
       "detailApplyEnd": "2026-07-30 18:00",
       "registrant": "양세형",
       "regDate": "2026-06-17 10:13:24",
-      "views": 7654,
+      "views": 7658,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-체코 공동연구사업 신규과제 공모 공고문.pdf",
@@ -809,7 +917,7 @@
       "detailApplyEnd": "2026-07-27 18:00",
       "registrant": "박승찬",
       "regDate": "2026-07-15 11:03:06",
-      "views": 2024,
+      "views": 2026,
       "attachments": [
         {
           "name": "(재공모) 2026년도 방사선 기반 소재·장비 기술 혁신화 신규과제.hwpx",
@@ -863,7 +971,7 @@
       "detailApplyEnd": "2026-07-27 18:00",
       "registrant": "이바다",
       "regDate": "2026-07-09 10:09:48",
-      "views": 2070,
+      "views": 2074,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 양자인적기반조성(리더급연구역량강화(전략기술형))사업 신규과제 RFP(안)_최종.hwpx",
@@ -916,7 +1024,7 @@
       "detailApplyEnd": "2026-07-27 17:00",
       "registrant": "손호영",
       "regDate": "2026-06-23 20:03:25",
-      "views": 8590,
+      "views": 8595,
       "attachments": [
         {
           "name": "붙임 2. 지역성장 인재양성체계(앵커) 5극 3특 공유대학 사업계획서 작성 서식.hwpx",
@@ -960,7 +1068,7 @@
       "detailApplyEnd": "2026-07-20 18:00",
       "registrant": "최효석",
       "regDate": "2026-07-10 18:00:07",
-      "views": 2327,
+      "views": 2330,
       "attachments": [
         {
           "name": "[공고문] 2026년 첨단기술을 활용한 사회문제해결 실증확산 지원(기술개발 및 실증) 신규과제 재공고.pdf",
@@ -1013,7 +1121,7 @@
       "detailApplyEnd": "2026-07-20 18:00",
       "registrant": "송재문",
       "regDate": "2026-06-11 09:00:40",
-      "views": 11477,
+      "views": 11482,
       "attachments": [
         {
           "name": "(과학기술정보통신부 공고 제2026-0676호) 2026년 이공계 연구생활장려금 지원 사업 하반기 신규과제 공고.hwpx",
@@ -1057,7 +1165,7 @@
       "detailApplyEnd": "2026-07-16 18:00",
       "registrant": "송인범",
       "regDate": "2026-07-06 17:59:23",
-      "views": 1770,
+      "views": 1773,
       "attachments": [
         {
           "name": "(붙임1). 개도국 기후기술실증연구사업 신규과제 과제제안요구서(RFP).pdf",
@@ -1099,7 +1207,7 @@
       "detailApplyEnd": "2026-07-13 18:00",
       "registrant": "노영석",
       "regDate": "2026-06-12 14:50:01",
-      "views": 7366,
+      "views": 7372,
       "attachments": [
         {
           "name": "2026년도 바이오·의료기술개발 사업 제5차 신규과제 공고문.hwpx",
@@ -1148,7 +1256,7 @@
       "detailApplyEnd": "2026-07-13 18:00",
       "registrant": "박승찬",
       "regDate": "2026-06-11 16:54:35",
-      "views": 2657,
+      "views": 2660,
       "attachments": [
         {
           "name": "(공고문) 2026년도 방사선 기반 소재·장비 기술 혁신화 신규과제.hwpx",
@@ -1202,7 +1310,7 @@
       "detailApplyEnd": "2026-07-13 18:00",
       "registrant": "김민",
       "regDate": "2026-06-11 14:06:33",
-      "views": 2294,
+      "views": 2295,
       "attachments": [
         {
           "name": "(붙임1) 신규과제 공모 공고문.hwpx",
@@ -1244,7 +1352,7 @@
       "detailApplyEnd": "2026-07-10 18:00",
       "registrant": "박태진",
       "regDate": "2026-07-02 16:13:46",
-      "views": 1392,
+      "views": 1393,
       "attachments": [
         {
           "name": "[공고문] 2026년도 하반기 원자력정책연구사업 재공고문.hwpx",
@@ -1286,7 +1394,7 @@
       "detailApplyEnd": "2026-07-10 18:00",
       "registrant": "최재우",
       "regDate": "2026-06-10 18:08:50",
-      "views": 4980,
+      "views": 4991,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 미래개척융합과학기술개발사업 신규과제 제3차 공모.hwpx",
@@ -1325,7 +1433,7 @@
       "detailApplyEnd": "2026-07-09 18:00",
       "registrant": "이건상",
       "regDate": "2026-06-08 15:40:34",
-      "views": 8200,
+      "views": 8205,
       "attachments": [
         {
           "name": "공고문-신청요강 등 붙임서류 각1부.zip",
@@ -1369,7 +1477,7 @@
       "detailApplyEnd": "2026-07-09 16:00",
       "registrant": "고성조",
       "regDate": "2026-07-03 08:51:44",
-      "views": 2066,
+      "views": 2068,
       "attachments": [],
       "bodyText": "공고내용 범부처의료기기연구개발사업단 공고 제2026-04호 2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고 2026년도 범부처 첨단 의료기기 연구개발사업(의료기기 코어기술 및 제품개발) 신규지원 대상과제를 다음과 같이 재공고하오니 동 사업에 참여를 희망하는 기관(기업) 등은 관련 규정 및 절차에 따라 신청하여 주시기 바랍니다. 2026년 7월 1일 (재)범부처의료기기연구개발사업단장 □ 공고 및 접수 ◦ 공고 및 신청기간 공고기간 연구개발과제 신청(전산입력) 접수개시 연구개발과제 접수(전산입력) 마감일시 주관연구개발기관 기관승인 마감일시 2026.7.1.(수) ∼ 2026.7.9.(목) 2026.7.3.(금) 10:00부터 2026.7.9.(목) 16:00까지 2026.7.10.(금) 16:00까지 - 과제접수 마감일 16:00까지 모든 과제 정보의 전산입력 완료 및 제출서류(연구개발계획서 및 첨부서류)를 업로드하여 ‘제출완료’인 과제만 접수하는 것을 원칙으로 하며, 주관연구개발기관의 기관담당자 제출승인이 완료되어야 함(마감일 16:00 이후 접수 및 전자인증 절대 불가함) - 전산정보 입력 시 관련 온라인매뉴얼(www.iris.go.kr) 참고(붙임3 참고) -전산시스템에 입력 중이더라도 과제접수(전산입력) 마감일의 종료시간(16시)이 지나면 과제 ‘미접수’로 간주함 □ 지원내용 구분 지원내용 (내역사업명) RFP 유형 RFP 관리번호 연구개발과제별 지원규모 및 연구개발기간 2내역 의료기기 코어기술 및 제품개발 ⑤필수의료기기 2026-2-2 -필수의료기기-8 상세사항은 연구개발과제별 RFP(붙임1) 상세 내역 참고 ◦ 과제접수 유의사항 IRIS 회원가입, 전산정보 입력 및 제출서류 업로드 시 최소 하루 이상 소요될 수 있으며 과제접수 마감일에 접속 과부하로 인하여 접수가 지연되거나 장애가 발생할 수 있으므로 과제접수 마감일 이틀 전에 과제접수 완료하는 것을 권장함. 또한, 접수 마감일 16시 이후 접수 불가 ◦ 접수 방법 - 연구개발계획서 및 첨부 자료 양식은 범부처통합연구지원시스템(www.iris.go.kr) 및 범부처의료기기연구개발사업단 홈페이지(kmdf.org)에서 다운로드하여 작성 - ‘제출서류 목록(붙임2 참고)’을 확인한 후 ‘제출서류_RFP 유형별 서식(붙임5 참고)’ 작성하여 범부처통합연구지원시스템 R&D업무포털(www.iris.go.kr)에 업로드 하여야 함 □ 문의처 담당업무 전화번호 과제 전산접수(시스템 입력) 관련 1877-2041 (범부처통합연구지원시스템) 공고 및 평가 관련 02-6328-0336 02-6328-0346 RFP관련 내용문의 2내역 의료기기 코어기술 및 제품개발 필수의료기기 02-6328-0340 ※ 문의전화 폭주로 전화 연결이 원활하지 않을 수 있음(반드시 공고문 등을 확인 후 질의 요망) · 문의처 담당부서 : 뇌첨단의공학단 | 담당자 : 고성조 | 연락처 : 042-869-7758 ※ 자세한 내용은 첨부파일 참조 및 문의처로 문의하여 주시기 바랍니다. 목록 다음글 2026년도 학술지 지원사업 신규 과제 공모(인문·사회과학·예술·체육 및 복합학 분야) 공고 이전글 2026년 첨단기술을 활용한 사회문제해결 실증확산 지원사업(기술개발 및 실증) 신규과제 공모 var boardNo = '3'; var postNo = '276785'; var bizNo = '719'; var moveValue = 'notice'; $(function () { }); /** 목록 **/ function goList(){ $('form[name=lFrm]').submit(); }; /** 삭제 **/ function goDelete(){ $.confirm({ message: '삭제하시겠습니까?', }).then(function (choose) { if (choose.value) { //delete axios.post(`/board/post/${postNo}`).then(function () { $.alert({ type: 'info', message: '삭제되었습니다.', }).then(function (r) { goList(); }); }); } }); } function fnPasswordCheck(postNo, params) { $.modal({ title: '패스워드 입력', url: `/board/post/check/password`, data: {postNo: postNo}, close: function (r) { if (r) { goUrl(params); } }, }); } function goUrl(params){ window.location.href = `/biz/${moveValue}/${params.ac}?${$.param(params)}`; } $(function () { // $('.search_biz_related_btn').on('click', function(e) { // e.preventDefault(); // let postNo = $(this).data('post_no'); // let moreLayerDom = $($(this).siblings()[0]); // moreLayerDom.empty(); // let opt = { // url: `/biz/common/searchBizRelated` // , data: { postNo: postNo} // , method: 'GET' // , global: true // , message: `사업을 조회중입니다.` // , failMessage: `오류가 발생하였습니다.` // }; // $.customAjax(opt, function(r) { // common-ajax.js // let postBizRelatedList = r.postBizRelatedList; // postBizRelatedList.forEach(function(item, i) { // moreLayerDom.append(`<span class=\"bread-crumb-text\">${item?.bizCatNm}</span>`); // }); // }); // }); }); /** 수정 **/ function goEdit(editPostNo, ac, postCloseYn){ var params = { ac: ac , searchType: $('input[name=searchType]').val() , searchText: $('input[name=searchText]').val() , pageNum: $('input[name=pageNum]').val() , postNo: editPostNo , menuNo: $('input[name=menuNo]').val() , bizNo: bizNo , searchBizNo: $('input[name=bizNo]').val() , bizNotGubn: $('input[name=bizNotGubn]').val() , bizCompleteNm: $('input[name=bizCompleteNm]').val() , orderType: $('input[name=orderType]').val() , orderTypeAt: $('input[name=orderTypeAt]').val() , orderTypeBiz: $('input[name=orderTypeBiz]').val() , orderTypeBizAt: $('input[name=orderTypeBizAt]').val() , myBizCheckYn: $('input[name=myBizCheckYn]').val() , bizChgMbrNo: $('input[name=bizChgMbrNo]').val() , myDeptBizCheckYn: $('input[name=myDeptBizCheckYn]').val() , bizChgMbrPostNm: $('input[name=bizChgMbrPostNm]').val() , bizSelectSearchRegDttm: $('select[name=bizSelectSearchRegDttm]').val() , regStartDttm: $('input[name=regStartDttm]').val() , regEndDttm: $('input[name=regEndDttm]').val() , searchRegChoiceDttm: $('input[name=searchRegChoiceDttm]').val() , bizSearchRegDttmAllYn: $('input[name=bizSearchRegDttmAllYn]').val() , searchRegYearDttm: $('input[name=searchRegYearDttm]').val() , searchRegStartMonthDttm: $('input[name=searchRegStartMonthDttm]').val() , searchRegEndMonthDttm: $('input[name=searchRegEndMonthDttm]').val() , searchSplitBizNo: $('input[name=searchSplitBizNo]').val() , keyword: $('input[name=keyword]').val() , resultKeyword: $('input[name=resultKeyword]').val() }; // adminAuthCheck: 변수 sub_layout.html에 있음 if(postCloseYn === 'Y' && !adminAuthCheck) { // 패스워드 존재 && 관리자 아님 fnPasswordCheck(editPostNo, params); // post_common_list_script.html에 있음 return; } goUrl(params); }",
       "detailFetched": true
@@ -1397,7 +1505,7 @@
       "detailApplyEnd": "2026-07-08 18:00",
       "registrant": "최효석",
       "regDate": "2026-06-08 17:56:28",
-      "views": 3099,
+      "views": 3104,
       "attachments": [
         {
           "name": "[공고문] 2026년 첨단기술을 활용한 사회문제해결 실증확산 지원(기술개발 및 실증) 신규과제 공고.pdf",
@@ -1451,7 +1559,7 @@
       "detailApplyEnd": "2026-07-07 18:00",
       "registrant": "김정현B",
       "regDate": "2026-06-08 17:12:59",
-      "views": 1771,
+      "views": 1776,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 양자인적기반조성(리더급연구역량강화(전략기술형))사업 신규과제 RFP(안)_최종.hwpx",
@@ -1505,7 +1613,7 @@
       "detailApplyEnd": "2026-07-02 18:00",
       "registrant": "양보라",
       "regDate": "2026-06-22 15:08:37",
-      "views": 1207,
+      "views": 1208,
       "attachments": [
         {
           "name": "2026년도 EIC개발협력연구사업 공동연구개발기관 재공모 공고문.hwpx",
@@ -1564,7 +1672,7 @@
       "detailApplyEnd": "2026-07-01 14:00",
       "registrant": "서유리",
       "regDate": "2026-06-01 09:03:55",
-      "views": 7243,
+      "views": 7246,
       "attachments": [
         {
           "name": "붙임1. 2026년도 제2차 신규지원 대상과제 통합공고문 및 안내서_F.pdf",
@@ -1637,7 +1745,7 @@
       "detailApplyEnd": "2026-06-30 18:00",
       "registrant": "손예령",
       "regDate": "2026-06-17 15:56:25",
-      "views": 1004,
+      "views": 1005,
       "attachments": [
         {
           "name": "[공문] 2026년도 신규 병역지정업체 신청 및 2027년도 필요인원 신청 알림.pdf",
@@ -1679,7 +1787,7 @@
       "detailApplyEnd": "2026-06-30 18:00",
       "registrant": "박태진",
       "regDate": "2026-06-16 13:11:23",
-      "views": 1916,
+      "views": 1920,
       "attachments": [
         {
           "name": "[공고문] 2026년도 하반기 원자력정책연구사업 공고문.hwp",
@@ -1721,7 +1829,7 @@
       "detailApplyEnd": "2026-06-30 17:00",
       "registrant": "윤지원",
       "regDate": "2026-05-13 14:02:31",
-      "views": 18603,
+      "views": 18624,
       "attachments": [
         {
           "name": "(붙임2)제출서류양식_vf.zip",
@@ -1760,7 +1868,7 @@
       "detailApplyEnd": "2026-06-30 16:00",
       "registrant": "신지혜",
       "regDate": "2026-04-14 10:20:49",
-      "views": 13058,
+      "views": 13061,
       "attachments": [
         {
           "name": "2026-2027년도 양자연구교류지원사업(8개국) 신규과제 공고문.pdf",
@@ -1804,7 +1912,7 @@
       "detailApplyEnd": "2026-06-29 16:00",
       "registrant": "고성조",
       "regDate": "2026-06-01 15:58:32",
-      "views": 6574,
+      "views": 6579,
       "attachments": [
         {
           "name": "2026년 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고문.pdf",
@@ -1843,7 +1951,7 @@
       "detailApplyEnd": "2026-06-26 18:00",
       "registrant": "권기태",
       "regDate": "2026-05-26 17:18:03",
-      "views": 4198,
+      "views": 4199,
       "attachments": [
         {
           "name": "(공고문) 2026년 하반기 인턴쉽 및 기술인력교류 사업 파견자 선정 공고.hwp",
@@ -1890,7 +1998,7 @@
       "detailApplyEnd": "2026-06-24 18:00",
       "registrant": "김홍근",
       "regDate": "2026-05-26 14:32:49",
-      "views": 4983,
+      "views": 4991,
       "attachments": [
         {
           "name": "2026년 연구안보 역량강화 지원사업 신규과제 공모 공고문.hwpx",
@@ -1939,7 +2047,7 @@
       "detailApplyEnd": "2026-06-22 18:00",
       "registrant": "최효석",
       "regDate": "2026-06-11 18:06:10",
-      "views": 1507,
+      "views": 1508,
       "attachments": [
         {
           "name": "[공고문] 2026년 극한부품 시험입증지원사업(Track형 실증) 신규과제 재공고.pdf",
@@ -1993,7 +2101,7 @@
       "detailApplyEnd": "2026-06-22 18:00",
       "registrant": "손연주",
       "regDate": "2026-06-11 13:30:01",
-      "views": 1818,
+      "views": 1819,
       "attachments": [
         {
           "name": "[공고문] 2026년도 미래국방가교기술개발사업 신규과제 재공고문.hwpx",
@@ -2052,7 +2160,7 @@
       "detailApplyEnd": "2026-06-22 18:00",
       "registrant": "이바다",
       "regDate": "2026-05-22 11:23:31",
-      "views": 4993,
+      "views": 4997,
       "attachments": [
         {
           "name": "2026년도 양자컴퓨팅기반양자이득도전연구사업 신규과제 공모.hwpx",
@@ -2101,7 +2209,7 @@
       "detailApplyEnd": "2026-06-22 18:00",
       "registrant": "송아영",
       "regDate": "2026-05-21 15:02:20",
-      "views": 14686,
+      "views": 14692,
       "attachments": [
         {
           "name": "[공고문] 2026년도 과학기술정보통신부 기초연구사업 핵심연구 기본연구B(정책형) 신규과제 공모.hwpx",
@@ -2145,7 +2253,7 @@
       "detailApplyEnd": "2026-06-19 18:00",
       "registrant": "손연주",
       "regDate": "2026-05-20 19:02:00",
-      "views": 6188,
+      "views": 6190,
       "attachments": [
         {
           "name": "[공고문] 2026년도 미래국방혁신기술개발사업 신규과제 공고문.hwpx",
@@ -2204,7 +2312,7 @@
       "detailApplyEnd": "2026-06-18 18:00",
       "registrant": "양보라",
       "regDate": "2026-05-18 14:41:51",
-      "views": 1989,
+      "views": 1994,
       "attachments": [
         {
           "name": "2026년도 EIC개발협력연구사업 공동연구개발기관 공모 공고문.hwpx",
@@ -2262,7 +2370,7 @@
       "detailApplyEnd": "2026-06-18 17:00",
       "registrant": "박성빈",
       "regDate": "2026-05-06 14:20:24",
-      "views": 9160,
+      "views": 9168,
       "attachments": [
         {
           "name": "붙임01 2026년도 한-중 산학연 대형공동연구 신규과제 공고문.pdf",
@@ -2300,7 +2408,7 @@
       "detailApplyEnd": "2026-06-18 17:00",
       "registrant": "박성빈",
       "regDate": "2026-05-06 14:15:59",
-      "views": 12520,
+      "views": 12535,
       "attachments": [
         {
           "name": "붙임01 2026년도 한-중 공동연구 신규과제 공고문.pdf",
@@ -2339,7 +2447,7 @@
       "detailApplyEnd": "2026-06-16 18:00",
       "registrant": "유주현",
       "regDate": "2026-05-19 08:12:15",
-      "views": 7481,
+      "views": 7484,
       "attachments": [
         {
           "name": "(붙임 1) 2026년도 등재후보인증(신규평가) 신청요강.pdf",
@@ -2407,7 +2515,7 @@
       "detailApplyEnd": "2026-06-15 18:00",
       "registrant": "노영석",
       "regDate": "2026-06-05 13:11:19",
-      "views": 2800,
+      "views": 2808,
       "attachments": [
         {
           "name": "KOBRA 2026년 바이오·의료기술개발사업_첨단바이오 연구교류 프로그램 2차 공고.hwp",
@@ -2451,7 +2559,7 @@
       "detailApplyEnd": "2026-06-12 18:00",
       "registrant": "김해종",
       "regDate": "2026-05-13 15:45:09",
-      "views": 7620,
+      "views": 7623,
       "attachments": [
         {
           "name": "붙임1. 과제제안요구서(RFP).zip",
@@ -2495,7 +2603,7 @@
       "detailApplyEnd": "2026-06-11 13:00",
       "registrant": "김다혜",
       "regDate": "2026-06-05 18:00:18",
-      "views": 1774,
+      "views": 1775,
       "attachments": [
         {
           "name": "붙임. 2026년도 5차 바이오·의료기술개발사업(첨단GW바이오) 신규과제 사전공고 내역.hwp",
@@ -2527,7 +2635,7 @@
       "detailApplyEnd": "2026-06-10 18:00",
       "registrant": "노영석",
       "regDate": "2026-06-01 17:40:47",
-      "views": 4324,
+      "views": 4327,
       "attachments": [
         {
           "name": "2026년도 바이오·의료기술개발 사업 제4차 신규과제 재공모 공고문.hwpx",
@@ -2566,7 +2674,7 @@
       "detailApplyEnd": "2026-06-10 18:00",
       "registrant": "최효석",
       "regDate": "2026-05-11 17:01:45",
-      "views": 1306,
+      "views": 1308,
       "attachments": [
         {
           "name": "[공고문] 2026년 극한부품 시험입증지원사업(Track형 실증) 신규과제 공고.pdf",
@@ -2620,7 +2728,7 @@
       "detailApplyEnd": "2026-06-08 18:00",
       "registrant": "김노을",
       "regDate": "2026-05-07 18:30:49",
-      "views": 2845,
+      "views": 2847,
       "attachments": [
         {
           "name": "2026년도 미래국방가교기술개발사업 신규과제 공고문.hwpx",
@@ -2672,7 +2780,7 @@
       "detailApplyEnd": "2026-06-08 17:00",
       "registrant": "곽환",
       "regDate": "2026-04-03 13:14:11",
-      "views": 8279,
+      "views": 8283,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 한-독 특별협력사업 신규공모 공고문.hwp",
@@ -2716,7 +2824,7 @@
       "detailApplyEnd": "2026-06-04 18:00",
       "registrant": "양세형",
       "regDate": "2026-04-02 09:36:17",
-      "views": 5040,
+      "views": 5042,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-프랑스(ANR) 공동연구사업 신규과제 공모 공고문.pdf",
@@ -2770,7 +2878,7 @@
       "detailApplyEnd": "2026-06-01 18:00",
       "registrant": "김민",
       "regDate": "2026-05-20 17:02:53",
-      "views": 1682,
+      "views": 1683,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 나노소재기술개발사업 신규과제 4차 재공고.hwpx",
@@ -2814,7 +2922,7 @@
       "detailApplyEnd": "2026-06-01 18:00",
       "registrant": "최효석",
       "regDate": "2026-04-30 16:06:21",
-      "views": 4638,
+      "views": 4640,
       "attachments": [
         {
           "name": "[공고문] 2026년 2차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공고.pdf",
@@ -2868,7 +2976,7 @@
       "detailApplyEnd": "2026-05-29 18:00",
       "registrant": "홍지영",
       "regDate": "2026-03-31 17:13:04",
-      "views": 15944,
+      "views": 15949,
       "attachments": [
         {
           "name": "[붙임1] 2026년 대학기초연구소지원사업(G-LAMP) 신규 선정 계획 공고문.hwpx",
@@ -2942,7 +3050,7 @@
       "detailApplyEnd": "2026-05-28 18:00",
       "registrant": "노영석",
       "regDate": "2026-04-29 16:24:26",
-      "views": 2269,
+      "views": 2270,
       "attachments": [
         {
           "name": "2026년도 바이오·의료기술개발 사업 신규과제 제4차 공고문.hwpx",
@@ -2986,7 +3094,7 @@
       "detailApplyEnd": "2026-05-28 18:00",
       "registrant": "김영진",
       "regDate": "2026-04-27 17:17:14",
-      "views": 4364,
+      "views": 4365,
       "attachments": [
         {
           "name": "(붙임2) 공고 안내문.hwpx",
@@ -3030,7 +3138,7 @@
       "detailApplyEnd": "2026-05-28 14:00",
       "registrant": "권기태",
       "regDate": "2026-05-19 16:20:24",
-      "views": 1240,
+      "views": 1241,
       "attachments": [
         {
           "name": "2026년도 반도체첨단세라믹소재부품공정혁신기술개발사업 신규과제 재공고.hwpx",
@@ -3082,7 +3190,7 @@
       "detailApplyEnd": "2026-05-27 18:00",
       "registrant": "안성용",
       "regDate": "2026-04-28 17:17:31",
-      "views": 1642,
+      "views": 1649,
       "attachments": [
         {
           "name": "2026년 치매의료기술연구개발사업 1차 신규과제 재공모.hwpx",
@@ -3146,7 +3254,7 @@
       "detailApplyEnd": "2026-05-27 18:00",
       "registrant": "강태인",
       "regDate": "2026-04-28 17:10:02",
-      "views": 1465,
+      "views": 1467,
       "attachments": [
         {
           "name": "붙임 1. 2026년 바이오의료기술개발 사업 제1차 신규과제 3차 재공고문.hwpx",
@@ -3195,7 +3303,7 @@
       "detailApplyEnd": "2026-05-26 18:00",
       "registrant": "이한라",
       "regDate": "2026-05-13 16:19:41",
-      "views": 1516,
+      "views": 1517,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 나노소재기술개발사업 신규과제 3차 재공고.hwpx",
@@ -3238,7 +3346,7 @@
       "detailApplyEnd": "2026-05-26 18:00",
       "registrant": "손예령",
       "regDate": "2026-04-27 13:46:26",
-      "views": 2532,
+      "views": 2545,
       "attachments": [
         {
           "name": "붙임1. [공고문] 2026년 전기 자연계 대학원 전문연구요원 편입대상자 선발 공고.hwp",
@@ -3285,7 +3393,7 @@
       "detailApplyEnd": "2026-05-22 18:00",
       "registrant": "임슬기",
       "regDate": "2026-05-14 16:26:42",
-      "views": 1065,
+      "views": 1066,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 미래 혁신 선도형 이차전지 원천기술개발 사업 신규과제 재공모.hwpx",
@@ -3324,7 +3432,7 @@
       "detailApplyEnd": "2026-05-22 18:00",
       "registrant": "송인범",
       "regDate": "2026-05-13 20:30:43",
-      "views": 1123,
+      "views": 1124,
       "attachments": [
         {
           "name": "붙임 1. 2026년도 개도국기후기술실증연구 사업 신규과제 과제제안요구서(RFP).pdf",
@@ -3368,7 +3476,7 @@
       "detailApplyEnd": "2026-05-22 18:00",
       "registrant": "서수정",
       "regDate": "2026-04-10 10:00:14",
-      "views": 4410,
+      "views": 4417,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-스위스 박사(박사후)과정생 연수사업 과제 공모 공고문.pdf",
@@ -3415,7 +3523,7 @@
       "detailApplyEnd": "2026-05-21 18:00",
       "registrant": "이윤정",
       "regDate": "2026-05-15 13:47:50",
-      "views": 1856,
+      "views": 1859,
       "attachments": [
         {
           "name": "[공고문] 2026년도 제2차 과학기술분야 연구기획과제 재공모(과학기술정보통신부 공고 2026-0609).hwpx",
@@ -3489,7 +3597,7 @@
       "detailApplyEnd": "2026-05-21 17:00",
       "registrant": "박성빈",
       "regDate": "2026-04-15 17:04:30",
-      "views": 7301,
+      "views": 7315,
       "attachments": [
         {
           "name": "붙임01 2026년도 한-일 인력교류사업 신규과제 공고문.pdf",
@@ -3528,7 +3636,7 @@
       "detailApplyEnd": "2026-05-21 17:00",
       "registrant": "박성빈",
       "regDate": "2026-04-15 16:55:19",
-      "views": 2561,
+      "views": 2567,
       "attachments": [
         {
           "name": "붙임01 2026년도 한반도 과학기술협력사업 신규과제 공고문.pdf",
@@ -3567,7 +3675,7 @@
       "detailApplyEnd": "2026-05-20 17:00",
       "registrant": "이향진",
       "regDate": "2026-05-11 17:45:14",
-      "views": 844,
+      "views": 845,
       "attachments": [
         {
           "name": "2026년도 국제핵융합실험로(ITER) 공동개발사업 사업단장 공모 공고문.hwpx",
@@ -3599,7 +3707,7 @@
       "detailApplyEnd": "2026-05-20 17:00",
       "registrant": "홍연희",
       "regDate": "2026-03-04 16:14:48",
-      "views": 7087,
+      "views": 7088,
       "attachments": [
         {
           "name": "[공고문] 2026년도 한-캐나다 산학연 공동연구사업 신규과제 공모.hwpx",
@@ -3638,7 +3746,7 @@
       "detailApplyEnd": "2026-05-19 18:00",
       "registrant": "김성민",
       "regDate": "2026-04-17 14:13:02",
-      "views": 2305,
+      "views": 2306,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-스페인 공동연구사업 신규과제 공모 국문 공고문.pdf",
@@ -3687,7 +3795,7 @@
       "detailApplyEnd": "2026-05-19 18:00",
       "registrant": "차양현",
       "regDate": "2026-04-15 10:27:23",
-      "views": 7787,
+      "views": 7798,
       "attachments": [
         {
           "name": "0. 2026년도 인문사회연구소지원사업(문제해결형 Top-down) 신규과제 공고문.pdf",
@@ -3751,7 +3859,7 @@
       "detailApplyEnd": "2026-05-18 18:00",
       "registrant": "김민",
       "regDate": "2026-04-17 16:33:11",
-      "views": 6951,
+      "views": 6994,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 나노소재기술개발사업 신규과제 4차 공모.hwpx",
@@ -3795,7 +3903,7 @@
       "detailApplyEnd": "2026-05-18 18:00",
       "registrant": "이한라",
       "regDate": "2026-04-17 16:30:21",
-      "views": 2235,
+      "views": 2237,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 첨단소재원천기술성장지원사업 신규과제 2차 공모.hwpx",
@@ -3839,7 +3947,7 @@
       "detailApplyEnd": "2026-05-18 14:00",
       "registrant": "송수경",
       "regDate": "2026-05-08 15:06:12",
-      "views": 1422,
+      "views": 1424,
       "attachments": [
         {
           "name": "2026년도 차세대광기반연산반도체핵심기술개발사업 신규과제 재공모.hwpx",
@@ -3893,7 +4001,7 @@
       "detailApplyEnd": "2026-05-18 14:00",
       "registrant": "김정현A",
       "regDate": "2026-05-08 15:04:45",
-      "views": 987,
+      "views": 988,
       "attachments": [
         {
           "name": "2026년도 SDV대응가혹환경극복자동차반도체핵심IP원천기술개발사업 신규과제 재공모.hwpx",
@@ -3947,7 +4055,7 @@
       "detailApplyEnd": "2026-05-15 18:00",
       "registrant": "김유준",
       "regDate": "2026-03-30 15:37:58",
-      "views": 7295,
+      "views": 7296,
       "attachments": [
         {
           "name": "[붙임1] 2026년 국내 글로벌 석학 연구역량 활용 지원 사업 신규과제 공고문.hwp",
@@ -3996,7 +4104,7 @@
       "detailApplyEnd": "2026-05-14 14:00",
       "registrant": "권기태",
       "regDate": "2026-04-14 14:07:00",
-      "views": 1849,
+      "views": 1856,
       "attachments": [
         {
           "name": "2026년도 반도체첨단세라믹소재부품공정혁신기술개발사업 신규과제 공모(수정).hwpx",
@@ -4048,7 +4156,7 @@
       "detailApplyEnd": "2026-05-13 18:00",
       "registrant": "이윤정",
       "regDate": "2026-04-30 13:41:46",
-      "views": 1622,
+      "views": 1625,
       "attachments": [
         {
           "name": "[공고문] 2026년도 제2차 과학기술분야 연구기획과제 공모(과학기술정보통신부 공고 2026-0549).hwpx",
@@ -4122,7 +4230,7 @@
       "detailApplyEnd": "2026-05-12 18:00",
       "registrant": "송인범",
       "regDate": "2026-04-10 18:37:34",
-      "views": 1547,
+      "views": 1548,
       "attachments": [
         {
           "name": "붙임 1. 2026년도 개도국기후기술실증연구 사업 신규과제 과제제안요구서(RFP).pdf",
@@ -4164,7 +4272,7 @@
       "detailApplyEnd": "2026-05-12 18:00",
       "registrant": "임슬기",
       "regDate": "2026-04-10 17:21:32",
-      "views": 2078,
+      "views": 2081,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 미래 혁신 선도형 이차전지 원천기술개발 사업 신규과제 공모.hwpx",
@@ -4202,7 +4310,7 @@
       "detailApplyEnd": "2026-05-12 18:00",
       "registrant": "이창주",
       "regDate": "2026-04-10 09:27:59",
-      "views": 5466,
+      "views": 5474,
       "attachments": [
         {
           "name": "[붙임] 2026년 후반기 전문경력인사초빙활용지원사업 공고문.pdf",
@@ -4266,7 +4374,7 @@
       "detailApplyEnd": "2026-05-12 18:00",
       "registrant": "김정현B",
       "regDate": "2026-03-19 17:02:58",
-      "views": 1578,
+      "views": 1583,
       "attachments": [
         {
           "name": "2026년도 한-룩셈부르크 양자기술 공동연구사업 신규과제 공고.hwp",
@@ -4330,7 +4438,7 @@
       "detailApplyEnd": "2026-05-11 18:00",
       "registrant": "김영진",
       "regDate": "2026-04-10 18:19:30",
-      "views": 4673,
+      "views": 4679,
       "attachments": [
         {
           "name": "(붙임2) 공고안내문.zip",
@@ -4372,7 +4480,7 @@
       "detailApplyEnd": "2026-05-11 18:00",
       "registrant": "안성용",
       "regDate": "2026-04-10 15:21:25",
-      "views": 2302,
+      "views": 2304,
       "attachments": [
         {
           "name": "붙임 1. 연구주제안내서(RFP)_[2026-뇌·첨단의공학-02-지정공모-12] 후보 치매약물 효과 시험·검증.hwp",
@@ -4434,7 +4542,7 @@
       "detailApplyEnd": "2026-05-11 17:00",
       "registrant": "홍연희",
       "regDate": "2026-03-06 13:51:59",
-      "views": 2554,
+      "views": 2556,
       "attachments": [
         {
           "name": "[공고문]2026년도 한미 전략기술 선행표준화 공동연구사업(美 NIST 협력사업) 신규과제 공고문.pdf",
@@ -4473,7 +4581,7 @@
       "detailApplyEnd": "2026-05-08 18:00",
       "registrant": "조성호",
       "regDate": "2026-04-07 14:10:26",
-      "views": 14879,
+      "views": 14888,
       "attachments": [
         {
           "name": "[공고문] 2026년도 AI 기반 대학 과학기술 혁신사업 신규과제 수정 공모.pdf",
@@ -4522,7 +4630,7 @@
       "detailApplyEnd": "2026-05-07 18:00",
       "registrant": "김성민",
       "regDate": "2026-03-04 16:00:13",
-      "views": 4671,
+      "views": 4673,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-스웨덴 공동연구사업 신규과제 공모 공고문.pdf",
@@ -4575,7 +4683,7 @@
       "detailApplyEnd": "2026-05-07 17:00",
       "registrant": "김창민",
       "regDate": "2026-03-20 13:17:48",
-      "views": 3702,
+      "views": 3705,
       "attachments": [
         {
           "name": "(공고문) 인문사회 융합인재양성사업(HUSS) 컨소시엄 선정 공고.hwpx",
@@ -4624,7 +4732,7 @@
       "detailApplyEnd": "2026-05-07 14:00",
       "registrant": "송수경",
       "regDate": "2026-04-07 15:15:58",
-      "views": 3704,
+      "views": 3707,
       "attachments": [
         {
           "name": "2026년도 차세대광기반연산반도체핵심기술개발사업 신규과제 공모.hwpx",
@@ -4678,7 +4786,7 @@
       "detailApplyEnd": "2026-05-07 14:00",
       "registrant": "송수경",
       "regDate": "2026-04-07 15:15:47",
-      "views": 1078,
+      "views": 1080,
       "attachments": [
         {
           "name": "2026년도 나노·소재기술개발사업(팹고도화) 상용 파운드리 활용 화합물반도체 MPW 제작 서비스 지원 신규과제 공모.hwpx",
@@ -4732,7 +4840,7 @@
       "detailApplyEnd": "2026-05-07 14:00",
       "registrant": "김정현A",
       "regDate": "2026-04-07 15:06:53",
-      "views": 1141,
+      "views": 1142,
       "attachments": [
         {
           "name": "2026년도 SDV대응가혹환경극복자동차반도체핵심IP원천기술개발사업 신규과제 공모.hwpx",
@@ -4786,7 +4894,7 @@
       "detailApplyEnd": "2026-05-06 18:00",
       "registrant": "이다은",
       "regDate": "2026-04-03 14:18:06",
-      "views": 21048,
+      "views": 21055,
       "attachments": [
         {
           "name": "2026년도 과학기술정보통신부 기초연구사업 2차 신규과제 공모(수정).hwpx",
@@ -4830,7 +4938,7 @@
       "detailApplyEnd": "2026-05-06 18:00",
       "registrant": "정현호",
       "regDate": "2026-04-03 14:11:51",
-      "views": 19936,
+      "views": 19953,
       "attachments": [
         {
           "name": "2026년도 과학기술정보통신부 기초연구사업 2차 신규과제 공모(수정).hwpx",
@@ -4874,7 +4982,7 @@
       "detailApplyEnd": "2026-05-06 18:00",
       "registrant": "송아영",
       "regDate": "2026-04-03 14:01:12",
-      "views": 26052,
+      "views": 26071,
       "attachments": [
         {
           "name": "2026년도 과학기술정보통신부 기초연구사업 2차 신규과제 공모(수정).hwpx",
@@ -4918,7 +5026,7 @@
       "detailApplyEnd": "2026-05-06 18:00",
       "registrant": "김다영B",
       "regDate": "2026-04-03 14:01:05",
-      "views": 8938,
+      "views": 8942,
       "attachments": [
         {
           "name": "2026년도 과학기술정보통신부 기초연구사업 2차 신규과제 공모(수정).hwpx",
@@ -4960,7 +5068,7 @@
       "detailApplyEnd": "2026-05-04 18:00",
       "registrant": "홍지훈",
       "regDate": "2026-04-14 18:17:28",
-      "views": 1505,
+      "views": 1524,
       "attachments": [
         {
           "name": "1. (공고문) 2026년 R&D 매니지먼트 선진화 사업 신규과제 공고문.hwpx",
@@ -5019,7 +5127,7 @@
       "detailApplyEnd": "2026-04-30 18:00",
       "registrant": "이상옥",
       "regDate": "2026-04-20 18:02:31",
-      "views": 594,
+      "views": 595,
       "attachments": [
         {
           "name": "[공고문] 2026년도 대형가속기 기술개발·진흥 지원체계 구축 신규과제 재공모 공고문.hwpx",
@@ -5068,7 +5176,7 @@
       "detailApplyEnd": "2026-04-30 18:00",
       "registrant": "이상옥",
       "regDate": "2026-04-20 17:57:27",
-      "views": 568,
+      "views": 570,
       "attachments": [
         {
           "name": "[공고문] 2026년도 가속기핵심기술개발사업 신규과제 재공모 공고문.hwpx",
@@ -5120,7 +5228,7 @@
       "detailApplyEnd": "2026-04-30 18:00",
       "registrant": "김은애",
       "regDate": "2026-03-31 15:08:05",
-      "views": 2153,
+      "views": 2157,
       "attachments": [
         {
           "name": "2026년 글로벌교육지원사업 신규과제 공고문.pdf",
@@ -5164,7 +5272,7 @@
       "detailApplyEnd": "2026-04-30 18:00",
       "registrant": "김성민",
       "regDate": "2026-03-05 16:00:20",
-      "views": 5721,
+      "views": 5722,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-핀란드 공동연구사업 신규과제 공모 공고문.pdf",
@@ -5218,7 +5326,7 @@
       "detailApplyEnd": "2026-04-29 18:00",
       "registrant": "최효석",
       "regDate": "2026-03-30 15:30:03",
-      "views": 1013,
+      "views": 1015,
       "attachments": [
         {
           "name": "[공고문] 2026년 1차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공고.pdf",
@@ -5272,7 +5380,7 @@
       "detailApplyEnd": "2026-04-23 13:00",
       "registrant": "김다혜",
       "regDate": "2026-04-17 11:37:10",
-      "views": 1057,
+      "views": 1058,
       "attachments": [
         {
           "name": "붙임. 2026년도 4차 바이오·의료기술개발사업(바이오혁신기반조성) 신규과제 사전공고 내역.hwp",
@@ -5306,7 +5414,7 @@
       "detailApplyEnd": "2026-04-22 18:00",
       "registrant": "강태인",
       "regDate": "2026-03-23 19:53:21",
-      "views": 8000,
+      "views": 8003,
       "attachments": [
         {
           "name": "붙임 2. 양식 및 안내.zip",
@@ -5355,7 +5463,7 @@
       "detailApplyEnd": "2026-04-21 18:00",
       "registrant": "차양현",
       "regDate": "2026-02-27 15:01:52",
-      "views": 14204,
+      "views": 14207,
       "attachments": [
         {
           "name": "0. 2026년도 인문사회분야 학술연구지원사업(집단연구군) 신규과제 공고문.pdf",
@@ -5417,7 +5525,7 @@
       "detailApplyEnd": "2026-04-21 18:00",
       "registrant": "김정호",
       "regDate": "2026-02-27 14:13:02",
-      "views": 18039,
+      "views": 18054,
       "attachments": [
         {
           "name": "붙임1. 2026년도 인문사회분야 학술연구지원사업(집단연구군) 신규과제 공고문.hwpx",
@@ -5491,7 +5599,7 @@
       "detailApplyEnd": "2026-04-21 18:00",
       "registrant": "이은정",
       "regDate": "2026-02-27 14:10:18",
-      "views": 9609,
+      "views": 9622,
       "attachments": [
         {
           "name": "붙임1. 2026년도 인문사회분야 학술연구지원사업(집단연구군) 신규과제 공고문.pdf",
@@ -5570,7 +5678,7 @@
       "detailApplyEnd": "2026-04-21 18:00",
       "registrant": "김은경B",
       "regDate": "2026-02-27 14:09:07",
-      "views": 14438,
+      "views": 14448,
       "attachments": [
         {
           "name": "0. 2026년도 인문사회분야 학술연구지원사업(집단연구군) 신규과제 공고문.pdf",
@@ -5649,7 +5757,7 @@
       "detailApplyEnd": "2026-04-20 18:00",
       "registrant": "서성희",
       "regDate": "2026-02-10 18:15:21",
-      "views": 13070,
+      "views": 13072,
       "attachments": [
         {
           "name": "붙임2. 제출서류 양식 및 신청요강(최종).zip",
@@ -5691,7 +5799,7 @@
       "detailApplyEnd": "2026-04-20 18:00",
       "registrant": "성세희",
       "regDate": "2026-02-10 17:54:01",
-      "views": 15894,
+      "views": 15907,
       "attachments": [
         {
           "name": "[서식1] 연구개발계획서 양식.zip",
@@ -5769,7 +5877,7 @@
       "detailApplyEnd": "2026-04-20 16:00",
       "registrant": "김예린",
       "regDate": "2026-03-19 16:27:27",
-      "views": 4441,
+      "views": 4446,
       "attachments": [
         {
           "name": "★ 붙임 1. 이공 우수인재 성장경로 지원 시범사업 공고문.hwpx",
@@ -5806,7 +5914,7 @@
       "detailApplyEnd": "2026-04-20 16:00",
       "registrant": "정혁",
       "regDate": "2026-03-19 16:18:44",
-      "views": 2214,
+      "views": 2216,
       "attachments": [
         {
           "name": "붙임 2. AI X 융합형 교육연구단 시범사업 선정평가 신청서 서식(본분 첨부).zip",
@@ -5844,7 +5952,7 @@
       "detailApplyEnd": "2026-04-20 16:00",
       "registrant": "정수빈",
       "regDate": "2026-03-19 15:56:24",
-      "views": 2843,
+      "views": 2844,
       "attachments": [
         {
           "name": "★(붙임 1) 지역대학 연합형 교육연구단 지원 시범사업 공고문.hwpx",
@@ -5883,7 +5991,7 @@
       "detailApplyEnd": "2026-04-16 18:00",
       "registrant": "이상옥",
       "regDate": "2026-03-16 15:23:02",
-      "views": 657,
+      "views": 658,
       "attachments": [
         {
           "name": "2026년도 대형가속기 기술개발·진흥 지원체계 구축 신규과제 공모 공고문.hwpx",
@@ -5932,7 +6040,7 @@
       "detailApplyEnd": "2026-04-16 18:00",
       "registrant": "이상옥",
       "regDate": "2026-03-16 15:14:46",
-      "views": 623,
+      "views": 624,
       "attachments": [
         {
           "name": "2026년도 가속기핵심기술개발사업 신규과제 공모 공고문.hwpx",
@@ -5984,7 +6092,7 @@
       "detailApplyEnd": "2026-04-16 18:00",
       "registrant": "한소정",
       "regDate": "2026-02-12 11:19:08",
-      "views": 17889,
+      "views": 17894,
       "attachments": [
         {
           "name": "붙임1) 2026년 해외우수과학자유치사업 신규과제 공고문.hwp",
@@ -6056,7 +6164,7 @@
       "detailApplyEnd": "2026-04-15 18:00",
       "registrant": "김진혁",
       "regDate": "2026-04-06 09:35:36",
-      "views": 1782,
+      "views": 1783,
       "attachments": [
         {
           "name": "별첨1. 정책연구과제 제안요청서(RFP).hwp",
@@ -6111,7 +6219,7 @@
       "detailApplyEnd": "2026-04-14 18:00",
       "registrant": "한보경",
       "regDate": "2026-04-07 16:14:03",
-      "views": 2069,
+      "views": 2070,
       "attachments": [
         {
           "name": "2026년도 미래개척융합과학기술개발사업 AI 휴머노이드 분야 신규과제(1차) 재공고.hwpx",
@@ -6163,7 +6271,7 @@
       "detailApplyEnd": "2026-04-14 18:00",
       "registrant": "이태성",
       "regDate": "2026-03-13 11:08:45",
-      "views": 1964,
+      "views": 1965,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 휴먼프론티어과학프로그램(HFSP) 협력사업 신규과제 공고문.hwpx",
@@ -6202,7 +6310,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "전원민",
       "regDate": "2026-02-12 17:12:58",
-      "views": 19111,
+      "views": 19127,
       "attachments": [
         {
           "name": "붙임1. 2026년도 이공분야 학술연구지원사업(기본연구B(포용형), 보호연구, 미래도전, 글로컬R&D) 신규과제 신청요강.pdf",
@@ -6246,7 +6354,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "임보혜",
       "regDate": "2026-02-12 17:11:09",
-      "views": 4033,
+      "views": 4036,
       "attachments": [
         {
           "name": "1. 2026년도 이공분야 학술연구지원사업(기본연구B(포용형), 보호연구, 미래도전, 글로컬R&D) 신청요강.pdf",
@@ -6290,7 +6398,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "전원민",
       "regDate": "2026-02-12 17:06:12",
-      "views": 9379,
+      "views": 9396,
       "attachments": [
         {
           "name": "붙임1. 2026년도 이공분야 학술연구지원사업(기본연구B(포용형), 보호연구, 미래도전, 글로컬R&D) 신규과제 신청요강.pdf",
@@ -6334,7 +6442,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "임보혜",
       "regDate": "2026-02-12 17:03:06",
-      "views": 9531,
+      "views": 9546,
       "attachments": [
         {
           "name": "1. 2026년도 이공분야 학술연구지원사업(박사후국내연수) 신청요강.pdf",
@@ -6378,7 +6486,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "정혜진",
       "regDate": "2026-02-12 16:58:47",
-      "views": 6362,
+      "views": 6366,
       "attachments": [
         {
           "name": "1. 2026년도 이공분야 학술연구지원사업(기본연구B(포용형), 보호연구, 미래도전, 글로컬R&D) 신청요강.pdf",
@@ -6422,7 +6530,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "신용관",
       "regDate": "2026-02-12 16:15:17",
-      "views": 5513,
+      "views": 5519,
       "attachments": [
         {
           "name": "붙임1. 2026년도 글로컬랩 신규과제 신청요강.pdf",
@@ -6466,7 +6574,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "전원민",
       "regDate": "2026-01-22 11:48:58",
-      "views": 14775,
+      "views": 14782,
       "attachments": [
         {
           "name": "2026년도 이공분야 학술연구지원사업 신규과제 공모.pdf",
@@ -6500,7 +6608,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "전원민",
       "regDate": "2026-01-22 11:44:18",
-      "views": 7468,
+      "views": 7477,
       "attachments": [
         {
           "name": "2026년도 이공분야 학술연구지원사업 신규과제 공모.pdf",
@@ -6534,7 +6642,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "임보혜",
       "regDate": "2026-01-22 11:37:32",
-      "views": 2955,
+      "views": 2959,
       "attachments": [
         {
           "name": "1. (공고) 2026년도 이공분야 학술연구지원사업 신규과제 공모(안)_한국연구재단.pdf",
@@ -6568,7 +6676,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "정혜진",
       "regDate": "2026-01-22 11:36:56",
-      "views": 7660,
+      "views": 7677,
       "attachments": [
         {
           "name": "[공고문] 2026년도 이공분야 학술연구지원사업 신규과제 공모.pdf",
@@ -6602,7 +6710,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "신용관",
       "regDate": "2026-01-22 11:32:56",
-      "views": 5763,
+      "views": 5766,
       "attachments": [
         {
           "name": "2026년도 이공분야 학술연구지원사업 신규과제 공모(안).hwpx",
@@ -6636,7 +6744,7 @@
       "detailApplyEnd": "2026-04-14 14:00",
       "registrant": "임보혜",
       "regDate": "2026-01-22 11:30:22",
-      "views": 8607,
+      "views": 8625,
       "attachments": [
         {
           "name": "1. (공고) 2026년도 이공분야 학술연구지원사업 신규과제 공모(안)_한국연구재단.pdf",
@@ -6670,7 +6778,7 @@
       "detailApplyEnd": "2026-04-13 18:00",
       "registrant": "양세형",
       "regDate": "2026-03-13 17:04:39",
-      "views": 1707,
+      "views": 1708,
       "attachments": [
         {
           "name": "(공고문) 2026년도 한-프랑스 협력기반조성사업(STAR) 신규과제 공모 공고문.pdf",
@@ -6713,7 +6821,7 @@
       "detailApplyEnd": "2026-04-13 18:00",
       "registrant": "차지윤",
       "regDate": "2026-03-13 11:09:40",
-      "views": 4593,
+      "views": 4594,
       "attachments": [
         {
           "name": "붙임01) 2026년 하반기 대한민국 과학기술인상 선정계획 공고(안).hwpx",
@@ -6752,7 +6860,7 @@
       "detailApplyEnd": "2026-04-13 14:00",
       "registrant": "임보혜",
       "regDate": "2026-02-12 17:07:42",
-      "views": 30116,
+      "views": 30153,
       "attachments": [
         {
           "name": "1. 2026년도 이공분야 학술연구지원사업(박사과정생연구장려금지원사업) 신청요강.pdf",
@@ -6796,7 +6904,7 @@
       "detailApplyEnd": "2026-04-13 14:00",
       "registrant": "정혜진",
       "regDate": "2026-01-27 18:25:06",
-      "views": 49814,
+      "views": 49833,
       "attachments": [
         {
           "name": "1. 2026년도 이공분야 학술연구지원사업(석사과정생연구장려금지원사업) 신청요강.pdf",
@@ -6840,7 +6948,7 @@
       "detailApplyEnd": "2026-04-13 14:00",
       "registrant": "임보혜",
       "regDate": "2026-01-22 11:33:02",
-      "views": 41344,
+      "views": 41399,
       "attachments": [
         {
           "name": "1. (공고) 2026년도 이공분야 학술연구지원사업 신규과제 공모(안)_한국연구재단.pdf",
@@ -6874,7 +6982,7 @@
       "detailApplyEnd": "2026-04-13 14:00",
       "registrant": "정혜진",
       "regDate": "2026-01-22 11:31:39",
-      "views": 28604,
+      "views": 28666,
       "attachments": [
         {
           "name": "[공고문] 2026년도 이공분야 학술연구지원사업 신규과제 공모.pdf",
@@ -6906,7 +7014,7 @@
       "detailApplyEnd": "2026-04-10 18:00",
       "registrant": "박태진",
       "regDate": "2026-04-01 13:25:09",
-      "views": 833,
+      "views": 834,
       "attachments": [
         {
           "name": "붙임1. [공고문] 2026년도 원자력분야 정책연구과제(MSR 예타대응).hwpx",
@@ -6970,7 +7078,7 @@
       "detailApplyEnd": "2026-04-06 18:00",
       "registrant": "손연주",
       "regDate": "2026-03-27 10:44:02",
-      "views": 565,
+      "views": 566,
       "attachments": [
         {
           "name": "[공고문] 2026년도 해양기초생산량기반 탄소감축연구 신규과제 재공고문.hwpx",
@@ -7027,7 +7135,7 @@
       "detailApplyEnd": "2026-04-06 18:00",
       "registrant": "최재우",
       "regDate": "2026-03-06 17:03:59",
-      "views": 4911,
+      "views": 4914,
       "attachments": [
         {
           "name": "붙임2. 연구개발계획서 양식.zip",
@@ -7077,7 +7185,7 @@
       "detailApplyEnd": "2026-04-06 18:00",
       "registrant": "한보경",
       "regDate": "2026-03-06 15:38:44",
-      "views": 4278,
+      "views": 4281,
       "attachments": [
         {
           "name": "2026년도 미래개척융합과학기술개발사업 AI 휴머노이드 분야 신규과제(1차) 공고문.hwpx",
@@ -7131,7 +7239,7 @@
       "detailApplyEnd": "2026-04-03 18:00",
       "registrant": "이한라",
       "regDate": "2026-03-04 13:00:02",
-      "views": 3848,
+      "views": 3853,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 미래소재디스커버리지원+사업 신규과제 공모.hwpx",
@@ -7175,7 +7283,7 @@
       "detailApplyEnd": "2026-03-31 18:00",
       "registrant": "이향진",
       "regDate": "2026-03-20 14:34:34",
-      "views": 542,
+      "views": 543,
       "attachments": [
         {
           "name": "2026년도 AI기반디지털가상핵융합로플랫폼개발사업 신규과제 재공모 공고문.hwpx",
@@ -7229,7 +7337,7 @@
       "detailApplyEnd": "2026-03-31 18:00",
       "registrant": "이향진",
       "regDate": "2026-03-20 14:31:44",
-      "views": 418,
+      "views": 419,
       "attachments": [
         {
           "name": "2026년도 핵융합플러그인프로그램사업 신규과제 재공모 공고문.hwpx",
@@ -7283,7 +7391,7 @@
       "detailApplyEnd": "2026-03-31 00:00",
       "registrant": "김성민",
       "regDate": "2026-03-12 18:06:59",
-      "views": 4594,
+      "views": 4595,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-스페인 공동연구사업 신규과제 공모 사전공고문_국문.pdf",
@@ -7322,7 +7430,7 @@
       "detailApplyEnd": "2026-03-27 18:00",
       "registrant": "정승모",
       "regDate": "2026-03-18 10:44:30",
-      "views": 599,
+      "views": 600,
       "attachments": [
         {
           "name": "붙임 1. 글로벌 연구안보 정책지원센터 신규과제 재공모 공고문.hwpx",
@@ -7361,7 +7469,7 @@
       "detailApplyEnd": "2026-03-27 18:00",
       "registrant": "박철순",
       "regDate": "2026-03-17 18:00:02",
-      "views": 272,
+      "views": 273,
       "attachments": [
         {
           "name": "'26년 고온초전도자석 실용화기술개발 신규과제 재공고문.hwpx",
@@ -7400,7 +7508,7 @@
       "detailApplyEnd": "2026-03-27 18:00",
       "registrant": "박승찬",
       "regDate": "2026-03-17 14:30:32",
-      "views": 474,
+      "views": 475,
       "attachments": [
         {
           "name": "2026년도 비파괴검사 기술역량 강화 사업 신규과제 재공모.hwp",
@@ -7452,7 +7560,7 @@
       "detailApplyEnd": "2026-03-27 18:00",
       "registrant": "함이수",
       "regDate": "2026-03-16 18:25:59",
-      "views": 755,
+      "views": 757,
       "attachments": [
         {
           "name": "별첨1. 정책연구과제 제안요청서(RFP).hwp",
@@ -7509,7 +7617,7 @@
       "detailApplyEnd": "2026-03-27 14:00",
       "registrant": "송예진",
       "regDate": "2026-02-27 16:01:12",
-      "views": 3094,
+      "views": 3098,
       "attachments": [
         {
           "name": "붙임 1. 2026년 한-EU 협력진흥사업 신규과제 공모 공고문.hwpx",
@@ -7548,7 +7656,7 @@
       "detailApplyEnd": "2026-03-26 18:00",
       "registrant": "손연주",
       "regDate": "2026-02-24 18:02:58",
-      "views": 4267,
+      "views": 4268,
       "attachments": [
         {
           "name": "[공고문] 2026년도 해양기초생산량기반 탄소감축연구 신규과제 공고문.hwpx",
@@ -7607,7 +7715,7 @@
       "detailApplyEnd": "2026-03-26 18:00",
       "registrant": "최효석",
       "regDate": "2026-02-24 17:59:48",
-      "views": 1247,
+      "views": 1248,
       "attachments": [
         {
           "name": "[공고문] 2026년 첨단기술을 활용한 사회문제해결 실증확산 지원(첨단기술 실증지원허브) 신규과제 공고.pdf",
@@ -7661,7 +7769,7 @@
       "detailApplyEnd": "2026-03-26 18:00",
       "registrant": "양세형",
       "regDate": "2026-02-11 09:57:10",
-      "views": 4533,
+      "views": 4534,
       "attachments": [
         {
           "name": "(공고문) 2026년도 한-오스트리아(FWF) 공동연구사업 신규과제 공모 공고문.pdf",
@@ -7715,7 +7823,7 @@
       "detailApplyEnd": "2026-03-26 18:00",
       "registrant": "서성희",
       "regDate": "2026-01-15 16:57:35",
-      "views": 3163,
+      "views": 3164,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-오스트리아(FWF) 공동연구사업 신규과제 공모 사전공고문_최종.pdf",
@@ -7752,7 +7860,7 @@
       "detailApplyEnd": "2026-03-24 18:00",
       "registrant": "박태진",
       "regDate": "2026-03-16 15:55:47",
-      "views": 421,
+      "views": 422,
       "attachments": [
         {
           "name": "[공고문] 2026년도 상반기 원자력정책연구사업 재공고문.hwpx",
@@ -7796,7 +7904,7 @@
       "detailApplyEnd": "2026-03-24 17:00",
       "registrant": "노영석",
       "regDate": "2026-03-03 08:14:44",
-      "views": 2873,
+      "views": 2874,
       "attachments": [
         {
           "name": "KOBRA 2026년 바이오·의료기술개발사업_첨단바이오 연구교류 프로그램 수정 공고_0226.hwp",
@@ -7833,7 +7941,7 @@
       "detailApplyEnd": "2026-03-23 18:00",
       "registrant": "김정호",
       "regDate": "2026-02-20 13:35:55",
-      "views": 12080,
+      "views": 12107,
       "attachments": [
         {
           "name": "붙임1. 2026년도 인문사회 대학기초연구소지원사업 신규 공고문.hwpx",
@@ -7892,7 +8000,7 @@
       "detailApplyEnd": "2026-03-23 17:00",
       "registrant": "이태성",
       "regDate": "2026-02-19 17:07:37",
-      "views": 4501,
+      "views": 4502,
       "attachments": [
         {
           "name": "[붙임1] 2026년도 유네스코 협력활동 신규과제 공고문.hwpx",
@@ -7931,7 +8039,7 @@
       "detailApplyEnd": "2026-03-23 16:00",
       "registrant": "이동규",
       "regDate": "2026-03-12 15:17:51",
-      "views": 1956,
+      "views": 1957,
       "attachments": [
         {
           "name": "2026년 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고문.pdf",
@@ -7968,7 +8076,7 @@
       "detailApplyEnd": "2026-03-23 12:00",
       "registrant": "김영진",
       "regDate": "2026-03-16 11:09:49",
-      "views": 847,
+      "views": 848,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 나노소재기술개발사업 신규과제 2차 재공고.hwpx",
@@ -8010,7 +8118,7 @@
       "detailApplyEnd": "2026-03-20 18:00",
       "registrant": "송영진",
       "regDate": "2026-03-09 17:56:05",
-      "views": 361,
+      "views": 362,
       "attachments": [
         {
           "name": "2026년도 사용후핵연료 통합관리 혁신기술개발사업 신규과제 재공고.pdf",
@@ -8057,7 +8165,7 @@
       "detailApplyEnd": "2026-03-20 18:00",
       "registrant": "송영진",
       "regDate": "2026-03-09 17:45:48",
-      "views": 317,
+      "views": 318,
       "attachments": [
         {
           "name": "2026년도 원자로 재료열화 대응 혁신기술 개발사업 신규과제 재공고.pdf",
@@ -8111,7 +8219,7 @@
       "detailApplyEnd": "2026-03-20 18:00",
       "registrant": "박인선",
       "regDate": "2026-02-13 11:31:15",
-      "views": 600,
+      "views": 603,
       "attachments": [
         {
           "name": "[공고문] 2026년도 전문기술인 활용 재난재해 대응기술 현장화 지원 사업 신규과제 공고문.hwpx",
@@ -8163,7 +8271,7 @@
       "detailApplyEnd": "2026-03-19 18:00",
       "registrant": "이윤정",
       "regDate": "2026-03-13 17:44:10",
-      "views": 1886,
+      "views": 1887,
       "attachments": [
         {
           "name": "[공고문] 2026년도 제1차 과학기술분야 연구기획과제 재공모(과학기술정보통신부 공고 2026-0303).hwpx",
@@ -8235,7 +8343,7 @@
       "detailApplyEnd": "2026-03-17 18:00",
       "registrant": "이윤정",
       "regDate": "2026-03-11 18:21:01",
-      "views": 445,
+      "views": 447,
       "attachments": [
         {
           "name": "(공고문) 정책연구과제 공모.hwpx",
@@ -8299,7 +8407,7 @@
       "detailApplyEnd": "2026-03-17 18:00",
       "registrant": "박승찬",
       "regDate": "2026-02-13 15:51:57",
-      "views": 1482,
+      "views": 1486,
       "attachments": [
         {
           "name": "붙임2 연구개발계획서 양식.zip",
@@ -8353,7 +8461,7 @@
       "detailApplyEnd": "2026-03-17 18:00",
       "registrant": "이상옥",
       "regDate": "2026-02-13 14:36:14",
-      "views": 1235,
+      "views": 1243,
       "attachments": [
         {
           "name": "(공고문) 2026년도 AI기반디지털가상핵융합로플랫폼개발사업 신규과제 공고.hwp",
@@ -8405,7 +8513,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "김진혁",
       "regDate": "2026-03-09 11:10:12",
-      "views": 1936,
+      "views": 1938,
       "attachments": [
         {
           "name": "별첨1. 정책연구용역과제 제안요청서(RFP).hwp",
@@ -8459,7 +8567,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "엄정하",
       "regDate": "2026-03-06 11:11:59",
-      "views": 709,
+      "views": 710,
       "attachments": [
         {
           "name": "2026년 민관협력 기반 AI 휴머노이드 원천기술 고도화(R&D) 신규과제 재공고.hwpx",
@@ -8503,7 +8611,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "김해종",
       "regDate": "2026-03-06 09:27:45",
-      "views": 1806,
+      "views": 1807,
       "attachments": [
         {
           "name": "2026년 AI S&T 혁신 기술개발(R&D) 신규과제 재공고.hwpx",
@@ -8545,7 +8653,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "김민",
       "regDate": "2026-03-05 16:14:51",
-      "views": 998,
+      "views": 999,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 나노소재기술개발사업 신규과제 1차 재공고.hwpx",
@@ -8589,7 +8697,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "정승모",
       "regDate": "2026-02-13 10:19:47",
-      "views": 382,
+      "views": 383,
       "attachments": [
         {
           "name": "붙임1. 글로벌 연구안보 정책지원센터 신규과제 공모 공고문.hwpx",
@@ -8627,7 +8735,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "박성빈",
       "regDate": "2026-02-13 10:19:45",
-      "views": 542,
+      "views": 544,
       "attachments": [
         {
           "name": "[공고] 2026년도 연구안보센터 신규과제 공모 공고문.hwpx",
@@ -8666,7 +8774,7 @@
       "detailApplyEnd": "2026-03-16 18:00",
       "registrant": "박철순",
       "regDate": "2026-02-11 10:03:43",
-      "views": 612,
+      "views": 617,
       "attachments": [
         {
           "name": "(붙임1~4) 붙임 자료.zip",
@@ -8705,7 +8813,7 @@
       "detailApplyEnd": "2026-03-16 17:00",
       "registrant": "이태성",
       "regDate": "2026-02-12 17:36:06",
-      "views": 1209,
+      "views": 1210,
       "attachments": [
         {
           "name": "[붙임1] 2026년도 G20 K-Research Innovation 사업 공고문.hwpx",
@@ -8744,7 +8852,7 @@
       "detailApplyEnd": "2026-03-16 17:00",
       "registrant": "이태성",
       "regDate": "2026-02-12 17:33:31",
-      "views": 554,
+      "views": 555,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 APEC 과학자 초청연수 프로그램 공고문.hwpx",
@@ -8781,7 +8889,7 @@
       "detailApplyEnd": "2026-03-13 18:00",
       "registrant": "임슬기",
       "regDate": "2026-03-05 17:18:04",
-      "views": 221,
+      "views": 222,
       "attachments": [
         {
           "name": "2026년도 리튬메탈 음극의 범용적 활용을 위한 모듈형 LEA 핵심기술개발사업 신규과제 재공모 공고문.hwpx",
@@ -8823,7 +8931,7 @@
       "detailApplyEnd": "2026-03-13 18:00",
       "registrant": "임슬기",
       "regDate": "2026-03-05 17:12:30",
-      "views": 289,
+      "views": 290,
       "attachments": [
         {
           "name": "2026년도 자원순환형 초고에너지밀도 주유형 알루미늄 공기전지 신규과제 재공모 공고문.hwpx",
@@ -8867,7 +8975,7 @@
       "detailApplyEnd": "2026-03-13 18:00",
       "registrant": "신임진",
       "regDate": "2026-02-13 15:21:10",
-      "views": 927,
+      "views": 928,
       "attachments": [
         {
           "name": "붙임1. 2026년도 기초학문자료센터 DB구축사업 공고문.hwpx",
@@ -8916,7 +9024,7 @@
       "detailApplyEnd": "2026-03-13 18:00",
       "registrant": "서예은",
       "regDate": "2026-02-13 15:18:10",
-      "views": 2077,
+      "views": 2078,
       "attachments": [
         {
           "name": "붙임 1. 2026년도 인문도시지원사업 신규과제 공고문.hwpx",
@@ -8963,7 +9071,7 @@
       "detailApplyEnd": "2026-03-13 18:00",
       "registrant": "송병찬",
       "regDate": "2026-02-11 10:12:38",
-      "views": 691,
+      "views": 694,
       "attachments": [
         {
           "name": "국가전략기술 핵심역량 확보를 위한 중성자 활용기술 고도화사업 신규과제 공고문.hwpx",
@@ -9017,7 +9125,7 @@
       "detailApplyEnd": "2026-03-13 14:00",
       "registrant": "이수진A",
       "regDate": "2026-03-04 18:10:55",
-      "views": 403,
+      "views": 405,
       "attachments": [
         {
           "name": "2026년도 차세대융복합프리폼디스플레이핵심기술개발사업 신규과제 재공모.hwpx",
@@ -9071,7 +9179,7 @@
       "detailApplyEnd": "2026-03-13 14:00",
       "registrant": "송수경",
       "regDate": "2026-03-04 17:59:39",
-      "views": 374,
+      "views": 375,
       "attachments": [
         {
           "name": "2026년도 나노·소재기술개발사업(팹고도화) 고경력 전문인력 기술컨설팅 신규과제 재공모.hwpx",
@@ -9125,7 +9233,7 @@
       "detailApplyEnd": "2026-03-13 14:00",
       "registrant": "김정현A",
       "regDate": "2026-03-04 17:49:28",
-      "views": 861,
+      "views": 863,
       "attachments": [
         {
           "name": "2026년도 차세대지능형반도체기술개발(소자)사업 신규과제 재공모.hwpx",
@@ -9177,7 +9285,7 @@
       "detailApplyEnd": "2026-03-12 18:00",
       "registrant": "박태진",
       "regDate": "2026-03-05 18:06:05",
-      "views": 394,
+      "views": 396,
       "attachments": [
         {
           "name": "[공고문] 2026년도 원자력분야 정책연구용역위탁과제(원자력 백서).hwpx",
@@ -9239,7 +9347,7 @@
       "detailApplyEnd": "2026-03-12 18:00",
       "registrant": "박태진",
       "regDate": "2026-03-05 18:02:27",
-      "views": 388,
+      "views": 390,
       "attachments": [
         {
           "name": "[공고문] 2026년도 원자력분야 정책연구용역위탁과제(5개년 계획).hwpx",
@@ -9301,7 +9409,7 @@
       "detailApplyEnd": "2026-03-12 18:00",
       "registrant": "박태진",
       "regDate": "2026-02-24 18:42:25",
-      "views": 740,
+      "views": 741,
       "attachments": [
         {
           "name": "[공고문] 2026년도 상반기 원자력정책연구사업 공고문.hwp",
@@ -9345,7 +9453,7 @@
       "detailApplyEnd": "2026-03-12 18:00",
       "registrant": "박승찬",
       "regDate": "2026-02-11 17:18:34",
-      "views": 4534,
+      "views": 4536,
       "attachments": [
         {
           "name": "붙임1. 신규과제 RFP 각1부.zip",
@@ -9397,7 +9505,7 @@
       "detailApplyEnd": "2026-03-12 17:00",
       "registrant": "이태성",
       "regDate": "2026-02-11 18:05:15",
-      "views": 733,
+      "views": 735,
       "attachments": [
         {
           "name": "[붙임1] 2026년도 환태평양 연구협력 이니셔티브 지원사업 신규과제 공고문(안).hwpx",
@@ -9434,7 +9542,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "이윤정",
       "regDate": "2026-02-26 18:15:14",
-      "views": 1398,
+      "views": 1400,
       "attachments": [
         {
           "name": "[공고문] 2026년도 제1차 과학기술분야 연구기획과제 공모(과학기술정보통신부 공고 2026-0221).pdf",
@@ -9506,7 +9614,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "김형주",
       "regDate": "2026-02-10 18:08:21",
-      "views": 1204,
+      "views": 1205,
       "attachments": [
         {
           "name": "붙임1. 2026년도 NCP 활동지원사업 신규과제 공모 공고문.hwp",
@@ -9555,7 +9663,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "이한라",
       "regDate": "2026-02-09 17:59:48",
-      "views": 2055,
+      "views": 2058,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 첨단소재원천기술성장지원사업 신규과제 1차 공모.hwpx",
@@ -9599,7 +9707,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "김영진",
       "regDate": "2026-02-09 14:59:54",
-      "views": 1842,
+      "views": 1844,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 나노·소재기술개발사업 신규과제 2차 공모.hwpx",
@@ -9638,7 +9746,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "최운규",
       "regDate": "2026-01-09 16:35:40",
-      "views": 35431,
+      "views": 35450,
       "attachments": [
         {
           "name": "(붙임 2) 2026년도 석사과정생연구장려금지원사업 자주 묻는 질문 (FAQ).pdf",
@@ -9717,7 +9825,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "김혜은",
       "regDate": "2026-01-09 14:07:16",
-      "views": 34048,
+      "views": 34059,
       "attachments": [
         {
           "name": "붙임 01. 2026년도 박사과정생연구장려금지원사업(인문사회) 신청요강.pdf",
@@ -9789,7 +9897,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "김광섭",
       "regDate": "2026-01-09 13:46:15",
-      "views": 50094,
+      "views": 50107,
       "attachments": [
         {
           "name": "붙임. 2026년도 교육부 인문사회분야 학술연구지원사업 신규과제 선정 공고.pdf",
@@ -9823,7 +9931,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "이진후",
       "regDate": "2026-01-09 13:46:01",
-      "views": 9260,
+      "views": 9266,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 글로벌리서치 신청요강(260112).pdf",
@@ -9887,7 +9995,7 @@
       "detailApplyEnd": "2026-03-11 18:00",
       "registrant": "서수정",
       "regDate": "2026-01-07 15:00:06",
-      "views": 9523,
+      "views": 9531,
       "attachments": [
         {
           "name": "1. 2026년도 개인기초연구 글로벌 매칭형(독일) 신규과제 공고.hwpx",
@@ -9936,7 +10044,7 @@
       "detailApplyEnd": "2026-03-10 18:00",
       "registrant": "안성용",
       "regDate": "2026-02-27 15:32:41",
-      "views": 867,
+      "views": 868,
       "attachments": [
         {
           "name": "붙임 1. 과제제안요구서(RFP).hwp",
@@ -9984,7 +10092,7 @@
       "detailApplyEnd": "2026-03-10 18:00",
       "registrant": "최유정",
       "regDate": "2026-02-03 15:11:07",
-      "views": 2890,
+      "views": 2891,
       "attachments": [
         {
           "name": "[공고문] 2026년도 기초연구지원 정책 및 네트워크 구축사업 신규과제 공모.pdf",
@@ -10033,7 +10141,7 @@
       "detailApplyEnd": "2026-03-10 16:00",
       "registrant": "이동규",
       "regDate": "2026-02-09 10:11:35",
-      "views": 2077,
+      "views": 2078,
       "attachments": [
         {
           "name": "2026년 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고문.pdf",
@@ -10067,7 +10175,7 @@
       "detailApplyEnd": "2026-03-09 18:00",
       "registrant": "이건상",
       "regDate": "2026-02-06 11:47:54",
-      "views": 8072,
+      "views": 8077,
       "attachments": [
         {
           "name": "공고문 등 붙임 파일.zip",
@@ -10111,7 +10219,7 @@
       "detailApplyEnd": "2026-03-06 18:00",
       "registrant": "장은혜",
       "regDate": "2026-02-25 18:10:25",
-      "views": 253,
+      "views": 254,
       "attachments": [
         {
           "name": "2026년도 Net-zero구현초격차태양전지개발사업 신규과제 재공모 공고문.hwpx",
@@ -10155,7 +10263,7 @@
       "detailApplyEnd": "2026-03-06 18:00",
       "registrant": "장은혜",
       "regDate": "2026-02-25 18:04:36",
-      "views": 195,
+      "views": 196,
       "attachments": [
         {
           "name": "2026년도 토양기반기후회복력진단및강화기술개발사업 신규과제 재공고문.hwpx",
@@ -10199,7 +10307,7 @@
       "detailApplyEnd": "2026-03-06 18:00",
       "registrant": "송인범",
       "regDate": "2026-02-25 17:45:51",
-      "views": 179,
+      "views": 181,
       "attachments": [
         {
           "name": "(붙임 1) 2026년도 AI기반무탄소에너지활용화학기술개발사업 신규과제 재공고문.hwp",
@@ -10243,7 +10351,7 @@
       "detailApplyEnd": "2026-03-06 18:00",
       "registrant": "신희정",
       "regDate": "2026-02-25 16:53:21",
-      "views": 199,
+      "views": 201,
       "attachments": [
         {
           "name": "붙임1. RFP(2026–에너지·환경-1-지정공모-05).hwp",
@@ -10287,7 +10395,7 @@
       "detailApplyEnd": "2026-03-06 18:00",
       "registrant": "홍성일",
       "regDate": "2026-02-25 16:30:45",
-      "views": 107,
+      "views": 109,
       "attachments": [
         {
           "name": "2026년도 CO2동시포집전환(RCC)융합기술개발사업 신규과제 재공모 공고문.hwpx",
@@ -10331,7 +10439,7 @@
       "detailApplyEnd": "2026-03-06 18:00",
       "registrant": "홍성일",
       "regDate": "2026-02-25 16:29:13",
-      "views": 150,
+      "views": 152,
       "attachments": [
         {
           "name": "2026년도 CCU메가프로젝트사업 신규과제 재공모 공고문.hwpx",
@@ -10375,7 +10483,7 @@
       "detailApplyEnd": "2026-03-05 18:00",
       "registrant": "강태인",
       "regDate": "2026-02-25 17:31:02",
-      "views": 893,
+      "views": 896,
       "attachments": [
         {
           "name": "붙임 3. 양식 및 안내.zip",
@@ -10422,7 +10530,7 @@
       "detailApplyEnd": "2026-03-05 18:00",
       "registrant": "송영진",
       "regDate": "2026-02-02 16:22:05",
-      "views": 506,
+      "views": 509,
       "attachments": [
         {
           "name": "(공고문) 2026년도 원자로 재료열화 대응 혁신기술 개발사업 신규과제 공고.hwp",
@@ -10476,7 +10584,7 @@
       "detailApplyEnd": "2026-03-05 18:00",
       "registrant": "김경란",
       "regDate": "2026-01-09 16:43:59",
-      "views": 2800,
+      "views": 2802,
       "attachments": [
         {
           "name": "2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공고문.hwpx",
@@ -10525,7 +10633,7 @@
       "detailApplyEnd": "2026-03-04 18:00",
       "registrant": "조성호",
       "regDate": "2026-02-03 08:25:10",
-      "views": 551,
+      "views": 554,
       "attachments": [
         {
           "name": "2026년도 사용후핵연료 통합관리 혁신기술개발사업 신규과제 공고.hwpx",
@@ -10574,7 +10682,7 @@
       "detailApplyEnd": "2026-03-04 18:00",
       "registrant": "조성호",
       "regDate": "2026-02-03 08:20:07",
-      "views": 872,
+      "views": 876,
       "attachments": [
         {
           "name": "2026년도 차세대원자력혁신생태계기반조성사업 신규과제 공고.hwpx",
@@ -10623,7 +10731,7 @@
       "detailApplyEnd": "2026-03-04 18:00",
       "registrant": "엄정하",
       "regDate": "2026-02-02 18:11:17",
-      "views": 1093,
+      "views": 1095,
       "attachments": [
         {
           "name": "2026년 민관협력 기반 AI 휴머노이드 원천기술 고도화(R&D) 신규과제 공고문.hwpx",
@@ -10667,7 +10775,7 @@
       "detailApplyEnd": "2026-03-04 18:00",
       "registrant": "김해종",
       "regDate": "2026-02-02 18:10:56",
-      "views": 4813,
+      "views": 4815,
       "attachments": [
         {
           "name": "붙임 4. 생명자원 기탁 및 생명정보 등록에 관한 안내.hwpx",
@@ -10714,7 +10822,7 @@
       "detailApplyEnd": "2026-03-04 18:00",
       "registrant": "임슬기",
       "regDate": "2026-01-30 17:52:58",
-      "views": 379,
+      "views": 381,
       "attachments": [
         {
           "name": "2. 과제제안요구서(RFP).hwpx",
@@ -10756,7 +10864,7 @@
       "detailApplyEnd": "2026-03-04 18:00",
       "registrant": "임슬기",
       "regDate": "2026-01-30 17:49:35",
-      "views": 674,
+      "views": 676,
       "attachments": [
         {
           "name": "1. 2026년도 자원순환형 초고에너지밀도 주유형 알루미늄 공기전지 신규과제 공모.hwpx",
@@ -10800,7 +10908,7 @@
       "detailApplyEnd": "2026-03-03 18:00",
       "registrant": "김시진",
       "regDate": "2026-01-30 17:33:13",
-      "views": 3713,
+      "views": 3715,
       "attachments": [
         {
           "name": "1. 2026년도 나노소재기술개발사업 신규과제 1차 공모.hwpx",
@@ -10844,7 +10952,7 @@
       "detailApplyEnd": "2026-03-03 14:00",
       "registrant": "이수진A",
       "regDate": "2026-01-30 17:42:40",
-      "views": 548,
+      "views": 550,
       "attachments": [
         {
           "name": "2026년도 차세대융복합프리폼디스플레이핵심기술개발사업 신규과제 공모.hwpx",
@@ -10898,7 +11006,7 @@
       "detailApplyEnd": "2026-03-03 14:00",
       "registrant": "송수경",
       "regDate": "2026-01-30 17:32:43",
-      "views": 235,
+      "views": 237,
       "attachments": [
         {
           "name": "2026년도 나노·소재기술개발사업(팹고도화) 고경력 전문인력 기술컨설팅 신규과제 공모.hwpx",
@@ -10952,7 +11060,7 @@
       "detailApplyEnd": "2026-03-03 14:00",
       "registrant": "김정현A",
       "regDate": "2026-01-30 17:31:08",
-      "views": 1254,
+      "views": 1256,
       "attachments": [
         {
           "name": "2026년도 차세대지능형반도체기술개발(소자)사업 신규과제 공모.hwpx",
@@ -11006,7 +11114,7 @@
       "detailApplyEnd": "2026-03-03 14:00",
       "registrant": "이수진A",
       "regDate": "2026-01-30 17:30:48",
-      "views": 774,
+      "views": 777,
       "attachments": [
         {
           "name": "2026년도 PIM인공지능반도체핵심기술개발(소자)사업 신규과제 공모.hwpx",
@@ -11060,7 +11168,7 @@
       "detailApplyEnd": "2026-02-28 00:00",
       "registrant": "김성민",
       "regDate": "2026-01-27 13:39:12",
-      "views": 1433,
+      "views": 1435,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-핀란드(RCF) 공동연구사업 신규과제 공모 사전공고문_국문.pdf",
@@ -11099,7 +11207,7 @@
       "detailApplyEnd": "2026-02-27 18:00",
       "registrant": "안성용",
       "regDate": "2026-01-27 12:47:11",
-      "views": 1244,
+      "views": 1248,
       "attachments": [
         {
           "name": "붙임 1. [2026-U2013뇌·첨단의공학-01-지정공모-11] AI 및 융합기술 기반 치매 신규타겟·바이오마커·유효 선도물질 발굴.hwp",
@@ -11148,7 +11256,7 @@
       "detailApplyEnd": "2026-02-26 18:00",
       "registrant": "함이수",
       "regDate": "2026-01-22 11:34:42",
-      "views": 2605,
+      "views": 2610,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 이공분야 학술연구지원사업(기초과학연구역량강화) 신규과제 신청요강.hwp",
@@ -11190,7 +11298,7 @@
       "detailApplyEnd": "2026-02-26 18:00",
       "registrant": "조은혜",
       "regDate": "2026-01-19 17:51:06",
-      "views": 5747,
+      "views": 5751,
       "attachments": [
         {
           "name": "1. 2026년도 한-중(NSFC)협력사업 신규공모 공고문.pdf",
@@ -11262,7 +11370,7 @@
       "detailApplyEnd": "2026-02-26 18:00",
       "registrant": "김성민",
       "regDate": "2025-12-18 21:26:34",
-      "views": 2557,
+      "views": 2561,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-EU 교육협력진흥사업 신규과제 공고문.hwpx",
@@ -11299,7 +11407,7 @@
       "detailApplyEnd": "2026-02-26 18:00",
       "registrant": "김성민",
       "regDate": "2025-12-18 21:23:06",
-      "views": 3966,
+      "views": 3970,
       "attachments": [
         {
           "name": "붙임1. 2026년도 한-EU 교육협력사업 신규과제 공고문.hwpx",
@@ -11338,7 +11446,7 @@
       "detailApplyEnd": "2026-02-24 14:00",
       "registrant": "전원민",
       "regDate": "2026-01-22 11:33:18",
-      "views": 6437,
+      "views": 6443,
       "attachments": [
         {
           "name": "2026년도 이공분야 학술연구지원사업 신규과제 공모.pdf",
@@ -11387,7 +11495,7 @@
       "detailApplyEnd": "2026-02-24 14:00",
       "registrant": "임보혜",
       "regDate": "2026-01-22 11:25:18",
-      "views": 6319,
+      "views": 6328,
       "attachments": [
         {
           "name": "1. (공고) 2026년도 이공분야 학술연구지원사업 신규과제 공모(안)_한국연구재단.pdf",
@@ -11436,7 +11544,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "강명진",
       "regDate": "2026-02-23 10:33:48",
-      "views": 747,
+      "views": 750,
       "attachments": [
         {
           "name": "2026년 바이오의료기술개발 사업 신규과제 제1차 재공고 공고문.hwp",
@@ -11485,7 +11593,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "이선일",
       "regDate": "2026-02-11 11:43:12",
-      "views": 376,
+      "views": 379,
       "attachments": [
         {
           "name": "붙임 1. 과제제안요구서(RFP) [2026-차세대바이오-01-지정공모-09] AI-네이티브 첨단바이오 자율실험실 구축(분야1).hwpx",
@@ -11534,7 +11642,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "장은혜",
       "regDate": "2026-01-23 18:47:17",
-      "views": 1770,
+      "views": 1771,
       "attachments": [
         {
           "name": "(본문) 2026년도 Net-zero구현초격차태양전지개발사업 신규과제 공고문.hwpx",
@@ -11578,7 +11686,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "장은혜",
       "regDate": "2026-01-23 18:43:46",
-      "views": 1396,
+      "views": 1401,
       "attachments": [
         {
           "name": "붙임 1. 2026년도 토양기반기후회복력진단및강화기술개발사업 신규과제 과제제안요구서(RFP).pdf",
@@ -11622,7 +11730,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "장은혜",
       "regDate": "2026-01-23 18:36:03",
-      "views": 1785,
+      "views": 1787,
       "attachments": [
         {
           "name": "붙임 1. 2026년도 AI기반미래기후기술개발원천연구사업 신규과제 과제제안요구서(RFP).pdf",
@@ -11666,7 +11774,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "장은혜",
       "regDate": "2026-01-23 18:20:16",
-      "views": 788,
+      "views": 790,
       "attachments": [
         {
           "name": "붙임 1. 2026년도 AI기반무탄소에너지활용화학기술개발사업 신규과제 과제제안요구서(RFP).pdf",
@@ -11710,7 +11818,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "홍성일",
       "regDate": "2026-01-23 17:27:32",
-      "views": 1505,
+      "views": 1507,
       "attachments": [
         {
           "name": "(본문) 2026년도 CCU메가프로젝트 신규과제 공고문.hwpx",
@@ -11752,7 +11860,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "신희정",
       "regDate": "2026-01-23 17:26:54",
-      "views": 695,
+      "views": 698,
       "attachments": [
         {
           "name": "[붙임1]2026년도 수소융합혁신기술개발(RFP).hwp",
@@ -11796,7 +11904,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "홍성일",
       "regDate": "2026-01-23 17:24:11",
-      "views": 538,
+      "views": 541,
       "attachments": [
         {
           "name": "(본문) 2026년도 CO2동시포집전환(RCC)융합기술개발 신규과제 공고문.hwpx",
@@ -11840,7 +11948,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "홍성일",
       "regDate": "2026-01-23 17:17:29",
-      "views": 422,
+      "views": 424,
       "attachments": [
         {
           "name": "(본문) 2026년도 탄소네거티브DAC기술고도화 신규과제 공고문.hwpx",
@@ -11882,7 +11990,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "노영석",
       "regDate": "2026-01-23 14:14:04",
-      "views": 1026,
+      "views": 1028,
       "attachments": [
         {
           "name": "2026년도 유전자·세포 선도화전략 설계 및 정책연구사업 신규과제 제1차 공고문.hwpx",
@@ -11931,7 +12039,7 @@
       "detailApplyEnd": "2026-02-23 18:00",
       "registrant": "강태인",
       "regDate": "2026-01-23 13:30:35",
-      "views": 1869,
+      "views": 1871,
       "attachments": [
         {
           "name": "2026년 바이오의료기술개발 사업 신규과제 제2차 공고문.hwp",
@@ -11980,7 +12088,7 @@
       "detailApplyEnd": "2026-02-19 18:00",
       "registrant": "김다혜",
       "regDate": "2026-02-11 16:20:30",
-      "views": 336,
+      "views": 339,
       "attachments": [
         {
           "name": "붙임 1. 과제제안요구서(RFP).zip",
@@ -12029,7 +12137,7 @@
       "detailApplyEnd": "2026-02-13 12:00",
       "registrant": "서유리",
       "regDate": "2026-02-02 16:41:50",
-      "views": 1090,
+      "views": 1094,
       "attachments": [
         {
           "name": "[붙임1] 2026년 바이오 혁신기술 규제지원 플랫폼 구축사업 모집공고문_최종.hwp",
@@ -12068,7 +12176,7 @@
       "detailApplyEnd": "2026-02-12 18:00",
       "registrant": "박철순",
       "regDate": "2026-01-15 14:15:37",
-      "views": 1808,
+      "views": 1812,
       "attachments": [
         {
           "name": "(유형1)2026년도 차세대 유망 Seed 기술실용화 패스트트랙사업 신규과제 공고문.hwp",
@@ -12105,7 +12213,7 @@
       "detailApplyEnd": "2026-02-12 17:00",
       "registrant": "조은혜",
       "regDate": "2025-11-21 16:03:34",
-      "views": 6896,
+      "views": 6902,
       "attachments": [
         {
           "name": "4. 개인정보 제공 및 활용동의서 양식.hwp",
@@ -12164,7 +12272,7 @@
       "detailApplyEnd": "2026-02-11 18:00",
       "registrant": "김유진",
       "regDate": "2026-01-12 15:50:18",
-      "views": 2603,
+      "views": 2606,
       "attachments": [
         {
           "name": "[공고문] 2026년 디지털AI세포구축사업 신규과제 공고문.hwpx",
@@ -12213,7 +12321,7 @@
       "detailApplyEnd": "2026-02-11 18:00",
       "registrant": "최운규",
       "regDate": "2026-01-09 17:15:19",
-      "views": 12209,
+      "views": 12222,
       "attachments": [
         {
           "name": "(붙임 2) 2026년도 저술지원사업 자주 묻는 질문(FAQ).pdf",
@@ -12272,7 +12380,7 @@
       "detailApplyEnd": "2026-02-11 18:00",
       "registrant": "최운규",
       "regDate": "2026-01-09 16:53:43",
-      "views": 5076,
+      "views": 5083,
       "attachments": [
         {
           "name": "(붙임 1) 2026년도 명저번역지원사업 신청요강.pdf",
@@ -12346,7 +12454,7 @@
       "detailApplyEnd": "2026-02-11 18:00",
       "registrant": "손제은",
       "regDate": "2026-01-09 13:59:51",
-      "views": 18311,
+      "views": 18316,
       "attachments": [
         {
           "name": "붙임5. 개인정보 및 과세정보 제공․활용 동의서, 제3자 제공 동의서.hwp",
@@ -12425,7 +12533,7 @@
       "detailApplyEnd": "2026-02-11 18:00",
       "registrant": "김광섭",
       "regDate": "2026-01-09 13:57:50",
-      "views": 34050,
+      "views": 34069,
       "attachments": [
         {
           "name": "[붙임1] 2026년도 인문사회학술연구교수(B유형) 신청요강.pdf",
@@ -12489,7 +12597,7 @@
       "detailApplyEnd": "2026-02-09 23:59",
       "registrant": "서유리",
       "regDate": "2026-01-09 15:48:43",
-      "views": 780,
+      "views": 781,
       "attachments": [
         {
           "name": "범부처 재생의료기술개발사업 2대 사업단장 공고문 및 신청서식.hwpx",
@@ -12523,7 +12631,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "김경란",
       "regDate": "2026-01-09 17:13:54",
-      "views": 2214,
+      "views": 2217,
       "attachments": [
         {
           "name": "2026년 생체노화 리프로그래밍 원천기술개발사업 신규과제 공고문.hwpx",
@@ -12572,7 +12680,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "이선일",
       "regDate": "2026-01-09 17:02:32",
-      "views": 1866,
+      "views": 1870,
       "attachments": [
         {
           "name": "2026년 AI-네이티브 첨단바이오 자율시험실 사업 신규과제 공고문.hwp",
@@ -12621,7 +12729,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "강명진",
       "regDate": "2026-01-09 16:27:18",
-      "views": 578,
+      "views": 590,
       "attachments": [
         {
           "name": "The First Call for New Projects under the 2026 (Year) Advanced New Drug Target Discovery and Validation and Platform Technology Development Program.docx",
@@ -12670,7 +12778,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "강태인",
       "regDate": "2026-01-09 16:21:18",
-      "views": 6031,
+      "views": 6035,
       "attachments": [
         {
           "name": "붙임 2. 양식 및 안내.zip",
@@ -12719,7 +12827,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "강명진",
       "regDate": "2026-01-09 16:04:06",
-      "views": 1537,
+      "views": 1540,
       "attachments": [
         {
           "name": "붙임 1. 2026년 첨단신약타겟발굴검증및기반기술개발 사업 신규과제 공고문.hwpx",
@@ -12768,7 +12876,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "강명진",
       "regDate": "2026-01-09 16:01:52",
-      "views": 566,
+      "views": 570,
       "attachments": [
         {
           "name": "붙임 1. 과제제안요구서(RFP)[2026-신약-01-품목공모-22] 해외 다발 신종감염병 연구자원 수집·제공을 위한 협력 체계 구축.hwpx",
@@ -12817,7 +12925,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "김광섭",
       "regDate": "2026-01-09 14:03:53",
-      "views": 4970,
+      "views": 4974,
       "attachments": [
         {
           "name": "[붙임1] 2026년도 우수학자지원사업 신청요강.pdf",
@@ -12896,7 +13004,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "김혜은",
       "regDate": "2026-01-09 13:57:46",
-      "views": 32877,
+      "views": 32891,
       "attachments": [
         {
           "name": "붙임 01. 2026년도 신진연구자지원사업 신청요강.pdf",
@@ -12965,7 +13073,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "손제은",
       "regDate": "2026-01-09 13:57:02",
-      "views": 22432,
+      "views": 22441,
       "attachments": [
         {
           "name": "붙임2. 2026년도 중견연구자지원사업 자주 묻는 질문(FAQ).pdf",
@@ -13044,7 +13152,7 @@
       "detailApplyEnd": "2026-02-09 18:00",
       "registrant": "이진후",
       "regDate": "2026-01-09 13:42:51",
-      "views": 28965,
+      "views": 28986,
       "attachments": [
         {
           "name": "(붙임1) 2026년도 인문사회학술연구교수(A유형) 신청요강(260205).pdf",
@@ -13118,7 +13226,7 @@
       "detailApplyEnd": "2026-02-05 18:00",
       "registrant": "김별희",
       "regDate": "2025-11-13 12:04:11",
-      "views": 16570,
+      "views": 16574,
       "attachments": [
         {
           "name": "[공고문] 2026년도 과학기술정보통신부 기초연구사업 1차 신규과제 공모.hwp",
@@ -13157,7 +13265,7 @@
       "detailApplyEnd": "2026-02-02 18:00",
       "registrant": "허혜지",
       "regDate": "2026-01-26 13:19:05",
-      "views": 632,
+      "views": 635,
       "attachments": [
         {
           "name": "붙임1. 정책연구용역과제 제안요청서(RFP).hwpx",
@@ -13216,7 +13324,7 @@
       "detailApplyEnd": "2026-01-28 18:00",
       "registrant": "권기태",
       "regDate": "2026-01-08 10:03:21",
-      "views": 1078,
+      "views": 1079,
       "attachments": [
         {
           "name": "(공고문) 2026년 반도체 글로벌 첨단팹 연계 활용사업(인턴쉽 및 기술인력교류) Imec 인턴십 파견자 선정 공고.hwp",
@@ -13260,7 +13368,7 @@
       "detailApplyEnd": "2026-01-23 18:00",
       "registrant": "김은애",
       "regDate": "2026-01-09 09:51:48",
-      "views": 1369,
+      "views": 1371,
       "attachments": [
         {
           "name": "붙임1. 2026년 1차 WFK 과학기술지원단 파견사업 모집 공고.hwp",
@@ -13309,7 +13417,7 @@
       "detailApplyEnd": "2026-01-19 13:00",
       "registrant": "김다혜",
       "regDate": "2026-01-12 15:44:01",
-      "views": 731,
+      "views": 732,
       "attachments": [
         {
           "name": "붙임. 2026년도 바이오·의료기술개발사업 등 신규과제 2차 사전공고 내역.hwp",
@@ -13342,7 +13450,7 @@
       "detailApplyEnd": "2026-01-15 18:00",
       "registrant": "송재문",
       "regDate": "2025-12-19 12:22:40",
-      "views": 10222,
+      "views": 10223,
       "attachments": [
         {
           "name": "2026년 이공계 연구생활장려금 지원 사업 신규과제 공고.hwpx",
@@ -13401,7 +13509,7 @@
       "detailApplyEnd": "2026-01-13 18:00",
       "registrant": "천유정",
       "regDate": "2025-11-13 12:03:38",
-      "views": 7168,
+      "views": 7169,
       "attachments": [
         {
           "name": "2026년도 국가연구소(NRL2.0) 신규과제 공모.pdf",
@@ -13440,7 +13548,7 @@
       "detailApplyEnd": "2025-07-16 18:00",
       "registrant": "김은경B",
       "regDate": "2025-06-16 15:15:34",
-      "views": 10114,
+      "views": 10116,
       "attachments": [
         {
           "name": "0. 2025년도 글로벌인문사회융합연구지원사업(컨소시엄형) 신규과제 공고문.pdf",
@@ -13509,7 +13617,7 @@
       "detailApplyEnd": "2025-07-16 18:00",
       "registrant": "이건상",
       "regDate": "2025-06-16 10:43:30",
-      "views": 9854,
+      "views": 9856,
       "attachments": [
         {
           "name": "공고문 및 붙임서류 각 1부(2025.07.07 수정).zip",
@@ -13543,7 +13651,7 @@
       "detailApplyEnd": "2025-06-30 16:00",
       "registrant": "김정현A",
       "regDate": "2025-06-16 18:30:18",
-      "views": 964,
+      "views": 965,
       "attachments": [
         {
           "name": "2025년도 차세대광패키징기술개발사업 신규과제 3차 재공모문.hwpx",
@@ -13597,7 +13705,7 @@
       "detailApplyEnd": "2025-04-30 18:00",
       "registrant": "천유정",
       "regDate": "2025-02-10 13:05:23",
-      "views": 13627,
+      "views": 13631,
       "attachments": [
         {
           "name": "1. 2025년도 국가연구소(NRL2.0) 공고용 추진계획.hwpx",
